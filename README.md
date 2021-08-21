@@ -1,6 +1,6 @@
 # P4ck3t
 
-Just some networking refresher.......
+Networking ???
 
 # Binary and Decimal
 
