@@ -52,6 +52,9 @@ Example: 11000000
 
 *7 6*
 
+*Now we will add these numbers together with power of 2 eg: 2^7 + 2^6 *
+
+**so: 2^7 + 2^6 = 128 + 64 = 192** 
 
 ___
 ___
@@ -113,4 +116,20 @@ Example: 192
 
 1 1 0 0 **|** 0 0 0 0
 
+*After this we need to convert each of these portions to decimal using the same marking with numbers method we saw earlier but keep a note that for each portion we will start from zero to x*
 
+1 1 0 0 **|** 0 0 0 0
+
+3 2 1 0 **|** 3 2 1 0
+
+*now only considering the 1's*
+
+2^3 + 2^2 **|** 0
+
+8 + 4 = 12 **|** 0
+
+12  **|** 0
+
+*Now we saw that 12 in Hex is C and zero remains zero so the Final number would be **C0***
+
+`Answer`: **C0**
