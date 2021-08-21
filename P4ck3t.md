@@ -39,8 +39,8 @@ Example: 11000000
 
 *For converting Binary to decimal what we can do is arrange this given binary number and mark it from 0 to X *
 ```
-1 1 0 0 0 0 0 0 
-7 6 5 4 3 2 1 0
+ 1 1 0 0 0 0 0 0 
+*7 6 5 4 3 2 1 0*
 ```
 *now once this is marked we will only consider the binary 1's and the we will note the numbers marked on them.*
 
