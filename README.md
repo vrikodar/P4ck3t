@@ -14,3 +14,8 @@ Networking ???
 
 Example: 192
 
+### Binary to Decimal
+
+# Hexadecimal
+
+
