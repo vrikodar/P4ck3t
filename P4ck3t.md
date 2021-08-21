@@ -34,6 +34,8 @@ Example: 192
 
 **Thus Binary for 192** - `11000000`
 
+___
+
 ### Binary to Decimal
 
 Example: 11000000
