@@ -140,20 +140,13 @@ Example: 192
 
 ## OSI model
 
-**A**ll 
-
-**P**eople
-
-**S**leeping 
-
-**T**hrough 
-
-**N**etworking 
-
-**D**on't 
-
-**P**ass
-
+|**A**ll         | Application   |
+|**P**eople      | Presentation  | 
+|**S**leeping    | Session       |
+|**T**hrough     | Transport     |
+|**N**etworking  | Networking    |
+|**D**on't       | Data-Link     |
+|**P**ass        | Physical      |
 
 ## TCP/IP Model
 
