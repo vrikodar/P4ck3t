@@ -140,6 +140,9 @@ Example: 192
 
 ## OSI model
 
+**A**ll **P**eopl **S**leeping **T**hrough **N**etworking **D**on't **P**ass
+
+
 ## TCP/IP Model
 
 
