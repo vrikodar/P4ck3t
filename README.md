@@ -10,4 +10,7 @@ Networking ???
 
 **Binary** - `Base2`
 
+### Decimal to Binary
+
+Example: 192
 
