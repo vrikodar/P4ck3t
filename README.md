@@ -6,6 +6,8 @@ Just some networking refresher.......
 
 ## bit About?
 
-**Decimal** - Base10 
-**Binary** - Base2
+**Decimal** - `Base10` 
+
+**Binary** - `Base2`
+
 
