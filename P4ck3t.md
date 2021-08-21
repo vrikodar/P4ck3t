@@ -140,6 +140,8 @@ Example: 192
 
 ## OSI model
 
+| Remember       | Layers        | 
+| :---           |    :----:     | 
 |**A**ll         | Application   |
 |**P**eople      | Presentation  | 
 |**S**leeping    | Session       |
@@ -147,6 +149,7 @@ Example: 192
 |**N**etworking  | Networking    |
 |**D**on't       | Data-Link     |
 |**P**ass        | Physical      |
+
 
 ## TCP/IP Model
 
