@@ -37,7 +37,7 @@ Example: 192
 
 Example: 11000000
 
-*For converting Binary to decimal what we can do is arrange this given binary number and mark it from 0 to X *
+*For converting Binary to decimal what we can do is arrange this given binary number and mark it from 0 to X*
 
  1 1 0 0 0 0 0 0 
 *7 6 5 4 3 2 1 0*
