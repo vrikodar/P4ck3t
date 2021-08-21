@@ -133,3 +133,9 @@ Example: 192
 *Now we saw that 12 in Hex is C and zero remains zero so the Final number would be **C0***
 
 `Answer`: **C0**
+
+# TCP / IP Model   {covering this instead of OSI in context of the CCNA Exam!}
+
+
+
+
