@@ -136,7 +136,7 @@ Example: 192
 `Answer`: **C0**
 
 
-# TCP / IP Model   {covering this instead of OSI in context of the CCNA Exam!}
+# OSI and TCP/IP Model 
 
 
 
