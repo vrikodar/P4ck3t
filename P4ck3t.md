@@ -138,6 +138,9 @@ Example: 192
 
 # OSI and TCP/IP Model 
 
+## OSI model
+
+## TCP/IP Model
 
 
 
