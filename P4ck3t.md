@@ -142,7 +142,7 @@ Example: 192
 
 **A**ll 
 
-**P**eopl 
+**P**eople
 
 **S**leeping 
 
