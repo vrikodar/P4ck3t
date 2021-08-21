@@ -104,4 +104,9 @@ Example: 192
 
 **Thus Binary for 192** - `11000000`
 
+**Step2**
+
+*Then we will divide the 8 bit number we have in two portions of 4 bits each, note that if the number you obtain after the division technique and its not 8 bits you can add zero's to the starting of number to complete 8 bits and then proceed with the bisection*
+
+
 
