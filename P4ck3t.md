@@ -109,4 +109,8 @@ Example: 192
 *Then we will divide the 8 bit number we have in two portions of 4 bits each, note that if the number you obtain after the division technique and its not 8 bits you can add zero's to the starting of number to complete 8 bits and then proceed with the bisection*
 
 
+**Bisection**
+
+1 1 0 0 **|** 0 0 0 0
+
 
