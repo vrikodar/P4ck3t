@@ -3,6 +3,7 @@
 Networking ???   **updated everyday!!**
 
 ___
+___
 
 # Binary and Decimal
 
@@ -50,6 +51,7 @@ Example: 11000000
 *7 6*
 
 
+___
 ___
 
 # Hexadecimal
