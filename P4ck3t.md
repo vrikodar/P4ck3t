@@ -81,3 +81,27 @@ ___
 | 15          | F           | 
 
 
+Example: 192
+
+**Step1**
+
+*The very first thing to do would be to convert the given decimal number to Binary*
+
+**Technique covered in sections above**
+
+
+|             | 192         | 
+| :---        |    :----:   |          
+| 2           | 96   `0`    | 
+| 2           | 48   `0`    |
+| 2           | 24   `0`    |
+| 2           | 12   `0`    |
+| 2           | 6    `0`    |
+| 2           | 3    `0`    |
+| 2           | 1    `1`    |
+| 2           | 0    `1`    |
+|             |             |
+
+**Thus Binary for 192** - `11000000`
+
+
