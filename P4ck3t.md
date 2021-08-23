@@ -1,13 +1,5 @@
 # P4ck3t
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-
 Networking ???   **updated everyday!!**
 
 - [Binary and Decimal Conversions](#binary-and-decimal)
