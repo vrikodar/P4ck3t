@@ -140,24 +140,26 @@ Example: 192
 
 ## OSI model
 
-| Remember       | Layers        |    Just some examples             |
-| :---           |    :----:     |    :----:                         |
-|**A**ll         | Application   |HTTP,FTP,SSH,DNS                   |
-|**P**eople      | Presentation  |SSL,IMAP,FTP                       |
-|**S**leeping    | Session       |API's,sockets                      |
-|**T**hrough     | Transport     |TCP,UDP                            |
-|**N**etworking  | Network       |IP,ICMP,IPSec                      |
-|**D**on't       | Data-Link     |Ethernet,Bridge,Switch {layer2}    |
-|**P**ass        | Physical      |Fiber,Hubs,Coaxil,Repeaters        |
+|No.| Remember       | Layers        |    Just some examples             |
+|:--- | :---           |    :----:     |    :----:                         |
+|1|**A**ll         | Application   |HTTP,FTP,SSH,DNS                   |
+|2|**P**eople      | Presentation  |SSL,IMAP,FTP                       |
+|3|**S**leeping    | Session       |API's,sockets                      |
+|4|**T**hrough     | Transport     |TCP,UDP                            |
+|5|**N**etworking  | Network       |IP,ICMP,IPSec                      |
+|6|**D**on't       | Data-Link     |Ethernet,Bridge,Switch {layer2}    |
+|7|**P**ass        | Physical      |Fiber,Hubs,Coaxil,Repeaters        |
 
 
 ## TCP/IP Model
 
-| Remember       | Layers        |    ?                              |
-| :---           |    :----:     |    :----:                         |
-|**A**ll         | Application   |                                   |
-|**T**hrough     | Transport     |                            |
-|**N**etworking  | Networking    |The PRO value in this layer would tell  Layer 4 what protocol to user TCP/UDP...                      |
-|**D**on't       | Data-Link     |The TYPE value in this layer would tell layer 3 what to use IPv4/6    |
-|**P**ass        | Physical      |                                   |
+**In TCP/IP model the First 3 layers{application,presentation,session} from OSI model have been merged into one Layer{application}**
+
+|No.| Remember       | Layers        |    ?                              |
+|:--- | :---           |    :----:     |    :----:                         |
+|1|**A**ll         | Application   |                                   |
+|2|**T**hrough     | Transport     |                            |
+|3|**N**etworking  | Networking    |The PRO value in this layer would tell  Layer 4 what protocol to user TCP/UDP...                      |
+|4|**D**on't       | Data-Link     |The TYPE value in this layer would tell layer 3 what to use IPv4/6    |
+|5|**P**ass        | Physical      |                                   |
 
