@@ -163,3 +163,15 @@ Example: 192
 |2|**D**on't       | Data-Link     |The TYPE value in this layer would tell layer 3 what to use IPv4/6    |
 |1|**P**ass        | Physical      |                                   |
 
+# IP addressing
+
+## Network Address portion [Network-ID]
+
+   - Identifies a specific network
+   - routers maintain routing tables that contains the network-ids
+   - Look at destination IP address and match to network address
+
+## Host Address portion [Host-ID]
+
+   - Identfies a specific endpoint on a network
+   - devices on network such as computers,laptops,phones etc.
