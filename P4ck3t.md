@@ -273,3 +273,8 @@ ____
    - Binary Range  240.0.0.0 to 255.255.255.25
 
 ___
+
+## Special addresses [IPv4]
+
+
+
