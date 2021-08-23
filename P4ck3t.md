@@ -183,4 +183,19 @@ Example: 192
 
 *Note: these address classes have now been replaced with CIDR {classless interdomain routing}, regardless we will also have a look at them*
 
+**Unicast**
+```
+Class A
+
+Class B
+
+Class C
+```
+**Multicast**
+```
+Class D
+
+Class E
+```
+
 
