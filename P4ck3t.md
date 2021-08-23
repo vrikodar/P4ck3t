@@ -276,5 +276,14 @@ ___
 
 ## Special addresses [IPv4]
 
+### Directed Broadcast address
+   
+   - sends data to all devices on the network
+   - Binary 1's in entire host portion of the address 
 
+*Example*: Network- **172.31.0.0**
+
+   - Directed Broadcast: 172.31.255.255
+
+**A router can can be configured to route directed broadcasts but they are disabled by default due to a security issue that can lead to DOS attacks** 
 
