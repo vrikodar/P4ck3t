@@ -198,4 +198,22 @@ Class D
 Class E
 ```
 
+### Class A
+
+   - Starts with Binary 1
+   - Binary Range  1.0.0.0 to 126.255.255.255
+ 
+*Note: The supposed range is from 0.0.0.0 to 127.255.255.255 but 0 is reserved for Default Network and 127 for loopback*
+
+**Network portion: `8 bits`**
+
+**Host portion: `24 bits`**
+
+*Example*: 10.1.1.1
+    
+   - Network 10.0.0.0
+   - Host 10.1.1.1
+
+
+
 
