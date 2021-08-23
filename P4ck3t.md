@@ -201,6 +201,7 @@ Class E
 ### Class A
 
    - Starts with Binary 1
+   - Ends with 126
    - Binary Range  1.0.0.0 to 126.255.255.255
  
 *Note: The supposed range is from 0.0.0.0 to 127.255.255.255 but 0 is reserved for Default Network and 127 for loopback*
@@ -214,6 +215,29 @@ Class E
    - Network 10.0.0.0
    - Host 10.1.1.1
 
+### Class B
+   - Starts with 128
+   - Ends with 191
+   - Binary range 128.0.0.0 to 191.255.255.255
+ 
+**Network portion: `16 bits`**
+
+**Host portion: `16 bits`**
+
+*Example*: 172.16.1.1
+
+   - Network 172.16.0.0
+   - Host 172.16.1.1
+
+### Class C
+
+   - Starts with 192
+   - Ends with 223
+   - Binary Range  192.0.0.0 to 223.255.255.25
 
 
+*Example*: 192.168.1.1
+
+   - Network 192.168.1.0
+   - Host 192.168.1.1
 
