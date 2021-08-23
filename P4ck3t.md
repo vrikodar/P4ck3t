@@ -142,13 +142,13 @@ Example: 192
 
 |No.| Remember       | Layers        |    Just some examples             |
 |:--- | :---           |    :----:     |    :----:                         |
-|1|**A**ll         | Application   |HTTP,FTP,SSH,DNS                   |
-|2|**P**eople      | Presentation  |SSL,IMAP,FTP                       |
-|3|**S**leeping    | Session       |API's,sockets                      |
+|7|**A**ll         | Application   |HTTP,FTP,SSH,DNS                   |
+|6|**P**eople      | Presentation  |SSL,IMAP,FTP                       |
+|5|**S**leeping    | Session       |API's,sockets                      |
 |4|**T**hrough     | Transport     |TCP,UDP                            |
-|5|**N**etworking  | Network       |IP,ICMP,IPSec                      |
-|6|**D**on't       | Data-Link     |Ethernet,Bridge,Switch {layer2}    |
-|7|**P**ass        | Physical      |Fiber,Hubs,Coaxil,Repeaters        |
+|3|**N**etworking  | Network       |IP,ICMP,IPSec                      |
+|2|**D**on't       | Data-Link     |Ethernet,Bridge,Switch {layer2}    |
+|1|**P**ass        | Physical      |Fiber,Hubs,Coaxil,Repeaters        |
 
 
 ## TCP/IP Model
@@ -157,9 +157,9 @@ Example: 192
 
 |No.| Remember       | Layers        |    ?                              |
 |:--- | :---           |    :----:     |    :----:                         |
-|1|**A**ll         | Application   |                                   |
-|2|**T**hrough     | Transport     |                            |
+|5|**A**ll         | Application   |                                   |
+|4|**T**hrough     | Transport     |                            |
 |3|**N**etworking  | Networking    |The PRO value in this layer would tell  Layer 4 what protocol to user TCP/UDP...                      |
-|4|**D**on't       | Data-Link     |The TYPE value in this layer would tell layer 3 what to use IPv4/6    |
-|5|**P**ass        | Physical      |                                   |
+|2|**D**on't       | Data-Link     |The TYPE value in this layer would tell layer 3 what to use IPv4/6    |
+|1|**P**ass        | Physical      |                                   |
 
