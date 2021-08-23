@@ -140,15 +140,15 @@ Example: 192
 
 ## OSI model
 
-| Remember       | Layers        | 
-| :---           |    :----:     | 
-|**A**ll         | Application   |
-|**P**eople      | Presentation  | 
-|**S**leeping    | Session       |
-|**T**hrough     | Transport     |
-|**N**etworking  | Networking    |
-|**D**on't       | Data-Link     |
-|**P**ass        | Physical      |
+| Remember       | Layers        |    Just some examples             |
+| :---           |    :----:     |    :----:                         |
+|**A**ll         | Application   |HTTP,FTP,SSH,DNS                   |
+|**P**eople      | Presentation  |SSL,IMAP,FTP                       |
+|**S**leeping    | Session       |API's,sockets                      |
+|**T**hrough     | Transport     |TCP,UDP                            |
+|**N**etworking  | Networking    |IP,ICMP,IPSec                      |
+|**D**on't       | Data-Link     |Ethernet,Bridge,Switch {layer2}    |
+|**P**ass        | Physical      |Fiber,Hubs,Coaxil,Repeaters        |
 
 
 ## TCP/IP Model
