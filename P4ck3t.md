@@ -178,3 +178,9 @@ Example: 192
 
    - Identfies a specific endpoint on a network
    - devices on network such as computers,laptops,phones etc.
+
+## Address classes [Deprecated]
+
+*Note: these address classes have now been replaced with CIDR {classless interdomain routing}, regardless we will also have a look at them*
+
+
