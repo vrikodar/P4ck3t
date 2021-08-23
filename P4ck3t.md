@@ -2,7 +2,7 @@
 
 Networking ???   **updated everyday!!**
 
-[Binary and Decimal Conversions](#binary-and-decimal)
+- ![#f03c15 Binary and Decimal Conversions](#binary-and-decimal)
 
 [Hexadecimal conversions](#hexadecimal)
 
