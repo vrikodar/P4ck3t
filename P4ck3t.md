@@ -153,5 +153,11 @@ Example: 192
 
 ## TCP/IP Model
 
-
+| Remember       | Layers        |    ?                              |
+| :---           |    :----:     |    :----:                         |
+|**A**ll         | Application   |                                   |
+|**T**hrough     | Transport     |                            |
+|**N**etworking  | Networking    |The PRO value in this layer would tell  Layer 4 what protocol to user TCP/UDP...                      |
+|**D**on't       | Data-Link     |The TYPE value in this layer would tell layer 3 what to use IPv4/6    |
+|**P**ass        | Physical      |                                   |
 
