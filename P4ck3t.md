@@ -242,6 +242,10 @@ ___
    - Binary Range  192.0.0.0 to 223.255.255.25
 
 
+**Network portion: `24 bits`**
+
+**Host portion: `8 bits`**
+
 *Example*: 192.168.1.1
 
    - Network 192.168.1.0
