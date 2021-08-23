@@ -166,7 +166,7 @@ Example: 192
 # IP addressing
 
    - consists of 4 octets
-   - each octet of 8bits makes IP address of 32 bit in Total
+   - each octet of 8bits makes IP address of 32 bits in Total
    - X.X.X.X   [example: 192.168.1.1]
    - Each X in this address is 8bits 
 
