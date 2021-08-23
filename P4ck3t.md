@@ -249,3 +249,23 @@ ___
 
 ____
 
+### Class D
+
+**Multicast, such as used by routing protocols**
+
+
+   - Starts with 224
+   - Ends with 239
+   - Binary Range  224.0.0.0 to 239.255.255.25
+
+____
+
+### Class E
+
+**Reserved**
+
+   - Starts with 240
+   - Ends with 225
+   - Binary Range  240.0.0.0 to 255.255.255.25
+
+
