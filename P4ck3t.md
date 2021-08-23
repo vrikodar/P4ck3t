@@ -198,6 +198,8 @@ Class D
 Class E
 ```
 
+___
+
 ### Class A
 
    - Starts with Binary 1
