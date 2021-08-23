@@ -3,7 +3,6 @@
 Networking ???   **updated everyday!!**
 
 ___
-___
 
 # Binary and Decimal
 
@@ -56,7 +55,6 @@ Example: 11000000
 
 **so: 2^7 + 2^6 = 128 + 64 = 192** 
 
-___
 ___
 
 # Hexadecimal
