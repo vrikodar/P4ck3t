@@ -215,6 +215,8 @@ Class E
    - Network 10.0.0.0
    - Host 10.1.1.1
 
+__
+
 ### Class B
    - Starts with 128
    - Ends with 191
@@ -229,6 +231,8 @@ Class E
    - Network 172.16.0.0
    - Host 172.16.1.1
 
+__
+
 ### Class C
 
    - Starts with 192
@@ -240,4 +244,6 @@ Class E
 
    - Network 192.168.1.0
    - Host 192.168.1.1
+
+___
 
