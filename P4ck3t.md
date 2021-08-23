@@ -4,7 +4,7 @@ Networking ???   **updated everyday!!**
 
 [Binary and Decimal Conversions](#binary-and-decimal)
 
-[Hexadecimal conversions](#binary-and-decimal)
+[Hexadecimal conversions](#hexadecimal)
 
 ___
 
