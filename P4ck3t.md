@@ -2,6 +2,7 @@
 
 Networking ???   **updated everyday!!**
 
+[Binary and Decimal](# Binary and Decimal)
 ___
 
 # Binary and Decimal
