@@ -393,3 +393,10 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 converted: 192.168.1.00010010
 
+**Subnet**: now in order to find the subnet we need to fill the Host portion will 0's.
+
+converted: 192.168.1.00000000
+
+*Hence the subnet is **192.168.1.0***
+
+
