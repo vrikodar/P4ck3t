@@ -317,3 +317,9 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 **Note: Remember that any address in range 127.x.x.x is a loopback address and as this is a Class A network we have over 16 million loopback addresses on a machine and this is also seen as a mistake of network designers since by doing this we lost use of over 16 million addresses on public networks**
 
+
+### RFC private addresses
+
+*Reference URL*: https://datatracker.ietf.org/doc/html/rfc1918
+
+
