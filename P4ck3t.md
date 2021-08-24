@@ -413,9 +413,16 @@ converted: 192.168.1.00010010
 Example: 172.16.35.123/20
 
 */20 means that the host portion starts some where between 35. so we will convert 35 and 123 in binary*
+
 ```diff
 
 - 172.16.0010 | 0011.01111011
+
+- Subnet: now in order to find the subnet we need to fill the Host portion will 0's.
++ - 172.16.0010 | 0000.00000000   {we will also convert it to binary again and count from end of each octet even if its divided}
+
+! Hence subnet is 172.16.32.0
+
 ```
 
 
