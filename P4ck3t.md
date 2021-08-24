@@ -355,3 +355,6 @@ Example: when a Host connected to a network requests an IP address it will send 
 - Class B  255.255.0.0
 - Class C  255.255.255.0  
 ```
+
+**Note: cisco devices don't support discontiguous masks such as 240.255.3.297, only contiguous masks like 255.255.192.0 or 255.240.0.0 are supported**
+
