@@ -433,4 +433,7 @@ Example: 172.16.35.123/20
 - Last Host: 1 Less than the broadcast hence 172.16.47.254
 ```
 
+### Subnetting a Given network when asked for Number hosts required
+
+Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network into smaller subnets where each subnet needs to support 14 hosts*
 
