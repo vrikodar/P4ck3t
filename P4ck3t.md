@@ -399,4 +399,15 @@ converted: 192.168.1.00000000
 
 *Hence the subnet is **192.168.1.0***
 
+**First Host**: First host is one more than subnet which will be **192.168.1.1***
+
+**Broadcast**: For broadcast we fill the Host portion with 1's 
+
+converted: 192.168.1.11111111
+
+*Hence the Broadcast address is **192.168.1.255***
+
+**Last Host**: Last Host is 1 less than the broadcast which will be **192.168.1.254**
+
+
 
