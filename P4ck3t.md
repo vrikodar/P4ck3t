@@ -358,3 +358,11 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 **Note: cisco devices don't support discontiguous masks such as 240.255.3.297, only contiguous masks like 255.255.192.0 or 255.240.0.0 are supported**
 
+## CIDR
+
+  - Replaces Classful IP addressing
+  - allows us to use VLSM {variable lenght subnet masks}
+  - 10.0.0.0/8 Rather than 10.0.0.0 255.0.0.0
+
+
+
