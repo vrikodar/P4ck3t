@@ -325,7 +325,9 @@ Example: when a Host connected to a network requests an IP address it will send 
 **IANA has reserved a Private Address space**
 
 10.0.0.0        -   10.255.255.255  (10/8 prefix)
+
 172.16.0.0      -   172.31.255.255  (172.16/12 prefix)
+
 192.168.0.0     -   192.168.255.255 (192.168/16 prefix)
 
 
