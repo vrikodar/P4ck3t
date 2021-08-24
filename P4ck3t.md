@@ -305,8 +305,15 @@ ___
 
   - used to communicate with all devices on network
   - 255.255.255.255
-  - Dropped by routers
+  - Dropped by Layer3 devices
+  - we can setup DHCP Relaying if our DHCP server is in a Different Network
 
 Example: when a Host connected to a network requests an IP address it will send a broadcast to request an IP address from the DHCP server
 
+### Local loopback address
+
+   - used to let a system send a message to itself
+   - useful to make sure that TCP/IP stack is correctly installed on a machine
+
+**Note: Remember that any address in range 127.x.x.x is a loopback address and as this is a Class A network we have over 16 million loopback addresses on a machine and this is also seen as a mistake of network designers since by doing this we lost use of over 16 million addresses on public networks**
 
