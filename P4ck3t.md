@@ -392,22 +392,17 @@ Example: when a Host connected to a network requests an IP address it will send 
 **we will convert the host portion to Binary using the Method we saw in [Binary and Decimal Conversions](#binary-and-decimal)**
 
 converted: 192.168.1.00010010
-
-**Subnet**: now in order to find the subnet we need to fill the Host portion will 0's.
-
-converted: 192.168.1.00000000
-
-*Hence the subnet is **192.168.1.0***
+```diff
+- **Subnet**: now in order to find the subnet we need to fill the Host portion will 0's.
++ converted: 192.168.1.00000000
+- *Hence the subnet is **192.168.1.0***
 
 **First Host**: First host is one more than subnet which will be **192.168.1.1**
 
-**Broadcast**: For broadcast we fill the Host portion with 1's 
-
-converted: 192.168.1.11111111
-
-*Hence the Broadcast address is **192.168.1.255***
-
-**Last Host**: Last Host is 1 less than the broadcast which will be **192.168.1.254**
-
+- **Broadcast**: For broadcast we fill the Host portion with 1's 
++ converted: 192.168.1.11111111
+- *Hence the Broadcast address is **192.168.1.255***
+- **Last Host**: Last Host is 1 less than the broadcast which will be **192.168.1.254**
+```
 
 
