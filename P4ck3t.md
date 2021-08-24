@@ -368,6 +368,6 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 # Subnetting
 
-*we will see primarly see **"Quick Binary Method"***
+*we will see primarly see **"Quick Binary"** method*
 
 
