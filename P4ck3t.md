@@ -291,7 +291,7 @@ ___
 
 **A router can can be configured to route directed broadcasts but they are disabled by default due to a security issue that can lead to DOS attacks** 
 
-*Example Below*
+*Example Below* {**take a moment to appreciate the art work :)**}
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/bcast.png)
 
