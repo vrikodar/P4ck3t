@@ -323,6 +323,7 @@ Example: when a Host connected to a network requests an IP address it will send 
 *Reference URL*: https://datatracker.ietf.org/doc/html/rfc1918
 
 **IANA has reserved a Private Address space**
+
 ```diff
 - 10.0.0.0     10.255.255.255  (10/8 prefix)
 - 172.16.0.0   172.31.255.255  (172.16/12 prefix)
@@ -346,3 +347,11 @@ Example: when a Host connected to a network requests an IP address it will send 
 **Remote: to be reached via Default gateway**
 
 **Local: can be reached directly without Default gateway**
+
+*Class A,B,C have Default masks known as Natural masks*
+
+```diff
+- Class A  255.0.0.0
+- Class B  255.255.0.0
+- Class C  255.255.255.0  
+```
