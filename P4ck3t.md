@@ -333,3 +333,10 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 *Reference URL*: https://datatracker.ietf.org/doc/html/rfc3927#page-10
 
+*Reference URL*: https://docs.microsoft.com/en-us/windows-server/troubleshoot/how-to-use-automatic-tcpip-addressing-without-a-dh
+   
+   - Automatic Private IP Addressing (**APIPA**)
+   - Range: 169.254.0.0/16
+
+
+
