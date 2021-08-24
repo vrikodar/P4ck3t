@@ -370,4 +370,24 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 *we will see primarly see **"Quick Binary"** method*
 
+   - given host IP we need to Find 
+   - Network/subnet
+   - First Host
+   - Last Host
+   - Broadcast
+
+## General Rules
+
+   - For subnet Fill the Host portion with zeros
+   - For Broadcast Fill the Host portion with 1's
+   - For First Host add 1 to the subnet
+   - For Last Host subtract one from broadcast
+
+### Part1
+
+*Example: 192.168.1.18/24*
+
+*right away we can see that we have /24 now each octet in IP makes up to 8bits and this means that the Network portion of 24 bits is **192.168.1** and the remaining host portion is **.18***
+
+
 
