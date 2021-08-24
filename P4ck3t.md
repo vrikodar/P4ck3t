@@ -428,7 +428,9 @@ Example: 172.16.35.123/20
 - Broadcast: Fill host portion with  1's
 + - 172.16.0010 | 1111.11111111   {we will also convert it to binary again and count from end of each octet even if its divided}
 
+! Hence Broadcast is 172.16.47.255
 
+- Last Host: 1 Less than the broadcast hence 172.16.47.254
 ```
 
 
