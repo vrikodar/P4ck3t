@@ -301,3 +301,11 @@ ___
 
 *Tools such as **smurf** can be used to perform such attacks*
 
+### Local Broadcast address
+
+  - used to communicate with all devices on network
+  - 255.255.255.255
+
+Example: when a Host connected to a network requests an IP address it will send a broadcast to request an IP address from the DHCP server
+
+
