@@ -362,7 +362,7 @@ Example: when a Host connected to a network requests an IP address it will send 
 
   - Classless inter-domain routing
   - Replaces Classful IP addressing
-  - allows us to use VLSM {variable lenght subnet masks}
+  - allows us to use VLSM {variable length subnet masks}
   - 10.0.0.0/8 Rather than 10.0.0.0 255.0.0.0
 
 
