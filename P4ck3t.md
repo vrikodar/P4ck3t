@@ -423,6 +423,12 @@ Example: 172.16.35.123/20
 
 ! Hence subnet is 172.16.32.0
 
+- First Host: 1 more than the subnet hence 172.16.32.1
+
+- Broadcast: Fill host portion with  1's
++ - 172.16.0010 | 1111.11111111   {we will also convert it to binary again and count from end of each octet even if its divided}
+
+
 ```
 
 
