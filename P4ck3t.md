@@ -393,16 +393,16 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 converted: 192.168.1.00010010
 ```diff
-- **Subnet**: now in order to find the subnet we need to fill the Host portion will 0's.
+- Subnet: now in order to find the subnet we need to fill the Host portion will 0's.
 + converted: 192.168.1.00000000
-- *Hence the subnet is **192.168.1.0***
+- Hence the subnet is 192.168.1.0
 
-**First Host**: First host is one more than subnet which will be **192.168.1.1**
+@@First Host: First host is one more than subnet which will be 192.168.1.1
 
-- **Broadcast**: For broadcast we fill the Host portion with 1's 
+- Broadcast: For broadcast we fill the Host portion with 1's 
 + converted: 192.168.1.11111111
-- *Hence the Broadcast address is **192.168.1.255***
-- **Last Host**: Last Host is 1 less than the broadcast which will be **192.168.1.254**
+- Hence the Broadcast address is 192.168.1.255
+- Last Host: Last Host is 1 less than the broadcast which will be 192.168.1.254
 ```
 
 
