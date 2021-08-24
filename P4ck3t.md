@@ -293,7 +293,7 @@ ___
 
 *Example Below*
 
-![](https://github.com/SxNade/P4ck3t/blob/main/broadcast.png)
+![](https://github.com/SxNade/P4ck3t/blob/main/bcast.png)
 
 *In the simple network topology shown above we have a Network 172.16.0.0 in which two machines A{172.16.0.1} and B{172.16.0.2} are present, the Router also has another Network 172.31.0.0 which has over 100 machines.*
 
