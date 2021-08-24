@@ -366,4 +366,8 @@ Example: when a Host connected to a network requests an IP address it will send 
   - 10.0.0.0/8 Rather than 10.0.0.0 255.0.0.0
 
 
+# Subnetting
+
+*we will see primarly see **"Quick Binary Method"***
+
 
