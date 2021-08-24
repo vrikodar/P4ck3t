@@ -329,3 +329,7 @@ Example: when a Host connected to a network requests an IP address it will send 
 - 192.168.0.0  192.168.255.255 (192.168/16 prefix)
 ```
 
+### IPv4 Link Local addresses
+
+*Reference URL*: https://datatracker.ietf.org/doc/html/rfc3927#page-10
+
