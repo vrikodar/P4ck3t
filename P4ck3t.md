@@ -396,7 +396,7 @@ converted: 192.168.1.00010010
 - Subnet: now in order to find the subnet we need to fill the Host portion will 0's.
 + converted: 192.168.1.00000000
 - Hence the subnet is 192.168.1.0
-@@ First Host: First host is one more than subnet which will be 192.168.1.1
+! First Host: First host is one more than subnet which will be 192.168.1.1
 - Broadcast: For broadcast we fill the Host portion with 1's 
 + converted: 192.168.1.11111111
 - Hence the Broadcast address is 192.168.1.255
