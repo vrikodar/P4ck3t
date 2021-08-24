@@ -305,6 +305,7 @@ ___
 
   - used to communicate with all devices on network
   - 255.255.255.255
+  - Dropped by routers
 
 Example: when a Host connected to a network requests an IP address it will send a broadcast to request an IP address from the DHCP server
 
