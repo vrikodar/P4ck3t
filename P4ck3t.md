@@ -389,6 +389,7 @@ Example: when a Host connected to a network requests an IP address it will send 
 
 *right away we can see that we have /24 now each octet in IP makes up to 8bits and this means that the Network portion of 24 bits is **192.168.1** and the remaining host portion is **.18***
 
-**we will convert the host portion to Binary using the Method we saw in the Binary and Decimal section [Binary and Decimal Conversions](#binary-and-decimal)
-**
+**we will convert the host portion to Binary using the Method we saw in [Binary and Decimal Conversions](#binary-and-decimal)**
+
+converted: 192.168.1.00010010
 
