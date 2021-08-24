@@ -410,4 +410,12 @@ converted: 192.168.1.00010010
 
 *In this example we will have a look at address in which host portion is present beyond octet boundary*
 
+Example: 172.16.35.123/20
+
+*/20 means that the host portion starts some where between 35. so we will convert 35 and 123 in binary*
+```diff
+
+- 172.16.0010 | 0011.01111011
+```
+
 
