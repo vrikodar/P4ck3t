@@ -406,4 +406,8 @@ converted: 192.168.1.00010010
 - Last Host: Last Host is 1 less than the broadcast which will be 192.168.1.254
 ```
 
+### Part2
+
+*In this example we will have a look at address in which host portion is present beyond octet boundary*
+
 
