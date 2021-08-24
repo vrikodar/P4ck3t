@@ -338,5 +338,11 @@ Example: when a Host connected to a network requests an IP address it will send 
    - Automatic Private IP Addressing (**APIPA**)
    - Range: 169.254.0.0/16
 
+## Subnet Masks
 
+   - used to determine the Network and Host portion
+   - Find if a device is Remote or Local
 
+**Remote: to be reached via Default gateway**
+
+**Local: can be reached directly without Default gateway**
