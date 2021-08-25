@@ -677,3 +677,8 @@ ___
   
   - allows us to change global configuration such as hostname,motd etc..
   - conf t is acronym for configure terminal 
+
+#### motd
+
+
+
