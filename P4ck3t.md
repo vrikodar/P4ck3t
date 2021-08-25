@@ -539,3 +539,4 @@ Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network i
 **we have total 2^n or 2^4 = 16 networks with each supporting 14 hosts**
 
 
+#### Subnetting a Given network when asked for Number of Subnets Required required
