@@ -7,6 +7,10 @@ Networking ???   **updated everyday!!**
 - [Hexadecimal conversions](#hexadecimal)
 
 - [OSI and TCP/IP Modle overview](#osi-model)
+
+- [IP addressing ](#ip-adderssing)
+         - [Special Addresses](#special-addresses)
+
 ___
 
 # Binary and Decimal
@@ -279,7 +283,7 @@ ____
 
 ___
 
-## Special addresses [IPv4]
+## Special addresses
 
 ### Directed Broadcast address
    
