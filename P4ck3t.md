@@ -543,3 +543,67 @@ Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network i
 ___
 
 #### Subnetting a Given network when asked for Number of Subnets Required required
+
+*Example: we are given a network 10.128.192.0/18 and we need to subnet it into 30 subnets with maximum number of hosts*
+
+*Now as we know that its /18 the octet boundary lies after 128 that is from 192 and so on*
+
+*also we know that for subnets the formual is 2^n hence for 29 subnets n ~= 5*
+
+**we count the bits from Left to right, also note that now the network portion has 5 more bits hence the mask is /23**
+
+```diff
+
+- 10.128.11     0 0 0 0 0     0 .0 0 0 0 0 0 0 0
+<--Network-->   <--subnet-->   <--Host-->
+```
+
+*1st Network*
+
+```diff
+
+- 10.128.11     0 0 0 0 0 0   0.0 0 0 0 0 0 0 0
+ <--Network-->  <--subnet-->   <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+
+```diff
+
+- 10.128.192.0/23
+```
+
+*2nd Network*
+
+```diff
+
+- 10.128.11     0 0 0 0 0 1   0.0 0 0 0 0 0 0 0
+ <--Network-->  <--subnet-->   <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+
+```diff
+
+- 10.128.194.0/23
+```
+
+*Last Network*
+
+```diff
+
+- 10.128.11     1 1 1 1 1 1   0.0 0 0 0 0 0 0 0
+ <--Network-->  <--subnet-->   <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+
+```diff
+
+- 10.128.254.0/23
+```
+*Now as we have n=5 we have 32 subnets/networks each with maximum hosts*
+
