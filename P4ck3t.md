@@ -467,6 +467,6 @@ Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network i
 - 10.1.1.         0 0 0 0     0 0 0 0
   <--Network--> <--subnet--> <--Host-->
 ```
-
+*now we can only mangle with subnet portion, but now the new subnet mask is 8+8+8+4{from subnet portion} that is /28*
 
 
