@@ -443,6 +443,8 @@ Example: 172.16.35.123/20
    - we count Host bits from left hand side
    - n is number of bits in Host portion
 
+___
+
 #### Subnetting a Given network when asked for Number hosts required
 
 **Note: we count Host bits from right hand side**
@@ -538,5 +540,6 @@ Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network i
 
 **we have total 2^n or 2^4 = 16 networks with each supporting 14 hosts**
 
+___
 
 #### Subnetting a Given network when asked for Number of Subnets Required required
