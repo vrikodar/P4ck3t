@@ -467,6 +467,75 @@ Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network i
 - 10.1.1.         0 0 0 0     0 0 0 0
   <--Network--> <--subnet--> <--Host-->
 ```
+
 *now we can only mangle with subnet portion, but now the new subnet mask is 8+8+8+4{from subnet portion} that is /28*
+
+**we will change the 0's to 1's one by one {we don't need to go through all permutations}**
+
+*1st Network*
+
+```diff
+
+- 10.1.1.         0 0 0 0     0 0 0 0
+  <--Network--> <--subnet--> <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+
+```diff
+
+- 10.1.1.0/28
+```
+
+*2nd Network*
+
+```diff
+
+- 10.1.1.         0 0 0 1     0 0 0 0
+  <--Network--> <--subnet--> <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+```diff
+
+- 10.1.1.16/28
+```
+
+
+*3rd Network*
+
+```diff
+
+- 10.1.1.         0 0 1 0     0 0 0 0
+  <--Network--> <--subnet--> <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+```diff
+
+- 10.1.1.32/28
+```
+
+*we can see that the networks are incrementing with the same difference of 16 hence we can easily deduce networks after 1 or 2*
+
+*Last Network*
+
+```diff
+
+- 10.1.1.         1 1 1 1     0 0 0 0
+  <--Network--> <--subnet--> <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+```diff
+
+- 10.1.1.240/28
+```
+
+**we have total 2^n or 2^4 = 16 networks with each supporting 14 hosts**
 
 
