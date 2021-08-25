@@ -654,19 +654,26 @@ ___
    - ? can be used to ask for help , will also display completed commands or sub-commands
    - by default we enter in user mode **prompt>**
    - en {short for enable} or enable can be used to switch to enabled or privileged mode **prompt#**
-   - conf t can be used to switch to global config mode **prompt(config)#**
+   - conf t {short for configure terminal} can be used to switch to global config mode **prompt(config)#**
    - up and down arrow key can be used to go through command history
 
 **Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from privileged mode, also remember to execute the right command in right mode**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/router.png)
 
+### User mode
+
+*Goes by the name*
+
 ### Enable mode
 
-  - allows us to use some basic show commands
+  - allows us to use a lot of show commands
   - allows debugging
   - required to configure device
 
 **Note: we can also configure the router to ask for a password when a user tries to switch to privilege mode**
 
-
+### Global Configuration Mode
+  
+  - allows us to change global configuration such as hostname,motd etc..
+  - conf t is acronym for configure terminal 
