@@ -437,7 +437,9 @@ Example: 172.16.35.123/20
 ### General Rules
 
 *When asked For number of Hosts: **Hosts = 2^n - 2***
-    
+
+*When asked For number of Networks: **Networks = 2^n ***
+
    - n is number of bits in Host portion
 
 #### Subnetting a Given network when asked for Number hosts required
