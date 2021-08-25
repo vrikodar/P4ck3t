@@ -8,7 +8,7 @@ Networking ???   **updated everyday!!**
 
 - [OSI and TCP/IP Modle overview](#osi-model)
 
-- [IP addressing ](#ip-adderssing)
+- [IP addressing ](#ip-addressing)
 
      - [Special Addresses](#special-addresses)
 
