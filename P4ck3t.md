@@ -660,3 +660,13 @@ ___
 **Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from privileged mode, also remember to execute the right command in right mode**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/router.png)
+
+### Enable mode
+
+  - allows us to use some basic show commands
+  - allows debugging
+  - required to configure device
+
+**Note: we can also configure the router to ask for a password when a user tries to switch to privilege mode**
+
+
