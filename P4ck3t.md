@@ -445,7 +445,7 @@ Example: 172.16.35.123/20
 
 ___
 
-#### Subnetting a Given network when asked for Number hosts required
+#### Subnetting a Given network when asked for Number of hosts required
 
 **Note: we count Host bits from right hand side**
 
