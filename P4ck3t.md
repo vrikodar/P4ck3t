@@ -6,6 +6,8 @@ Networking ???   **updated everyday!!**
 
 - [Hexadecimal conversions](#hexadecimal)
 
+- [OSI and TCP/IP Modle overview](#osi-and-tcp/ip-model)
+
 ___
 
 # Binary and Decimal
