@@ -22,6 +22,8 @@ Networking ???   **updated everyday!!**
 
 - [Cisco IOS Software and Device Configuration](#cisco-ios-software-and-device-configuration)
 
+     - [Modes](#modes)
+
 ___
 
 # Binary and Decimal
