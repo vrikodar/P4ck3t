@@ -437,12 +437,36 @@ Example: 172.16.35.123/20
 ### General Rules
 
 *When asked For number of Hosts: **Hosts = 2^n - 2***
+   - we count Host bits from right hand side
 
-*When asked For number of Networks: **Networks = 2^n ***
-
+*When asked For number of Networks: **Networks = 2^n*** 
+   - we count Host bits from left hand side
    - n is number of bits in Host portion
 
 #### Subnetting a Given network when asked for Number hosts required
 
+**Note: we count Host bits from right hand side**
+
 Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network into smaller subnets where each subnet needs to support 14 hosts*
+
+**we have /24 which means that the host portion is the last octet of the IP address**
+
+*For 14 hosts the value of n should be approx 4*
+
+```diff
+
+- 10.1.1.       00000000
+  <--Network--> <--Host-->
+```
+*The host portion has 8 bits but we only need 4 bits in host portion*
+
+**after counting and dividing we get the Following**
+
+```diff
+
+- 10.1.1.         0 0 0 0     0 0 0 0
+  <--Network--> <--subnet--> <--Host-->
+```
+
+
 
