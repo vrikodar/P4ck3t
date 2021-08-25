@@ -618,8 +618,8 @@ ___
 
   - console cable
   - Physical connection can be made through the EXEC interface
-  - through telnet, ssh etc. once the router is already configured for the same
- 
+  - through telnet, ssh etc. once the router is already configured for the same 
 
+**Note: Important thing to remember is that when the router boots up it looks for device configuration file by sending a TFTP request at local broadcast address by default** 
 
 
