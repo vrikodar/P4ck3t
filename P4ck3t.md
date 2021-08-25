@@ -618,6 +618,8 @@ ___
 
   - console cable
   - Physical connection can be made through the EXEC interface
+  - through telnet, ssh etc. once the router is already configured for the same
+ 
 
 
 
