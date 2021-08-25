@@ -636,4 +636,10 @@ ___
 
 **Note: Important thing to remember is that when the router boots up it looks for device configuration file by sending a TFTP request at local broadcast address by default** 
 
+## Some things to Remember
+   - Always use [tab] for command completion
+   - ? can be used to ask for help , will also display completed commands or sub-commands
+   - by default we enter in user mode **prompt>**
+   - en {short for enable} or enable can be used to switch to enabled or privileged mode **prompt#**
+
 
