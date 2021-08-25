@@ -644,10 +644,16 @@ ___
    - Privilege Mode or Enabled Mode
    - Global configuration Mode
 
+
+
 ## Some things to Remember
+
    - Always use [tab] for command completion
    - ? can be used to ask for help , will also display completed commands or sub-commands
    - by default we enter in user mode **prompt>**
    - en {short for enable} or enable can be used to switch to enabled or privileged mode **prompt#**
+   - conf t can be used to switch to global config mode
+   - up and down arrow key can be used to go through command history
 
+**Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from enable mode, also remember to execute the right command in right mode**
 
