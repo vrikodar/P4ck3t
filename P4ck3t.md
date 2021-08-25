@@ -614,3 +614,10 @@ ___
 
 **Cisco IOS is the most common operating system in cisco devices some cisco devices also have Nexus-OS**
 
+## Connecting to the Device
+
+  - console cable
+  - Physical connection can be made through the EXEC interface
+
+
+
