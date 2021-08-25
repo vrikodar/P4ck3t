@@ -638,6 +638,12 @@ ___
 
 **Note: Important thing to remember is that when the router boots up it looks for device configuration file by sending a TFTP request at local broadcast address by default** 
 
+## Modes
+
+   - User Mode {Default}
+   - Privilege Mode or Enabled Mode
+   - Global configuration Mode
+
 ## Some things to Remember
    - Always use [tab] for command completion
    - ? can be used to ask for help , will also display completed commands or sub-commands
