@@ -14,6 +14,11 @@ Networking ???   **updated everyday!!**
      - [Subnet Masks](#subnet-masks)
      - [CIDR {classless interdomain routing}](#cidr)
 
+- [Subnetting](#subnetting)
+
+     - [General](#part1)
+     - [with Number of Hosts](#subnetting-a-given-network-when-asked-for-number-of-hosts-required)
+     - [with Number of Networks](#subnetting-a-given-network-when-asked-for-number-of-subnets-required)
 
 ___
 
@@ -551,7 +556,7 @@ Question: *we are given a subnet 10.1.1.0/24 and we need to divide the network i
 
 ___
 
-#### Subnetting a Given network when asked for Number of Subnets Required required
+#### Subnetting a Given network when asked for Number of Subnets required
 
 *Example: we are given a network 10.128.192.0/18 and we need to subnet it into 30 subnets with maximum number of hosts*
 
