@@ -645,6 +645,7 @@ ___
    - User Mode {Default}
    - Privilege Mode or Enabled Mode
    - Global configuration Mode
+   - Interface Mode
 
 
 
@@ -655,6 +656,7 @@ ___
    - by default we enter in user mode **prompt>**
    - en {short for enable} or enable can be used to switch to enabled or privileged mode **prompt#**
    - conf t {short for configure terminal} can be used to switch to global config mode **prompt(config)#**
+   - int f0/0 {f0/0 is the interface name} will take us to interface mode **prompt(config-if)#**
    - up and down arrow key can be used to go through command history
 
 **Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from privileged mode, also remember to execute the right command in right mode**
@@ -689,3 +691,11 @@ ___
 *After we have added the motd we can exit the router and once we connect again we will see the motd*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/displayed.png)
+
+### Interface Mode
+
+  - Change Interface configuration
+  - IP address
+  - enable/disbale interface
+ 
+
