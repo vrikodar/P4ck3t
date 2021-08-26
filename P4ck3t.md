@@ -680,5 +680,8 @@ ___
 
 #### motd
 
+**Message of the day or motd is displayed when someone connects to our router, we should set a sensible motd to our devices**
+
+*we start by getting to global config mode and then use command banner motd # to start adding a legal message and then we can end the message with #*
 
 
