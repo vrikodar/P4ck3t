@@ -698,4 +698,5 @@ ___
   - IP address
   - enable/disbale interface
  
+#### Be sure to make use of tab completion
 
