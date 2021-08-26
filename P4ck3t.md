@@ -30,8 +30,7 @@ Networking ???   **updated everyday!!**
        - [Interface Mode](#interface-mode)
        - [Line Mode](#line-mode)
        - [Router Mode](#router-mode)
-       
-     - [Managing IOS configuration](#managingios-configuration) 
+    - [Managing IOS configuration](#managingios-configuration) 
 
 ___
 
