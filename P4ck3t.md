@@ -744,8 +744,12 @@ ___
 
 ## Managing IOS configuration
 
- - we can copy configuration from RAM to NVRAM {copy running-config startup-config , will overwrite config in NVRAM} [short: **copy run start**]
- - we can copy configuration from NVRAM to RAM {copy startup-config running-config , will replace start with run } [short: **copy start run**]
+ - we can copy configuration from RAM to NVRAM {copy running-config startup-config , will overwrite startup-config with running-config} [short: **copy run start**]
+ - we can copy configuration from NVRAM to RAM {copy startup-config running-config , will merge the config } [short: **copy start run**]
  - we can also copy config to a TFTP server {copy run tftp and copy start tftp}
+
+ - configure replace nvram:startup-config   {no merge will replace running with startup-config}
+
+ - erase startup-config {erases the startup-config in NVRAM}
 
 
