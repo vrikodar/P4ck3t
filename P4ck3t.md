@@ -758,3 +758,15 @@ ___
 
 
 ### Storing files in Flash
+
+ - sh flash {will display the files stored in flash, operating system of router is also stored here by default}
+
+ - cp run flash:first.cfg   {will copy running config to a file first.cfg in flash}
+ - more flash:first.cfg  {see contents of first.cfg}
+ - wr {to build and save startup-config}
+
+### Terminal Length
+
+ - change the amount of output displayed at once
+ - terminal lenght 0    {will display the Entire output at once}
+ - terminal lenght x    {x is the custom number of lines to display at once}
