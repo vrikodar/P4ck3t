@@ -742,4 +742,9 @@ ___
  - can be used to configure routing protocols {we will mainly focus on OSPF and EIGRP}
  - router ospf  {will take us to router mode and will allow us to configure ospf}
 
+## Managing IOS configuration
+
+ - we can copy configuration from RAM to NVRAM {copy running config startup config}
+ - we can also copy config to a TFTP server {copy run tftp and copy start tftp}
+
 
