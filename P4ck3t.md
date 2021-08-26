@@ -752,4 +752,6 @@ ___
 
  - erase startup-config {erases the startup-config in NVRAM}
 
+*It is always a good idea to mantain a backup of configuration of router some where , maybe on TFTP server etc..so that even when you replace a router you can just flash the new configuration to bring everything back to normal rather than reconfiguring everything back from scratch*
+
 
