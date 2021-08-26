@@ -806,3 +806,35 @@ ___
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-r1.png)
 
 **Similarly we can also configure the hostname on the second one**
+
+## Task2
+
+**Now we need to configure the IP addresses as shown in the Diagram**
+
+**we have 10.1.1.1|2/24 on r1 and r2 so subnet mask is 255.255.255.0
+
+**For Router 1 below**
+
+ - sh ip int brief {in priv mode will show us all the interfaces, we can see what to configure}
+ - int gigabitEthernet 0/0/0 
+ - no shut {short for no shutdown}
+ - ip address 10.1.1.1 255.255.255.0 
+ 
+ - sh ip int gigabitEthernet 0/0/0  {confirm}
+ 
+ ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-r1-int.png)
+
+**After we also configure the interface on r2 we can see the interface going up again so its better to nu shut interface after we have configured the IP and mask**
+
+**For Router 2 below**
+
+ - sh ip int brief {in priv mode will show us all the interfaces, we can see what to configure}
+ - int gigabitEthernet 0/0/0 
+ - ip address 10.1.1.2 255.255.255.0
+ - no shut {short for no shutdown}
+
+ - sh ip int gigabitEthernet 0/0/0  {confirm}
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-r2-int.png)
+
+
