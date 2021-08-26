@@ -793,3 +793,7 @@ ___
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lab1.png)
 
+## Task1
+
+*we First need to poweron the devices, we can do so by going to physical and zoom-in to turn the switch to 1*
+
