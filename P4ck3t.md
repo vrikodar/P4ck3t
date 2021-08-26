@@ -24,15 +24,18 @@ Networking ???   **updated everyday!!**
 
      - [Modes](#modes)
      - [Switching to Different Modes](#some-things-to-remember)
+       
        - [User Mode](#user-mode) 
        - [Enable Mode](#enable-mode)
        - [Global Configuration Mode](#global-configuration-mode)
        - [Interface Mode](#interface-mode)
        - [Line Mode](#line-mode)
        - [Router Mode](#router-mode)
+       
     - [Managing IOS configuration](#managing-ios-configuration) 
     - [Storing files in Flash](#storing-files-in-flash)
     - [Controlling Amount of Output](#terminal-length)
+    - [Solving the Resolve Error](#resolve-error)
 
 ___
 
@@ -772,6 +775,7 @@ ___
  - terminal length 0    {will display the Entire output at once}
  - terminal length x    {x is the custom number of lines to display at once}
 
+### Resolve Error
 
 **Note: sometimes when router does not have any DNS servers it might try to resolve a wrong command or a Domain, to resolve this we can run some commands to stop DNS resolution as Follows**
 
