@@ -30,7 +30,8 @@ Networking ???   **updated everyday!!**
        - [Interface Mode](#interface-mode)
        - [Line Mode](#line-mode)
        - [Router Mode](#router-mode)
-    - [Managing IOS configuration](#managingios-configuration) 
+    - [Managing IOS configuration](#managing-ios-configuration) 
+    - [Storing files in Flash](#storing-files-in-flash)
 
 ___
 
@@ -756,3 +757,4 @@ ___
 *It is always a good idea to mantain a backup of configuration of router some where , maybe on TFTP server etc..so that even when you replace a router you can just flash the new configuration to bring everything back to normal rather than reconfiguring everything back from scratch*
 
 
+### Storing files in Flash
