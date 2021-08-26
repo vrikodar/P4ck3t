@@ -955,3 +955,11 @@ Stopped: Thu Aug 26 07:15:07 2021
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-login-console.png)
 
+**Now it is not recommended but at the End we should save the running config to startup config with**
+
+ - copy run start
+     or
+ - copy running-config startup-config
+
+
+
