@@ -856,3 +856,6 @@ ___
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-enpass.png)
 ![Reconnect and Switch to #](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-enpass-ask.png)
+
+*Note: when we do sh run we can easily the enable password in the running config*
+
