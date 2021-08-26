@@ -843,6 +843,8 @@ ___
 
 *In the image above we will see that on console of router1 we see one ping is dropped indicated by (.) before 4!'s and this is because First Router1 sends a ARP Request to look for the the target Host's mac {hence First ping drops} and then it successfully pings 10.1.1.2, since 10.1.1.2 already knows the Mac of 10.1.1.1 at this point no ping is dropped from its side*
 
+**Tip: we can run 'sh arp' to see the ARP table of router**
+
 ## Task3
 
 *Now we will configure an enable password of "cisco"*
