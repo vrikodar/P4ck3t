@@ -32,6 +32,7 @@ Networking ???   **updated everyday!!**
        - [Router Mode](#router-mode)
     - [Managing IOS configuration](#managing-ios-configuration) 
     - [Storing files in Flash](#storing-files-in-flash)
+    - [Controlling Amount of Output](#terminal-length)
 
 ___
 
