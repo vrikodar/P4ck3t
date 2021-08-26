@@ -887,3 +887,37 @@ ___
 
 **Note that the enable secret  will overwrite the enable password eg: the password we set with enable secret will be the Final password, hence now the password will be cisco123 not cisco which was previously**
 
+*If we can get our hands on this configuration some-how either by TFTP server or somekind of backup etc. we have the password in clear text or in Hash form, we can also try to crack the hash using hashcat or any other of your choice. for hashcat md5 module is 500*
+
+### Cracking the Hash
+
+*hash file contains the md5 hash we found from conf file*
+
+`hashcat -m 500 hash rockyou.txt`
+
+```
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory required for this attack: 345 MB
+
+Dictionary cache hit:
+* Filename..: rockyou.txt
+* Passwords.: 14344361
+* Bytes.....: 139921333
+* Keyspace..: 14344361
+
+$1$mERr$5.a6P4JqbNiMX01usIfka/:cisco123          
+                                                 
+Session..........: hashcat
+Status...........: Cracked
+Hash.Name........: md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)
+Hash.Target......: $1$mERr$5.a6P4JqbNiMX01usIfka/
+Time.Started.....: Thu Aug 26 07:15:06 2021 (1 sec)
+Time.Estimated...: Thu Aug 26 07:15:07 2021 (0 secs)
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   <---Truncated---->
+
+Started: Thu Aug 26 07:14:55 2021
+Stopped: Thu Aug 26 07:15:07 2021
+```
