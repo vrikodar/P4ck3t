@@ -23,6 +23,8 @@ Networking ???   **updated everyday!!**
 - [Cisco IOS Software and Device Configuration](#cisco-ios-software-and-device-configuration)
 
      - [Modes](#modes)
+     - [Switching to Different Modes](#some-things-to-remember)
+     - 
 
 ___
 
