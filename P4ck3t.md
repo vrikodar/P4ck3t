@@ -684,4 +684,8 @@ ___
 
 *we start by getting to global config mode and then use command banner motd # to start adding a legal message and then we can end the message with #*
 
+![](https://github.com/SxNade/P4ck3t/blob/main/motd.png)
 
+*After we have added the motd we can exit the router and once we connect again we will see the motd*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/displayed.png)
