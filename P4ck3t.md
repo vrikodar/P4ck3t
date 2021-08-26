@@ -730,4 +730,6 @@ ___
 ### Router mode
 
  - can be used to configure routing protocols {we will mainly focus on OSPF and EIGRP}
+ - router rip  {will take us to router mode}
+
 
