@@ -872,3 +872,18 @@ ___
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-enc.png)
 
+## Task5
+
+*enabling a secret password*
+
+**Note: enable password is stored in plain text by default whereas enable secret password stores the password in MD5 encryption by Default**
+
+- en
+- conf t
+- enable secret cisco123
+- end
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-secret.png)
+
+**Note that the enable secret  will overwrite the enable password eg: the password we set with enable secret will be the Final password, hence now the password will be cisco123 not cisco which was previously**
+
