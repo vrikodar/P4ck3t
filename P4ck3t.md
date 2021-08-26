@@ -24,7 +24,7 @@ Networking ???   **updated everyday!!**
 
      - [Modes](#modes)
      - [Switching to Different Modes](#some-things-to-remember)
-     - 
+       - [User Mode](#user-mode) 
 
 ___
 
