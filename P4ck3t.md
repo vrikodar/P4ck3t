@@ -675,6 +675,7 @@ ___
    - up and down arrow key can be used to go through command history
    - show history command will display the entire history of commands at once
    - CTRL+A will take you to the beginning of a command
+   - CTRL+E will take you to the end of a command
 
 **Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from privileged mode, also remember to execute the right command in right mode**
 
