@@ -935,3 +935,5 @@ Stopped: Thu Aug 26 07:15:07 2021
 *This will configure password of cisco on telnet and we will try to telnet into this router1 from router2*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-telnet.png)
+
+*Similarly we can also configure telnet on router2*
