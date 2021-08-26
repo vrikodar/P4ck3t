@@ -646,6 +646,11 @@ ___
    - Privilege Mode or Enabled Mode
    - Global configuration Mode
    - Interface Mode
+   - Line mode
+     - console: line console mode
+     - auxiliary: line aux mode
+     - vty: configure vty ports used for telnet or ssh etc..
+      
 
 
 
@@ -657,6 +662,7 @@ ___
    - en {short for enable} or enable can be used to switch to enabled or privileged mode **prompt#**
    - conf t {short for configure terminal} can be used to switch to global config mode **prompt(config)#**
    - int f0/0 {f0/0 is the interface name} will take us to interface mode **prompt(config-if)#**
+   - line console 0 will take us to line mode **prompt(config-line)#**
    - up and down arrow key can be used to go through command history
 
 **Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from privileged mode, also remember to execute the right command in right mode**
