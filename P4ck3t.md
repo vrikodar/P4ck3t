@@ -566,7 +566,7 @@ ___
 
 *Now as we know that its /18 the octet boundary lies after 128 that is from 192 and so on*
 
-*also we know that for subnets the formual is 2^n hence for 29 subnets n ~= 5*
+*also we know that for subnets the formual is 2^n hence for 30 subnets n ~= 5*
 
 **we count the bits from Left to right, also note that now the network portion has 5 more bits hence the mask is /23**
 
