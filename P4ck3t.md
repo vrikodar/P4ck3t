@@ -797,3 +797,9 @@ ___
 
 *we First need to poweron the devices, we can do so by going to physical and zoom-in to turn the switch to 1*
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-power.png)
+
+**In CLI we will say no to initial configuration Dialogue**
+
+*Now we will configure the Hostname, so that the prompts show Router1 and Router2 respectively*
+
