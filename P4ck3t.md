@@ -771,3 +771,14 @@ ___
  - change the amount of output displayed at once
  - terminal length 0    {will display the Entire output at once}
  - terminal length x    {x is the custom number of lines to display at once}
+
+
+**Note: sometimes when router does not have any DNS servers it might try to resolve a wrong command or a Domain, to resolve this we can run some commands to stop DNS resolution as Follows**
+
+ - en
+ - conf t
+ - no ip domain lookup
+
+*Now it should time out :)*
+
+
