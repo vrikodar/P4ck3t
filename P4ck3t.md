@@ -803,3 +803,6 @@ ___
 
 *Now we will configure the Hostname, so that the prompts show Router1 and Router2 respectively*
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-r1.png)
+
+**Similarly we can also configure the hostname on the second one**
