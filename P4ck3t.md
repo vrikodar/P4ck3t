@@ -961,5 +961,5 @@ Stopped: Thu Aug 26 07:15:07 2021
      or
  - copy running-config startup-config
 
-
+ - wr {**will do the same**}
 
