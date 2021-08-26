@@ -708,3 +708,12 @@ ___
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/interface.gif)
 
+### Interface Mode
+  
+  - we can use it to configure a password for router when we connect to the console port.
+  - line console 0 {will take us to line mode} 
+  - password "password-to-set"
+  - exit or CTRL+Z to exit current mode and so on...
+
+
+
