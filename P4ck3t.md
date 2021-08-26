@@ -921,3 +921,8 @@ Speed.#1.........:   <---Truncated---->
 Started: Thu Aug 26 07:14:55 2021
 Stopped: Thu Aug 26 07:15:07 2021
 ```
+
+## Task6
+
+*Configuring Telnet*
+
