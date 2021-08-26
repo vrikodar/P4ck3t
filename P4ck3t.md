@@ -700,4 +700,5 @@ ___
  
 #### Be sure to make use of tab completion and also ?
 
+![](https://github.com/SxNade/P4ck3t/blob/main/interface.gif)
 
