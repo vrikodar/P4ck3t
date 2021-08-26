@@ -926,3 +926,10 @@ Stopped: Thu Aug 26 07:15:07 2021
 
 *Configuring Telnet*
 
+ - en
+ - conf t
+ - line vty 0 4   {0-4 basically 5 lines}
+ - login
+ - password cisco
+
+*This will configure password of cisco on telnet and we will try to telnet into this router1 from router2*
