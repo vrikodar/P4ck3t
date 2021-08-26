@@ -650,6 +650,7 @@ ___
      - console: line console mode
      - auxiliary: line aux mode
      - vty: configure vty ports used for telnet or ssh etc..
+   - Router Mode
       
 
 
@@ -717,4 +718,8 @@ ___
   - exit or CTRL+Z to exit current mode and so on...
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/login.gif)
+
+### Router mode
+
+ - can be used to configure routing protocols {we will mainly focus on OSPF and EIGRP}
 
