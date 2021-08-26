@@ -937,3 +937,21 @@ Stopped: Thu Aug 26 07:15:07 2021
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-telnet.png)
 
 *Similarly we can also configure telnet on router2*
+
+## Task7
+
+*Configuring password for console {user mode}*
+
+ - en
+ - conf t
+ - line console 0 
+ - login
+ - password cisco
+ - end
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-line-console.png)
+
+**and now we will be asked for password when we connect to the console**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-login-console.png)
+
