@@ -716,5 +716,5 @@ ___
   - password "password-to-set"
   - exit or CTRL+Z to exit current mode and so on...
 
-
+![](https://github.com/SxNade/P4ck3t/blob/main/login.gif)
 
