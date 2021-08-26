@@ -664,6 +664,7 @@ ___
    - conf t {short for configure terminal} can be used to switch to global config mode **prompt(config)#**
    - int f0/0 {f0/0 is the interface name} will take us to interface mode **prompt(config-if)#**
    - line console 0 will take us to line mode **prompt(config-line)#**
+   - router "routing-protocol" {eg: router rip} will take us to router mode **prompt(config-router)#**
    - up and down arrow key can be used to go through command history
 
 **Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from privileged mode, also remember to execute the right command in right mode**
