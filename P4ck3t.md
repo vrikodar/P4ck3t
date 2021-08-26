@@ -826,7 +826,7 @@ ___
  
  ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-r1-int.png)
 
-**After we also configure the interface on r2 we can see the interface going up again so its better to nu shut interface after we have configured the IP and mask**
+**After we also configure the interface on r2 we can see the interface going up again so its better to no shut interface after we have configured the IP and mask**
 
 **For Router 2 below**
 
