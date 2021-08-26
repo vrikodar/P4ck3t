@@ -25,6 +25,11 @@ Networking ???   **updated everyday!!**
      - [Modes](#modes)
      - [Switching to Different Modes](#some-things-to-remember)
        - [User Mode](#user-mode) 
+       - [Enable Mode](#enable-mode)
+       - [Global Configuration Mode](#global-configuration-mode)
+       - [Interface Mode](#interface-mode)
+       - [Line Mode](#line-mode)
+       - [Router Mode](#router-mode)
 
 ___
 
