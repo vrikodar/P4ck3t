@@ -711,7 +711,8 @@ ___
 ### Interface Mode
   
   - we can use it to configure a password for router when we connect to the console port.
-  - line console 0 {will take us to line mode} 
+  - line console 0 {will take us to line mode}
+  - login 
   - password "password-to-set"
   - exit or CTRL+Z to exit current mode and so on...
 
