@@ -848,6 +848,11 @@ ___
 ## Task3
 
 *Now we will configure an enable password of "cisco"*
+ 
+  - en
+  - conf t
+  - enable password cisco
+  - exit
 
-
-
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-enpass.png)
+![Reconnect and Switch to #](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-enpass-ask.png)
