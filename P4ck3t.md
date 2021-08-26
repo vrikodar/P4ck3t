@@ -37,6 +37,8 @@ Networking ???   **updated everyday!!**
     - [Controlling Amount of Output](#terminal-length)
     - [Solving the Resolve Error](#resolve-error)
 
+- [Lab1 {Basic configuration Lab}](#lab1)
+
 ___
 
 # Binary and Decimal
