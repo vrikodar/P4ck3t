@@ -678,6 +678,11 @@ ___
    - CTRL+E will take you to the end of a command
    - CTRL+U will clear entire typed command
    - CTRL+C will cancel a command 
+   - show startup-config will display the startup configuration
+   - show running-config will display the currently running configuration
+   - sh ip int brief {displays ip addr on different interfaces}
+   - sh ip route {will show the routing table}
+   
 
 **Note: en in user mode will take to privilege mode and we can-not go to Global config mode directly from user mode we can only go to global config mode from privileged mode, also remember to execute the right command in right mode**
 
