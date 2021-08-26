@@ -861,3 +861,7 @@ ___
 
 *Note: when we do sh run we can easily see the enable password in the running config*
 
+## Task4
+
+*we will setup the encryption service which will save the password in config file in encrypted form*
+
