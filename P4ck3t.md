@@ -789,6 +789,8 @@ ___
 
 # Lab1
 
+**Download the Lab.pkt file, URL: https://github.com/SxNade/P4ck3t/raw/main/Labs/Lab1.pkt**
+
 ## Lab Objectives
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lab1.png)
