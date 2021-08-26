@@ -769,5 +769,5 @@ ___
 ### Terminal Length
 
  - change the amount of output displayed at once
- - terminal lenght 0    {will display the Entire output at once}
- - terminal lenght x    {x is the custom number of lines to display at once}
+ - terminal length 0    {will display the Entire output at once}
+ - terminal length x    {x is the custom number of lines to display at once}
