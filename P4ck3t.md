@@ -865,3 +865,10 @@ ___
 
 *we will setup the encryption service which will save the password in config file in encrypted form*
 
+ - en
+ - conf t
+ - service password-encryption 
+ - end
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb1-enc.png)
+
