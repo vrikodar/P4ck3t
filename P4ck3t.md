@@ -1182,4 +1182,5 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 - then reach the Serial interface on the internet Router1[192.168.1.126] which then Forwards them to the cisco.com server 
 
 
+**In a Similar way we can also configure other subnets that need to be assigned to the other Network and Serial link**
 
