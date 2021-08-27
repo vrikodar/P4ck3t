@@ -1165,7 +1165,7 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-intrtr-ping.png)
 
-**we can also try ping the DNS address 8.8.8.8 from PC's in the subnet as well as from Router1**
+**we can also try to ping the DNS address 8.8.8.8 from PC's in the subnet as well as from Router1**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-ping-every.png)
 
