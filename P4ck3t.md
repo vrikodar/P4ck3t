@@ -972,3 +972,11 @@ Stopped: Thu Aug 26 07:15:07 2021
 
  - wr {**will do the same**}
 
+
+# Lab2
+
+*Our First subnetting lab*
+
+**You can download the lab File from: https://github.com/SxNade/P4ck3t/raw/main/Labs/Lab2.pkt**
+
+
