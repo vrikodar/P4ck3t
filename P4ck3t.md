@@ -1187,4 +1187,14 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 **After everything is configured properly we should also be able to reach PC1 running on 192.168.1.1**
 
 
+`we do a simple traceroute from PC3 to PC1`
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-tracert-final.png)
+
+*In Accordance with the Traceroute {switch and leaving end points are not present in traceroute}*
+
+-  our packet First goes to 192.168.1.190 which is the Router 2 present in the Network
+-  Next our packet is shown going to 192.168.1.254 which is the Serial interface connected to Router2
+-  Then our Packet goes to 192.168.1.65 which is Serial interface of Router1 connected to Internet Router
+-  Finally our Packet reaches to 192.168.1.1 which is PC1 {through switch}
 
