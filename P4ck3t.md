@@ -1153,3 +1153,4 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-r1-serial1.png)
 
+**Now we will configure the Internet Router connection to that serial int and we will assign it the last Host address**
