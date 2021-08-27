@@ -1103,3 +1103,22 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 *After we have configured this we can also try to ping the router from the switch*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-s1-ping.png)
+
+*we also need to configure a Default gateway on Switch*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-s1-def.png)
+
+
+### Configuring the DHCP server
+
+*we will open DHCP server GUI config and then select the Ethernet interface*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp1.png)
+
+*we also need to configure the Default gateway for the DHCP server*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp1-def.png)
+
+*Now we should be able to ping both router and switch from the DHCP server*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp1-ping.png)
