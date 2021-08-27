@@ -1169,3 +1169,8 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-ping-every.png)
 
+
+`A Quick traceroute to cisco.com will reveal the complete path our packets are following`
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-tracert-pc1.png)
+
