@@ -1177,9 +1177,9 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 
 - Our Packet First Switch {not in the traceroute} and 
 
-- Then it Goes to the Ethernet interface on the Router[192.168.1.62] {packets leave from Serial int on current router} and
+- Then it Goes to the Ethernet interface on the Router1[192.168.1.62] {packets leave from Serial int on current router} and
 
-- then reach the Serial interface on the internet Router[192.168.1.126] which then Forwards them to the cisco.com server 
+- then reach the Serial interface on the internet Router1[192.168.1.126] which then Forwards them to the cisco.com server 
 
 
 
