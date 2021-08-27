@@ -1082,7 +1082,7 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 
 **Broadcast:** `192.168.1.63/26`   {Also note that Broadcast is 1 less than the Next subnet}
 
-**Last Host:** `192.168..1.62/26`  {one less than the Broadcast}
+**Last Host:** `192.168.1.62/26`  {one less than the Broadcast}
 
 **2nd Last Host:** `192.168.1.61/26`
 
