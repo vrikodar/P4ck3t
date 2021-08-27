@@ -1070,3 +1070,7 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 
 **Method: [Subnetting for Broadcast,Last,First Host etc.](https://github.com/SxNade/P4ck3t/blob/main/P4ck3t.md#part1)**
 
+*Direct answers will be added here, manual conversion etc have been already covered in previous sections*
+
+**Also Note that as we have /26 the Mask is `255.255.255.192`**
+
