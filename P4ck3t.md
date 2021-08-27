@@ -995,3 +995,9 @@ Subnet this into four subnets as follows
 And configure the DHCP server to allocate IP addresses to the clients
 9) Verify that PCs can access cisco.com and facebook.com using their browsers
 ```
+
+**we can right away see that we are asked to subnet the given network in Four subnets that is we are asked for number of networks hence we will use the method we saw earlier**
+
+Here: [Subnetting With Number of Netowrks Required](https://github.com/SxNade/P4ck3t/blob/main/P4ck3t.md#subnetting-a-given-network-when-asked-for-number-of-subnets-required)
+
+
