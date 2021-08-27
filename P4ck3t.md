@@ -1054,7 +1054,7 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 - 192.168.1.192/26
 ```
 
-**Hence the Fours subnets we have**
+**Hence the Four subnets we have**
 
  - 192.168.1.0/26
  - 192.168.1.64/26
