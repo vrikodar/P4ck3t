@@ -1122,3 +1122,7 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 *Now we should be able to ping both router and switch from the DHCP server*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp1-ping.png)
+
+**After all this we need to configure a DHCP pool on the dhcp server, we will go to the services tab**
+
+
