@@ -1062,3 +1062,11 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
  - 192.168.1.192/26
  
 
+## Configuring First subnet
+
+*Now according to the instructions we need to configure router1 with the last IP address in that subnet*
+
+**Subnet we have right now is 192.168.1.0/26**
+
+**Method: [Subnetting for Broadcast,Last,First Host etc.](https://github.com/SxNade/P4ck3t/blob/main/P4ck3t.md#part1)**
+
