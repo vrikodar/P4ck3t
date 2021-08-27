@@ -1141,4 +1141,15 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 
 *Now the subnet we have `192.168.1.64/26` and this is going to be the one between Router1 and the serial link of Internet router*
 
+Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out everything without calculating in Binary
+
+**First Host**: `192.168.1.65/26`  {one more than the subnet}
+**Broadcast**: `192.168.1.127/26` {one less than the Next Subnet}
+**Last Host**: `192.168.1.126/26` {one less than the Broadcast}
+**2nd Last host**: `192.168.1.125/26`
+**3rd last host**: `192.168.1.124/26`
+
+*Now according to instructions we need to configure the serial link with First IP on Router1*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-r1-serial1.png)
 
