@@ -1001,3 +1001,56 @@ And configure the DHCP server to allocate IP addresses to the clients
 Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4ck3t/blob/main/P4ck3t.md#subnetting-a-given-network-when-asked-for-number-of-subnets-required)
 
 
+*Now as we know that its /24 which is exactly present on the octet boundary and 192.168.1. is Network portion and .0 is the Host portion*
+
+*also we know that for subnets the formual is 2^n hence for 4 subnets n = 2*
+
+**we count the bits from Left to right, also note that now the network portion has 2 more bits hence the mask is /26**
+
+```diff
+
+- 192.168.1        .0 0       0 0 0 0 0 0 
+<--Network-->   <--subnet-->   <--Host-->
+```
+
+*1st Network*
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+```diff
+
+- 192.168.1.0/26
+```
+
+*2nd Network*
+
+```diff
+
+- 192.168.1        .0 1       0 0 0 0 0 0 
+<--Network-->   <--subnet-->   <--Host-->
+```
+
+*now we need to convert entire host portion to decimal again and the resulting network is*
+
+
+```diff
+
+- 192.168.1.64/26
+```
+
+*3rd Network*
+
+**Now we know that the network is increasing with 64 so we can right away deduce that the next network is**
+
+```diff
+
+- 192.168.1.128/26
+```
+
+*4th Network*
+
+```diff
+
+- 192.168.1.192/26
+```
+
