@@ -38,6 +38,15 @@ Networking ???   **updated everyday!!**
     - [Solving the Resolve Error](#resolve-error)
 
 - [Lab1 {Basic configuration Lab}](#lab1)
+    - [Powering on Cisco Router](#task1)
+    - [Configuring IP addresses on Cisco Router](#task2)
+    - [Setting an Enable Password](#task3)
+    - [Setting up Password Encryption Service](#task4)
+    - [Setting up a Secret Password](#task5)
+    - [Cracking CISCO IOS hashes](#cracking-the-hash)
+    - [Setting up telnet on Cisco Router](#task6)
+    - [Setting up a Console Password](#task7)
+
 
 ___
 
