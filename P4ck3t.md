@@ -1129,3 +1129,6 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp1-pool.png)
 
+*and Now if we check the PC's they will be allocated IP's through DHCP*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp-ips.png)
