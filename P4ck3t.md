@@ -1125,4 +1125,7 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 
 **After all this we need to configure a DHCP pool on the dhcp server, we will go to the services tab**
 
+*we know that in this particular subnet we have 6 bits in host portion so number of hosts is 2^n-2 = 62 hosts so ideally we should add arround 50 hosts in the DHCP pool max hosts*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp1-pool.png)
 
