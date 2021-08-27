@@ -1093,3 +1093,13 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 *we need to configure this router with the last IP address in the subnet which is `192.168.1.62/26`*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-r1.png)
+
+### Configuring the Switch 
+
+*we need to configure the switch with Second Last IP address in the subnet*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-s1.png)
+
+*After we have configured this we can also try to ping the router from the switch*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-s1-ping.png)
