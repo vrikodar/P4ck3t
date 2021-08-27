@@ -1088,3 +1088,8 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 
 **3rd Last Host:** `192.168.1.60/26`
 
+### Configuring Router1
+
+*we need to configure this router with the last IP address in the subnet which is `192.168.1.62/26`*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-r1.png)
