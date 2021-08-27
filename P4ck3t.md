@@ -1132,3 +1132,9 @@ Here: [Subnetting With Number of Networks Required](https://github.com/SxNade/P4
 *and Now if we check the PC's they will be allocated IP's through DHCP*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-dhcp-ips.png)
+
+## Configuring the Next subnet
+
+*Now the subnet we have `192.168.1.64/26` and this is going to be the one between Router1 and the serial link of Internet router*
+
+
