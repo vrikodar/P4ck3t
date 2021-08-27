@@ -1158,3 +1158,14 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-r1-serial1.png)
 
 **Now we will configure the Internet Router connection to that serial int and we will assign it the last Host address**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-intrtr-ser.png)
+
+**After this we will be able to ping serial of Router from this internet Router**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-intrtr-ping.png)
+
+**we can also try ping the DNS address 8.8.8.8 from PC's in the subnet as well as from Router1**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb2-ping-every.png)
+
