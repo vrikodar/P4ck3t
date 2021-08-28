@@ -1363,3 +1363,23 @@ R4#
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-s3-internet.png)
 
 *In the traceroute we can see that the packets First go to `192.168.1.65` which is the gig of router4 and then to `192.168.1.117` which is serial interface of internet Router and then eventually to the cisco.com server*
+
+## Configuring the IP addresses on PC's 
+
+*Since we don't have a DHCP server in the network we need to statically configure IP addresses on the PC's*
+
+**The range we have is:** `192.168.1.65` to `192.168.1.78` {excluding these start and end IP's} {subnet mask /28 which is 255.255.255.240}
+
+- PC6 192.168.1.66
+- PC7 192.168.1.67
+- PC8 192.168.1.68
+
+**Below is screenshot of only PC7, others can be configured in same way**
+
+**First we need to go to settings to configure the DNS server to 8.8.8.8 and Default gateway to 192.168.1.65 {router4 gig interface}**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-pc7-gateway.png)
+
+**After this we can select the Fast ethernet interface and configure the static IP**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-pc7-static-ip.png)
