@@ -1374,7 +1374,7 @@ R4#
 - PC7 192.168.1.67
 - PC8 192.168.1.68
 
-**Below is screenshot of only PC7, others can be configured in same way**
+**Below is screenshot of only PC6, others can be configured in same way**
 
 **First we need to go to settings to configure the DNS server to 8.8.8.8 and Default gateway to 192.168.1.65 {router4 gig interface}**
 
@@ -1383,3 +1383,15 @@ R4#
 **After this we can select the Fast ethernet interface and configure the static IP**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-pc7-static-ip.png)
+
+### Finally we can Try pinging the Router and even try reaching cisco.com from PC6
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-pc-ping.png)
+
+**We will also able to reach PC's in the other sites from site3's PCs {pc6 in example below}**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-tracert-site3.png)
+
+`Path is depicted below`
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-path-final.png)
