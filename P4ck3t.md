@@ -1405,4 +1405,5 @@ R4#
 
 *Below is a simple network where two routers are connected together, Router1 has IP address 10.1.1.1/24 and Router2 has IP address 10.1.2.2/24 will the Routers be able to ping each other*
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q1.png)
 
