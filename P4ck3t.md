@@ -1336,3 +1336,30 @@ R4#
 ```
 
 *We are also able to reach the internet to cisco.com etc..*
+
+## Configuring The LAN in site3
+
+*Now as from instructions Before we need to use the First subnet we got From breaking `192.168.1.64/26` with each subnet supporting 8 hosts*
+
+**The First Network we Got From that was `192.168.1.64/28` with mask of `255.255.255.240`**
+
+ - `192.168.1.65` First Host
+ - `192.168.1.78` Last Host
+ - `192.168.1.79` Broadcast
+
+**We would have to allocate IP addresses to the PC's statically between range of 65-78 excluding 65 and 75 themselves**
+
+
+**First we need to configure the Gigabit interface on router4**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/lb3-r4-gig.png)
+
+**And then we will configure the IP address for VLAN on switch, we will also specify the Default gateway on switch as the Router4 gig**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/lb3-s3-vlan.png)
+
+*Next we can also try reaching cisco.com from switch after configuring the DNS as we saw earlier*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-s3-internet.png)
+
+*In the traceroute we can see that the packets First go to `192.168.1.65` which is the gig of router4 and then to `192.168.1.117` which is serial interface of internet Router and then eventually to the cisco.com server*
