@@ -1221,3 +1221,15 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-obj.png)
 
+
+*Now we need to subnet 192.168.1.64/26 Furthuer into maximum number of subnets with each subnet supporting 8 hosts*
+
+*so the Formula here is 2^n-2 for hosts thus n ~= 4 so actually we will have 14 hosts in each subnet*
+
+**Now we will again use the methods we learned earlier to subnet this network Furthur to come up with the following subnets**
+
+ - `192.168.1.64/28` {1st Network}
+ - `192.168.1.80/28` {2nd Network}
+ - `192.168.1.96/28` {3rd Network}
+ - `192.168.1.112/28` {4th Network}
+
