@@ -1243,7 +1243,7 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 - `192.168.1.124/30` {4th}
 
 
-## Configuring the WAN Links
+## Configuring the WAN Link on Site1
 
 **Now we need to change the wan link between Router1 and Internet Router**
 
@@ -1265,4 +1265,13 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 **we can also configure DNS on Router1 to look for cisco.com as Follows**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-dns-ping.png)
+
+## Configuring site3
+
+**Now we need to configure site3, first we wull configure the WAN link on site3 with `192.168.1.116/30`**
+
+- First host 192.168.1.117
+- Last Host 192.168.1.118
+- Broadcast 192.168.1.119
+
 
