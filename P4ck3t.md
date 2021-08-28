@@ -1233,3 +1233,5 @@ and then allocate the subnets to the serial links. Configure the routers appropr
  - `192.168.1.96/28` {3rd Network}
  - `192.168.1.112/28` {4th Network}
 
+*We can now allocate the new first subnet to the new network `192.168.1.64/28`*
+
