@@ -1246,3 +1246,17 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 ## Configuring the WAN Links
 
 **Now we need to change the wan link between Router1 and Internet Router**
+
+**we have the network `192.168.1.112/30` which has mask 255.255.255.252**
+
+ - First host is 192.168.1.113
+ - Last Host 192.168.1.114
+ - Broadcast 192.168.1.115
+ 
+ *we will now give the Serial interface on Router1 the First ip address*
+ 
+ ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-r1.png)
+ 
+ *and the Internet Router with Last IP address*
+ 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3intrts.png)
