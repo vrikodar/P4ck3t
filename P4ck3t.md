@@ -1219,4 +1219,5 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 5) Verify that PCs can access cisco.com and facebook.com using their browsers
 ```
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-obj.png)
 
