@@ -1235,3 +1235,11 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 
 *We can now allocate the new first subnet to the new network `192.168.1.64/28`*
 
+*Before we do so we have been told that we need to take `192.168.1.112/28` and then break it with /30 masks in other words 2^n - 2 = 2 hosts for n=2 that is we need to subnet it again to support 2 hosts so again we are asked for number of hosts and the value of n = 2 so we subnet this subnet again*
+
+- `192.168.1.112/30` {1st}
+- `192.168.1.116/30` {2nd}
+- `192.168.1.120/30` {3rd}
+- `192.168.1.124/30` {4th}
+
+
