@@ -1449,3 +1449,4 @@ R4#
 
 **Then we can send pings from Router0 to see what happens**
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q2-ping.png)
