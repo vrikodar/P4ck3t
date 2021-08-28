@@ -1200,3 +1200,23 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 -  Then our Packet goes to 192.168.1.65 which is Serial interface of Router1 connected to Internet Router
 -  Finally our Packet reaches to 192.168.1.1 which is PC1 {through switch}
 
+
+# Lab3
+
+**Lab Objectives**
+
+```
+In a previous lab, 192.168.1.0/24 was broken up to support the subnets in this lab.
+Now you need to subnet the network to extend and conserve IP addresses:
+1) Break up 192.168.1.64/26 to support as many subnets as possible with 8 hosts per subnet. 
+2) Allocate the first new subnet to site 3. 
+3) Manually configure all devices in the subnet.
+- Router with last IP address in subnet
+- Switch with the 2nd last IP address
+- Hosts from first IP address
+4) Subnet the last new subnet you got from 192.168.1.64/26 with /30 masks 
+and then allocate the subnets to the serial links. Configure the routers appropriately.
+5) Verify that PCs can access cisco.com and facebook.com using their browsers
+```
+
+
