@@ -1450,3 +1450,6 @@ R4#
 **Then we can send pings from Router0 to see what happens**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q2-ping.png)
+
+
+*Now this worked because both the machines are present in the same Network or in other words they have same Network-ID, we can observe this after converting the 3rd octet of both IP's into binary and we will see that the entire Network portion on both machines is same hence they were able to ping each other*
