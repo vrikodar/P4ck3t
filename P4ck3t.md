@@ -49,10 +49,9 @@ Networking ???   **updated everyday!!**
 
 - [Lab2 {Subnetting Lab1}](#lab2)
    
-   - [] 
-
 - [Lab3 {Subnetting Lab2}](#lab3)
 
+- [Some Questions](#some-questions)
 
 ___
 
@@ -1398,3 +1397,7 @@ R4#
 `Path is depicted below`
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-path-final.png)
+
+
+# Some Questions
+
