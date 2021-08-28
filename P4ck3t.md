@@ -1274,4 +1274,65 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 - Last Host 192.168.1.118
 - Broadcast 192.168.1.119
 
+```
+IntRouter>en
+IntRouter#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+IntRouter(config)#int s0/2/0
+IntRouter(config-if)#ip address
+IntRouter(config-if)#ip address 192.168.1.117 255.255.255.252
+IntRouter(config-if)#
+00:55:50: %OSPF-5-ADJCHG: Process 1, Nbr 4.4.4.4 on Serial0/2/0 from LOADING to FULL, Loading Done
 
+IntRouter(config-if)#end
+IntRouter#
+%SYS-5-CONFIG_I: Configured from console by console
+
+IntRouter#
+```
+
+**also on the Router4**
+
+```
+R4>
+00:55:50: %OSPF-5-ADJCHG: Process 1, Nbr 3.3.3.3 on Serial0/1/0 from LOADING to FULL, Loading Done
+
+R4>en
+R4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R4(config)#int s0/1/0
+R4(config-if)#ip addres
+R4(config-if)#ip address 192.168.1.118 255.255.255.252
+R4(config-if)#end
+R4#
+%SYS-5-CONFIG_I: Configured from console by console
+
+R4#ping 192.168.1.117
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.117, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
+
+R4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R4(config)#ip doma
+R4(config)#ip domain
+R4(config)#ip domain-lo
+R4(config)#ip domain-lookup 
+R4(config)#ip name-server 8.8.8.8
+R4(config)#exit
+R4#
+%SYS-5-CONFIG_I: Configured from console by console
+
+R4#ping cisco.com
+Translating "cisco.com"...domain server (8.8.8.8)
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 8.8.8.9, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/9/21 ms
+
+R4#
+```
+
+*We are also able to reach the internet to cisco.com etc..*
