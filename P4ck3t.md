@@ -1203,6 +1203,9 @@ Now as we know tha the subnet or Network is 192.168.1.64 we can easily work out 
 
 # Lab3
 
+
+**can be Downloaded from [here](https://github.com/SxNade/P4ck3t/raw/main/Labs/Lab3.pkt)**
+
 **Lab Objectives**
 
 ```
