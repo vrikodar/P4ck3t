@@ -1412,3 +1412,14 @@ R4#
 
 **On Router1 we can run following commands and then try to ping 10.1.2.2**
 
+*Switch on Debug Mode*
+
+ - debug ip packet    {in priv mode}
+ - ping 10.1.2.2
+
+**In debugging mode we will be more clear about whats happening**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q1-debug.png)
+
+*The Debug mode states that the packets are unroutable*
+
