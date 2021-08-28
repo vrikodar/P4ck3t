@@ -1428,3 +1428,10 @@ R4#
 `we will now change the subnet masks on both sides`
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q1-config.png)
+
+*We will again try the ping in debug mode*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q1-ping-done.png)
+
+*Its clearly visible that the first ping fails that is because of ARP and the other all pings are successfull*
+
