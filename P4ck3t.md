@@ -1260,3 +1260,9 @@ and then allocate the subnets to the serial links. Configure the routers appropr
  *and the Internet Router with Last IP address*
  
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3intrts.png)
+
+
+**we can also configure DNS on Router1 to look for cisco.com as Follows**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/images/lb3-dns-ping.png)
+
