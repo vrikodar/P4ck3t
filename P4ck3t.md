@@ -1243,3 +1243,6 @@ and then allocate the subnets to the serial links. Configure the routers appropr
 - `192.168.1.124/30` {4th}
 
 
+## Configuring the WAN Links
+
+**Now we need to change the wan link between Router1 and Internet Router**
