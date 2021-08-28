@@ -1435,3 +1435,17 @@ R4#
 
 *Its clearly visible that the first ping fails that is because of ARP and the other all pings are successfull*
 
+
+## Question2 
+
+*Below is a small network where two routers are connected togther , IP's and masks are written. will these Routers be able to ping each other*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q2.png)
+
+*To test this we can enter following command on Router1 to debug icmp*
+
+ - en
+ - debug ip icmp
+
+**Then we can send pings from Router0 to see what happens**
+
