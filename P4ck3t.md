@@ -1423,3 +1423,8 @@ R4#
 
 *The Debug mode states that the packets are unroutable*
 
+**In order to make this work we would have to change the mask on both sides to /16 or 255.255.0.0**, with that our Network portion on Both sides would be `10.1.0.0` and `10.1.0.0` respectively {same} which means that the two routers should then be able to ping each other.
+
+`we will now change the subnet masks on both sides`
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q1-config.png)
