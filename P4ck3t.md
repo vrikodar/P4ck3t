@@ -1492,3 +1492,13 @@ R4#
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q3-ping.png)
 
+
+# Cabling and Packet Flows
+
+## Types of communication
+
+1. Unicast - one to one communication
+
+2. Broadcast - one device sends traffic to all devices in a subnet or in entire network
+
+3. 
