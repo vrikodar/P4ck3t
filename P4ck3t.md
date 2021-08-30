@@ -52,6 +52,10 @@ Networking ???   **updated everyday!!**
 - [Lab3 {Subnetting Lab2}](#lab3)
 
 - [Some Questions](#some-questions)
+   
+   - [Question 1](#question1)
+   - [Question 2](#question2)
+   - [Question 3](#question3)
 
 ___
 
