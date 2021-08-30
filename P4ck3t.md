@@ -1453,3 +1453,11 @@ R4#
 
 
 *Now this worked because both the machines are present in the same Network or in other words they have same Network-ID, we can observe this after converting the 3rd octet of both IP's into binary and we will see that the entire Network portion on both machines is same hence they were able to ping each other*
+
+## Question3
+
+*Below is a simple netork of two connected Routers, will these routers be able to ping each other*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q3.png)
+
+
