@@ -1484,5 +1484,7 @@ R4#
 ```
 
 
-**as is is clearly visible that both of them have diff network portions they will not be able to ping each other**
+**as it is clearly visible that both of them have diff network portions they will not be able to ping each other**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q3-ping.png)
 
