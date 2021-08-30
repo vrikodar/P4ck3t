@@ -1500,3 +1500,6 @@ R4#
 1. **Unicast** - one to one communication
 2. **Broadcast** - one device sends traffic to all devices in a subnet or in entire network {depends on the configuration of the network}
 3. **Multicast** - one device sends traffic to some devices {multiple but only specific devices}
+
+## A bit of Ethernet
+
