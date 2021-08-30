@@ -1411,7 +1411,7 @@ R4#
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q1.png)
 
-*Now since we know that /24 means 255.255.255.0 and this implies that the First Router is on Network 10.1.1.0 whereas the second Router is 10.1.2.0 and this means that both are on different Networks and since there is not Default gateway present {which could do some kind of routing bw two} The Devices will not be able to ping each other*
+*Now since we know that /24 means 255.255.255.0 and this implies that the First Router is on Network 10.1.1.0 whereas the second Router is 10.1.2.0 and this means that both are on different Networks and since there is no Default gateway present {which could do some kind of routing bw two} The Devices will not be able to ping each other*
 
 
 **On Router1 we can run following commands and then try to ping 10.1.2.2**
