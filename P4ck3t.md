@@ -1460,4 +1460,29 @@ R4#
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q3.png)
 
+*we can also check the running config of both routers to confirm the IP and mask*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Questions/q3-conf.png)
+
+**Now we know that the network portion is /20 thus the Network portion of both the IP's are different which means that they will not be able to reach each other directly eg: they will not be able to ping each other**
+
+*we can convert both to binary*
+
+**10.1.248.1/20*
+
+```diff
+
+- 10.1.1111    1000. 00000001 
+<--Network-->  <--Host-->
+```
+**10.1.192.2/20*
+
+```diff
+
+- 10.1.1011    0110. 00000010 
+<--Network-->  <--Host-->
+```
+
+
+**as is is clearly visible that both of them have diff network portions they will not be able to ping each other**
 
