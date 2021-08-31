@@ -1503,3 +1503,17 @@ R4#
 
 ## A bit of Ethernet
 
+**Just a Short Revisit**
+
+`Layer1`
+   - Physical {ethernet}
+
+`Layer2`
+   - Data Link {Mac Addresses}
+ 
+`Layer3`
+  - Network {IP addresses}
+
+`Layer4`
+  - Transport {TCP/UDP}
+
