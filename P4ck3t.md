@@ -1518,3 +1518,14 @@ R4#
   - Transport {TCP/UDP}
 
 
+**Some old implementations of cables**
+
+ - `10base5` 
+    - Thicknet 
+    - range: 500 m
+
+ - `10base2` 
+    - Thinnet 
+    - range: 185 m
+
+
