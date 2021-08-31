@@ -1527,5 +1527,16 @@ R4#
  - `10base2` 
     - Thinnet 
     - range: 185 m
+    - coaxil cable
+    - maximum speed of 10Mbps
+    - base means baseband
+
+### Difference Between baseband and broadband
+
+ - `Baseband`
+   - only allows single signal to traverse the wire at any given time and that signal uses all the frequencies
+
+ - `Broadband`
+   - allows multiple signals to traverse the wire at any given time.
 
 
