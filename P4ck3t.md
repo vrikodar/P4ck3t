@@ -1593,3 +1593,7 @@ CD: collision detection
 ## crossover cable
 
  - allows to connect devices of same type
+
+
+![](https://i.ytimg.com/vi/tOhER85dyFw/mqdefault.jpg)
+
