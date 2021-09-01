@@ -1694,3 +1694,11 @@ CD: collision detection
 - inserted in SFP+ slot
 
 ![](https://pactech-inc.com/wp-content/uploads/2021/05/Direct-Attach-Copper-DAC-Cable-%E2%80%93-Rapide%E2%84%A2-10G-SFP-Passive-Twinax-Cable-Connectors-1.jpg)
+
+### Roll Over Cable
+
+ - special cable used in console of networking devices
+ - COM to console
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c0/CiscoConsoleCable.jpg)
+
