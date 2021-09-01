@@ -1719,3 +1719,9 @@ CD: collision detection
 
  - **If a cable broke only one device is affected**
  - Distance can be extended easily by adding another hub
+
+**Hub is a multiport repeater**
+
+*For example in the topology shown below the Packet sent by A destined to C is Forwarded by Hub to All devices connected but is only accepted by C and dropped by Rest of them*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_03-28.png)
