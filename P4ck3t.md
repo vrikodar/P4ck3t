@@ -1555,3 +1555,10 @@ R4#
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_00-13.png)
 
+
+**CSMA/CD is used in a Bus topology in an ethernet network**
+
+CS: carrier sense
+MA: multiple access
+
+CD: collision detection
