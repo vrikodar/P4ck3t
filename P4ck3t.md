@@ -1824,3 +1824,5 @@ CD: collision detection
 
 ## Lab Objectives
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab4/lb4-obj.png)
+
