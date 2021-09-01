@@ -1670,3 +1670,14 @@ CD: collision detection
  - defined up to 1000 Mhz support 100Gbps 
  - 50m
  - also known as class Fa
+
+### CAT8
+
+ - supports 40Gbps
+
+**CAT8.1**
+ - backward compatible and interoperable with Cat 6a
+ 
+**CAT8.2**
+ - interoperable with Cat 7
+ 
