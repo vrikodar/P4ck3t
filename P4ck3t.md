@@ -1633,4 +1633,33 @@ CD: collision detection
 *CAT5* 
  - Defined up to 100Mhz speeds of 10/100 Mbps supported longer cable length
 
+### CAT5e
 
+ - defined up to 100MHz support 1Gbps
+ - improves upon crosstalk specifications
+ - 100Mbps
+
+### CAT6
+
+ - defined up to 250 Mhz supports 10Gbps 
+ - 55m
+ - Better crosstalk specifications
+
+### CAT6a
+
+ - defined up to 500 MHz suppors 10 Gbps
+ - 100m
+ - a means augmented
+ - improvements in crosstalks
+
+### CAT7
+
+ - defined up to 600 Mhz support 10Gbps - 100m
+ - Different connector than RJ45
+ - also known as class F
+
+![](https://5.imimg.com/data5/JF/RJ/MY-5307513/cat7-fiber-cable-500x500.jpg)
+
+**Tera connector**
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/ca/Tera_steckverbinder.JPG)
