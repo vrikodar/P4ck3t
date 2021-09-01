@@ -1681,3 +1681,16 @@ CD: collision detection
 **CAT8.2**
  - interoperable with Cat 7
  
+
+### Direct Attachment cable
+
+**DAC copper twinax**
+
+- up to 15m
+- has SFPs on each end
+- SFP: small form factor pluggable
+- may support fiber or copper
+- this replaces GBIC's {Gigabit interface converters}
+- inserted in SFP+ slot
+
+![](https://pactech-inc.com/wp-content/uploads/2021/05/Direct-Attach-Copper-DAC-Cable-%E2%80%93-Rapide%E2%84%A2-10G-SFP-Passive-Twinax-Cable-Connectors-1.jpg)
