@@ -1835,4 +1835,12 @@ CD: collision detection
 
 **we can easily see that the target MAC address is the same as that of G0/0/0 interface of Router1, we can see the MAC of router from its running config or even from the config tab**
 
+**Question1**
+ - *Hence the Answer to the First Question is: E*
+
+**Question2**
+ - *Now The Second Question Asks for that Exact value of MAC: **0010.AAAA.AAAA***
+
+**Question3**
+ - *Third Question Asks about the Encapsulation used at A: its Ethernet Layer2*
 
