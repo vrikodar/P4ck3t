@@ -1586,3 +1586,10 @@ CD: collision detection
  
  ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_01-59.png)
  
+## Straight through cables
+
+ - used when connecting a PC to something like switch,bridge etc..
+
+## crossover cable
+
+ - allows to connect devices of same type
