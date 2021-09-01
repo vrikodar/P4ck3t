@@ -1798,3 +1798,8 @@ CD: collision detection
  - Ethernet Interfaces: uses mac for forwarding on layer2
 
 
+**Similar to CAM tables routers have Routing Table populated with Network addresses**
+
+*Below is a example Network topology*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_06-27.png)
