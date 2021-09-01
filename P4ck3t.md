@@ -1705,7 +1705,7 @@ CD: collision detection
 ## Hub
 
  - not very popular today
- - replaced by switches in today's world
+ - replaced by bridges and then bridges by switches.
  - wireless operates in same way as hub
  
  
