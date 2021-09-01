@@ -1805,3 +1805,8 @@ CD: collision detection
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_06-27.png)
 
 *So basically when a devie wants to communicate with a device on local segment, device will send a ARP request broadcast on the local segment targeted to the IP address we probe and the device with that IP address sends ARP reply back*
+
+*Below is wireshark capture of some ARP traffic*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/arp.png)
+
