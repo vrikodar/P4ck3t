@@ -1740,6 +1740,12 @@ CD: collision detection
  - has a MAC address table known as CAM table {processing in software, where as switches do so in Hardware}
  - Star Topology
  
- **when a birdge boots up the mac address table of bridge is empty*
+ **when a birdge boots up the mac address table of bridge is empty**
+ 
+ *Initial traveling of the packet*
+ 
+ ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_03-45.png)
+ 
+ *In the diagram above when A sends a packet to C it will be fowarded by bridge to all other ports {meanwhile Bridge will also pupulate the CAM table with A's mac-address} and then once C accepts the packet it will send a reply {bridge will then also add address of C to CAM table}*
  
  
