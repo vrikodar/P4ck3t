@@ -1609,5 +1609,28 @@ CD: collision detection
 
  - Auto MDI/MDIX allows for automatic switching once a cable is connected
  - Auto detect cable type (cross over / straight through)
- 
- 
+ - so we don't need to worry about the cable type today but still we should keep a check
+
+## Cable categories
+
+**Higher category**
+
+ - more twists
+ - less susceptible to electromagnetic interfrence
+
+*CAT1*
+ - was previously used for telephones and modems 
+
+*CAT1*
+ - was previously used for telephone and data networks up to 4mbps
+  
+*CAT3*
+ - was previously used for networks up to 10Mbps now generally used for telephones
+
+*CAT4*
+ - Defined up to 20MHz with speeds up to 16Mbps
+
+*CAT5* 
+ - Defined up to 100Mhz speeds of 10/100 Mbps supported longer cable length
+
+
