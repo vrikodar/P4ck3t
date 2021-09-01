@@ -1568,4 +1568,5 @@ CD: collision detection
  - short length, more length means more signal degradation
  - bandwidth is shared among all devices in a network
  - single collision domain
+ - single broadcast domain
  
