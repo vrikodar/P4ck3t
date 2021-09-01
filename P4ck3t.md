@@ -1576,4 +1576,13 @@ CD: collision detection
  - single broadcast domain
  - T means twisted pair
  
+ ## UTP 
+ 
+ *unshielded twisted pair*
+ 
+ ![](https://s3-us-west-1.amazonaws.com/foscoshopify/graphics/uploads/2011/01/UTP-Cable-Picture.jpg)
+ 
+ **color coding**
+ 
+ ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_01-59.png)
  
