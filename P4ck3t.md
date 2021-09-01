@@ -1553,3 +1553,5 @@ R4#
  - OUI is the organizational identifier which tells us the company manufacturing the device
  - End Station adddress has to be a unique value
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_00-13.png)
+
