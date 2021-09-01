@@ -1766,4 +1766,7 @@ CD: collision detection
  - supports more ports than Bridges
  - star topology
  
+ *Siwtch would work similar to bridge but will be a lot faster*
+ 
+ ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_04-56.png)
  
