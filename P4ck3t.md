@@ -1759,8 +1759,11 @@ CD: collision detection
 
 ## Switch
 
+ - Layer2 device
  - processing is done using ASICs (Application integrated Circuits)
  - no degradation in performance between two devices
  - can move traffic at wire speed
  - supports more ports than Bridges
-
+ - star topology
+ 
+ 
