@@ -1599,3 +1599,15 @@ CD: collision detection
 
 ![](https://i.ytimg.com/vi/tOhER85dyFw/mqdefault.jpg)
 
+
+## Modern cabling
+
+**In modern days something like MDI / MDIX is used**
+
+ - normally routers & pc's use MDI
+ - Normally switches and hubs use MDIX {media dependent interface crossover}
+
+ - Auto MDI/MDIX allows for automatic switching once a cable is connected
+ - Auto detect cable type (cross over / straight through)
+ 
+ 
