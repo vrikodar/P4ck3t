@@ -1812,6 +1812,8 @@ CD: collision detection
 
 **Routing to a PC on Different network**
 
- - when sending traffic to a target the sender device would see if the target is present on the local segment or not, if the target is not present on the local network the device will still send the packet but in the Layer2 info it would be targeted to the MAC address of the Default Gateway, The sender might send an ARP to the default gateway to First learn its IP address
+ - when sending traffic to a target the sender device would see if the target is present on the local segment or not, if the target is not present on the local network the device will still send the packet but in the Layer2 info it would be targeted to the MAC address of the Default Gateway, The sender might send an ARP to the default gateway to First learn its IP address. when the gateway would forward the traffic it would change the Source MAC address of its MAC {target MAC will be of target IP} and the IP info of source and target IP address would remain the same.
+
+
 
 
