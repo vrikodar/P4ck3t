@@ -1595,5 +1595,7 @@ CD: collision detection
  - allows to connect devices of same type
 
 
+## Difference between the two
+
 ![](https://i.ytimg.com/vi/tOhER85dyFw/mqdefault.jpg)
 
