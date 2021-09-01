@@ -1772,5 +1772,29 @@ CD: collision detection
  
  - again 4 collision domains in topology above
  - single broadcast domain
+ - {dedicated bandwidth}
+ - speed / duplex doubles the bandwidth
+
+
+### Difference Between Half Duplex and Full Duplex
+
+## Half Duplex
+
+ - only one side can send the traffic at once
+ - Walkie-talkie
+
+## Full Duplex
  
- 
+ - both sides can send and recieve simuntaneously
+ - mobile phone call
+ - during full duplex collision detection is disabled
+
+
+## Router
+
+ - Layer3 devices
+ - make Routing Decesions based on IP addresses
+ - Serial Interfaces: using PPP 
+ - Ethernet Interfaces: uses mac for forwarding on layer2
+
+
