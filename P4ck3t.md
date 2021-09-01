@@ -1663,3 +1663,10 @@ CD: collision detection
 **Tera connector**
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/ca/Tera_steckverbinder.JPG)
+
+
+### CAT7a
+
+ - defined up to 1000 Mhz support 100Gbps 
+ - 50m
+ - also known as class Fa
