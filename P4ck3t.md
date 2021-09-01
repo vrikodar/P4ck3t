@@ -1702,3 +1702,10 @@ CD: collision detection
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c0/CiscoConsoleCable.jpg)
 
+## Hub
+
+ - not very popular today
+ - replaced by switches in today's world
+ - wireless operates in same way as hub
+ 
+ 
