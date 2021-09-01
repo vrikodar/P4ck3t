@@ -1826,3 +1826,13 @@ CD: collision detection
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab4/lb4-obj.png)
 
+
+**we need to turn on simulation mode in Packet Tracer and then do a ping from PC1 to PC2**
+
+*in our simulation we have already ran a ping in real time mode first to populate arp cache with targte devices mac address , just for convinience and now we will send another ping and also open the box for more info by clicking on the icmp packet in Simulation column*
+
+![]()
+
+**we can easily see that the target MAC address is the same as that of G0/0/0 interface of Router1, we can see the MAC of router from its running config or even from the config tab**
+
+
