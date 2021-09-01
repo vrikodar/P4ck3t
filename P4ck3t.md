@@ -1725,3 +1725,10 @@ CD: collision detection
 *For example in the topology shown below the Packet sent by A destined to C is Forwarded by Hub to All devices connected but is only accepted by C and dropped by Rest of them*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_03-28.png)
+
+**Physical Topology**: `Star`
+
+**Logical Topology**: `Bus`
+
+*Although The physical structure is a Star the network functions like a Bus, Hence its a Single collision,broadcast Domain*
+ - bandwidth also gets divided with number of devices present
