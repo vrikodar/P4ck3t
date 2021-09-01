@@ -1709,3 +1709,13 @@ CD: collision detection
  - wireless operates in same way as hub
  
  
+ - is a physical layer device
+ - hub is dumb
+ - multiport repeater
+ - repeats the frame found on one port to all other ports
+ - Physical topology of a hub is a star topology
+
+![](https://4.bp.blogspot.com/-wofJZwcU0zg/VoLQ5bY1A8I/AAAAAAAAALA/MF4_OIrlqO4/s1600/star.jpg)
+
+ - **If a cable broke only one device is affected**
+ - Distance can be extended easily by adding another hub
