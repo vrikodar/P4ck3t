@@ -1770,3 +1770,7 @@ CD: collision detection
  
  ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_04-56.png)
  
+ - again 4 collision domains in topology above
+ - single broadcast domain
+ 
+ 
