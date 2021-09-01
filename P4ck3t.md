@@ -1562,3 +1562,10 @@ CS: carrier sense
 MA: multiple access
 
 CD: collision detection
+
+## Problems with 10base2
+
+ - short lenght, more lenght means more signal degradation
+ - bandwidth is shared among all devices in a network
+ - single collision domain
+ 
