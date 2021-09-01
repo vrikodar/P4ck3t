@@ -1749,3 +1749,7 @@ CD: collision detection
  *In the diagram above when A sends a packet to C it will be fowarded by bridge to all other ports {meanwhile Bridge will also pupulate the CAM table with A's mac-address} and then once C accepts the packet it will send a reply {bridge will then also add address of C to CAM table}*
  
  
+*Now that the Bridge knows where A and C is suppose C sends a packet to A , bridge will directly send it out from port A as it knows the position of A from its CAM table*
+ 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_03-49.png)
+
