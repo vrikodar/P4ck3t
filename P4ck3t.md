@@ -1810,3 +1810,8 @@ CD: collision detection
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/arp.png)
 
+**Routing to a PC on Different network**
+
+ - when sending traffic to a target the sender device would see if the target is present on the local segment or not, if the target is not present on the local network the device will still send the packet but in the Layer2 info it would be targeted to the MAC address of the Default Gateway, The sender might send an ARP to the default gateway to First learn its IP address
+
+
