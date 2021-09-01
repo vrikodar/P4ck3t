@@ -1732,3 +1732,14 @@ CD: collision detection
 
 *Although The physical structure is a Star the network functions like a Bus, Hence its a Single collision,broadcast Domain*
  - bandwidth also gets divided with number of devices present
+
+## Bridge 
+
+ - Layer2 device
+ - more intelligent than hub
+ - has a MAC address table known as CAM table {processing in software, where as switches do so in Hardware}
+ - Star Topology
+ 
+ **when a birdge boots up the mac address table of bridge is empty*
+ 
+ 
