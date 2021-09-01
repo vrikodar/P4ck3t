@@ -1757,3 +1757,10 @@ CD: collision detection
  - all the hosts in the network are on a different collision Domain
  - However its still the same Broadcast Domain
 
+## Switch
+
+ - processing is done using ASICs (Application integrated Circuits)
+ - no degradation in performance between two devices
+ - can move traffic at wire speed
+ - supports more ports than Bridges
+
