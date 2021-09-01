@@ -1570,3 +1570,10 @@ CD: collision detection
  - single collision domain
  - single broadcast domain
  
+**Hence 10base2 was replaced with 10baseT**
+ - 10baseT usually a unsheilded twisted pair
+ - sheilded twisted pair also may be used
+ - single broadcast domain
+ - T means twisted pair
+ 
+ 
