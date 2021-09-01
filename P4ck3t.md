@@ -1540,3 +1540,10 @@ R4#
    - allows multiple signals to traverse the wire at any given time.
 
 
+## MAC address
+
+ - 48 bits in Lenght
+ - OUI portion 24 bits + Station Address 24 bits
+ - OUI is the organizational identifier which tells us the company manufacturing the device
+ - End Station adddress has to be a unique value
+
