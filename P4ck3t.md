@@ -1753,3 +1753,7 @@ CD: collision detection
  
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-01_03-49.png)
 
+ - in The topology above there are 4 collision Domains
+ - all the hosts in the network are on a different collision Domain
+ - However its still the same Broadcast Domain
+
