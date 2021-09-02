@@ -1863,3 +1863,10 @@ CD: collision detection
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab4/lb4-q8.png)
 
+
+**Question11-12-13**
+ - The destination MAC address at E is of PC2 **B**
+ - the value is: **0010.2222.2222**
+ - The encapsulation used is clearly visible to be **EthernetII**
+
+
