@@ -1896,3 +1896,9 @@ CD: collision detection
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q2.png)
 
+**Question3**
+ - Again we forward the packet by two steps
+ - we will see that the packet is Forwarded to PC3,PC2 and PC1 when the sent packet from PC4 reaches to Hub.
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q3.png)
+
