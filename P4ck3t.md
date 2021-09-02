@@ -1869,4 +1869,5 @@ CD: collision detection
  - the value is: **0010.2222.2222**
  - The encapsulation used is clearly visible to be **EthernetII**
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab4/lb4-q10.png)
 
