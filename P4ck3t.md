@@ -1934,3 +1934,11 @@ CD: collision detection
 **At this moment we can also check the CAM table of Switch and it should contain enteries for PC5 and PC8**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-macs.png)
+
+**Question9-10**
+ - Both in Network1 and Network2 there is a single Broadcast Domain Because when we send a Broadcast {ARP} it was Flooded to all the connected devices {of course leaving the sender}
+
+**Question11**
+ - In Network1 there is single collision domain and we can confirm this by seding a ping from two different device to a same device at same moment and we will see that the packets collide
+ - In Network2 each device has a sperate collision domain which means there are 4 collision domains again we can check this by running a ping at same moment from two different devices at same time and we will see that the packets are sent one by one and no collision takes place
+
