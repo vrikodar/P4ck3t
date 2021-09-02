@@ -1854,10 +1854,12 @@ CD: collision detection
 **Question6-7**
  - Dest mac address at C: we see the outbound PDU of the Packet At Router1 and we see that there is no MAC address {**K**}, the encapsulation used is **HDLC** 
  
+ ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab4/lb4-q6.png)
  
 **Question8-9-10**
  - The destination MAC address at D is of PC2 **B**
  - we can see the value to be **0010.2222.2222** {note: we can also see this from command prompt with iponfig /all}
  - we can clearly see that the encapsulation used is EthernetII
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab4/lb4-q8.png)
 
