@@ -1845,5 +1845,13 @@ CD: collision detection
  - *Third Question Asks about the Encapsulation used at A: its Ethernet Layer2*
 
 **Question4**
- - *Fourth Question asks us about the Destination MAC address at B: its going to be the same **0010.AAAA.AAAA*** {we can click the play once and then open the packet details to verfiy}
+ - *Fourth Question asks us about the Destination MAC address at B: its going to be the same **E** {we can click the play once and then open the packet details to verfiy}
 
+**Question5**
+ - same answer but we need to tell the exact value which is: **0010.AAAA.AAAA***
+
+
+**Question6-7**
+ - Dest mac address at C: we see the outbound PDU of the Packet At Router1 and we see that there is no MAC address {**K**}, the encapsulation used is **HDLC** 
+ 
+ 
