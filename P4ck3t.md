@@ -1930,3 +1930,7 @@ CD: collision detection
  - we can hit the play button to move the packet {**Note that play once will start the simulation and we can press it again to pause**}
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q8.png)
+
+**At this moment we can also check the CAM table of Switch and it should contain enteries for PC5 and PC8**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-macs.png)
