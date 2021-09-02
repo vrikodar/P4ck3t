@@ -1908,3 +1908,8 @@ CD: collision detection
  - when PC1 again sends the packet to PC4 the hub will forward it to all devices except the ingress port ie. to PC2,PC3,PC4 , the packet will be accepted by PC4 but will be dropped by the rest since it was intented to IP of PC4.
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q4.png)
+
+**Question5**
+ - when we ping PC8 running on 10.1.1.8 from PC5 in simulation mode we can open the packet  details to  see that its an **ARP Broadcast packet**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q5.png)
