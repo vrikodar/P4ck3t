@@ -1871,3 +1871,5 @@ CD: collision detection
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab4/lb4-q10.png)
 
+*yeah we can easily answer for echo reply **Note that echo reply will have a ICMP type 0x00, type0x08 is a ICMP request**
+
