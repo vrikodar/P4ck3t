@@ -1881,3 +1881,12 @@ CD: collision detection
 # Lab5
 
 **You can Download the File**: [Here](https://github.com/SxNade/P4ck3t/raw/main/Labs/Lab5/Lab5.pkt) 
+
+**all checks will be run in simulation mode**
+
+**Question1**
+ - we will send a ping to PC4 running on IP `10.1.1.4`
+ - we can inspect the packet that reached to hub and we will see that its a **ARP broadcast packet**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q1.png)
+
