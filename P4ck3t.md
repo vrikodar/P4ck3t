@@ -1844,3 +1844,6 @@ CD: collision detection
 **Question3**
  - *Third Question Asks about the Encapsulation used at A: its Ethernet Layer2*
 
+**Question4**
+ - *Fourth Question asks us about the Destination MAC address at B: its going to be the same **0010.AAAA.AAAA*** {we can click the play once and then open the packet details to verfiy}
+
