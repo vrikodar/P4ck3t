@@ -1913,3 +1913,15 @@ CD: collision detection
  - when we ping PC8 running on 10.1.1.8 from PC5 in simulation mode we can open the packet  details to  see that its an **ARP Broadcast packet**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q5.png)
+
+**Question6**
+ - we  click on the play button once to forward the packet from switch , since this is a broadcast it is sent to all the devices present except for the sender.
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q6.png)
+
+**Question7**
+ - During the return traffic sent from PC8 to PC5 the reply traffic is directed  twowards PC5 and hence it would leave from Gi1/0/1 to PC5 since the switch now knows where PC5 is present so only PC5 will get the return traffic.
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q7.png)
+
+
