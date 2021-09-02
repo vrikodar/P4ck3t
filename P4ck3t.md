@@ -1890,3 +1890,9 @@ CD: collision detection
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q1.png)
 
+**Question2**
+ - we forward the packet by one step
+ - we will see that the packet is forwarded by Hub to all devices in the network ie. to PC2,PC3,PC4
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q2.png)
+
