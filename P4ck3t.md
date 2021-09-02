@@ -1925,3 +1925,8 @@ CD: collision detection
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q7.png)
 
 
+**Question8**
+ - now after the reply switch also learned where PC8 is present so now when PC5 replies back the packet is only forwarded to PC8 by the switch
+ - we can hit the play button to move the packet {**Note that play once will start the simulation and we can press it again to pause**}
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab5/lb5-q8.png)
