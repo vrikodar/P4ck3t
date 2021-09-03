@@ -1970,3 +1970,26 @@ CD: collision detection
 
 *Note: clear counters x {clears the previuous collision counts etc on interface x..}*
 
+# loopback on a router
+
+*A loopback interface on a router is a logical interface, it never goes down on itself until we manually shut it down*
+
+**we can make a loopback interface using**
+
+ - en
+ - conf t
+ - interface loopback x {the interface number}
+ - ip address 192.168.1.1 255.255.255.0
+ - no shut
+ - end
+
+we can advertise the loopback interface using a routing protocol such as **OSPF** and then reach it from external network
+
+# TCP vs UDP
+
+## TCP
+
+ - connection oriented 
+
+![](https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
+
