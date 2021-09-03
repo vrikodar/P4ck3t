@@ -2068,6 +2068,9 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *This is just an example illustration where windows size is assumed to be 1*
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/seqnum.png)
+
+
 ## UDP
 
  - connectionless
