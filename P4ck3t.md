@@ -1987,9 +1987,13 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 # TCP vs UDP
 
+ - Both TCP and UDP allow for something known as session multiplexing which means that single host with single IP address is able to communicate with multiple servers
+
+
 ## TCP
 
  - connection oriented 
+ - In connection establishment something known as a 3-way handshake occurs
 
 ![](https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
 
