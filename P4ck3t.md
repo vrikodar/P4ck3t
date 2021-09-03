@@ -2094,7 +2094,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ## Port Number
 
-![](https://www.certbros.com/wp-content/uploads/2020/06/Port-Numbers-IP-Respond-1024x576.png)
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/port.png)
 
 **Typically a random port is used as source port and well known port number is used as destination by `default`**
 
