@@ -1942,3 +1942,4 @@ CD: collision detection
  - In Network1 there is single collision domain and we can confirm this by seding a ping from two different device to a same device at same moment and we will see that the packets collide
  - In Network2 each device has a sperate collision domain which means there are 4 collision domains again we can check this by running a ping at same moment from two different devices at same time and we will see that the packets are sent one by one and no collision takes place
 
+# Speed Duplex and Speed Mimatch
