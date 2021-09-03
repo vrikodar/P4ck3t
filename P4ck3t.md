@@ -1988,11 +1988,15 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 # TCP vs UDP
 
  - Both TCP and UDP allow for something known as session multiplexing which means that single host with single IP address is able to communicate with multiple servers
+ - Both reside at Layer4
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/tcp-udp.png)
 
 
 ## TCP
 
  - connection oriented 
+ - Full Duplex operation
  - In connection establishment something known as a 3-way handshake occurs
  - segmentation
    - MTU {Maximum transmission Unit} depends on physical medium. {eg: of fastethernet it is 1500 bytes}
@@ -2000,11 +2004,82 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  
  - Maximum Segment size {MSS} is Largest amount of data {in bytes} that TCP will send in a segment  
  - MSS should be set small enough to avoid IP fragmentation {better performance}
+ - every segment transferred is acknowledged {**reliability**}
+ - Sequencing of data packets 
+ - uses end-to-end flow control 
+ - TCP uses sliding window to control flow of data {**Basically when you see your internet speed rising slightly and eventually to max**}
 
 ![](https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
+
+### TCP Header
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-03_07-04.png)
+
+`SYN bit is set` - Initial Sequence number
+         - The actualy first databyte will have Seq number of this plus 1
+
+`If no SYN bit` - sequence number is the accumlated sequence number of the first data byte for this paccket of current session.
+
+
+`ACK bit is set` - ACK number value is equal to the next seq number that reciver is expecting to receive
+
+**The First ACK sent by each end acknowledges the other ends initial sequence number**
+
+**In Ipv4 header is of minimum of 5 words and max of 15 words in other words Minimum size of header is `20bytes` and maximum size is `60bytes` which leaves options for 0-40 bytes, Reserved field is set to 0 and is reserved for Future use!**
+
+#### Flags
+
+**Both CWR and ECE {used together} are part of a congestion notification mechanism {Quality of service}**
+
+`CWR` - Congestion Windows Reduced Flag
+
+`ECE` - Echo Congestion Notification Echo Field or Flag 
+
+*when hosts conmmunicate to indicate congestion and let the transmitter know that it needs to slow-down*
+
+`URG` - indicates that the segment is urgent and should be processed asap
+
+`ACK` - used for acknowledgement of data
+
+`PSH` - set by TCP sender to cause TCP receiver to immideately pass that segments data to the receiver's application socket along with all other inordered data that receiver has yet to give to the application
+
+`RST` - Resets the connection
+
+`SYN` - used to synchronize sequence numbers,only the first packet sent from each side will have this flag set
+
+`FIN` - Finish means that there is no more data from the sender
+
+
+#### Window Size
+
+ - Specifies the size of receive window or in other words the number of bytes the receiver is currently willing to receive.
+
+#### TCP checksum
+ 
+ - used for error checking of the Header and data 
+
+#### Urgent Pointer
+
+ - these 16 bits are used when the URG bit has been set, the urgent pointer is used to indicate where the urgent data ends
 
 ## UDP
 
  - connectionless
- - no gurrantee of data delivery
+ - no guarantee of data delivery
+ - UDP relies on Hgiher Layer protocols to manage fragments
+ - UDP does not have any Flow control {again relies on Higher layer protocols for this}
+ - UDP does not setup sessions
+ - no reliability
+    - provides limited error delivery
+ - no data recovery features
+   - for example TFTP using UDP has its own built in mechanism to handle this
+
+
+### UDP Header
+
+![](https://www.gatevidyalay.com/wp-content/uploads/2018/10/UDP-Header.png)
+
+**2bytes - 16bits**
+
+*minimum header length therefore is 8bytes {in Theory max size is 655535 bytes, this is also a max limit that IPv4 will set}, UDP checksum is an optional feature for IPv4 to check for errors whereas in IPv6 it is not optional.*
 
