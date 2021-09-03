@@ -2009,6 +2009,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - uses end-to-end flow control 
  - TCP uses sliding window to control flow of data {**Basically when you see your internet speed rising slightly and eventually to max**}
 
+### TCP 3way Handshake
+
 ![](https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
 
 ### TCP Header
