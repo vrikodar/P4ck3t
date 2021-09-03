@@ -2099,4 +2099,3 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **Typically a random port is used as source port and well known port number is used as destination by `default`**
 
 
-
