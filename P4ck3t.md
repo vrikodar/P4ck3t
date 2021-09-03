@@ -2027,7 +2027,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **In Ipv4 header is of minimum of 5 words and max of 15 words in other words Minimum size of header is `20bytes` and maximum size is `60bytes` which leaves options for 0-40 bytes, Reserved field is set to 0 and is reserved for Future use!**
 
-#### Flags
+### Flags
 
 **Both CWR and ECE {used together} are part of a congestion notification mechanism {Quality of service}**
 
@@ -2050,15 +2050,15 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 `FIN` - Finish means that there is no more data from the sender
 
 
-#### Window Size
+### Window Size
 
  - Specifies the size of receive window or in other words the number of bytes the receiver is currently willing to receive.
 
-#### TCP checksum
+### TCP checksum
  
  - used for error checking of the Header and data 
 
-#### Urgent Pointer
+### Urgent Pointer
 
  - these 16 bits are used when the URG bit has been set, the urgent pointer is used to indicate where the urgent data ends
 
