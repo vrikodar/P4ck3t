@@ -1994,6 +1994,12 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
  - connection oriented 
  - In connection establishment something known as a 3-way handshake occurs
+ - segmentation
+   - MTU {Maximum transmission Unit} depends on physical medium. {eg: of fastethernet it is 1500 bytes}
+   - TCP supports 65495 bytes in a single packet {in theory}
+ 
+ - Maximum Segment size {MSS} is Largest amount of data {in bytes} that TCP will send in a segment  
+ - MSS should be set small enough to avoid IP fragmentation {better performance}
 
 ![](https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
 
