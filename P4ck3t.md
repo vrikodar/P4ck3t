@@ -1948,3 +1948,8 @@ CD: collision detection
  - For example when one side is configured to use full duplex but the other side may be using half duplex
  - pings might succeed in a duplex mismatch
 
+*During duplex mismatch some errors are generated on the IOS command line that will tell us that there is a Duplex mismatch error on X interface, when testing duplex mismatch by sending a large number of pings at once we might see a Late collision error and this can also be viewed using sh int x {x is the interface}*
+
+![](https://www.ictshore.com/wp-content/uploads/2017/01/1027-03-show_interfaces.png)
+
+**when there is a duplex mismatch the side set to half duplex will see a late collision error**
