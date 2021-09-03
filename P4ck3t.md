@@ -2111,3 +2111,15 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 ![](https://i.pinimg.com/564x/13/83/25/1383253f7cb1255135bfcc9593c50d97--network-infrastructure-cloud-computing.jpg)
 
 **DNS**: uses UDP to serve requests , TCP is used when the response data exceeds 512bytes or also for `Zone Transferes` ![this??](https://github.com/SxNade/DnsBlade)
+
+**Ephemral Port Numbers**
+
+ - Short lived port used by client side of connection
+ - temporary and only last for the duration of the session
+ - IANA suggests a range of 49152-65535 for this
+ - BSD uses ports 1024-4999
+ - Linux uses 32768-61000
+ - windows to server 2003 uses 1025 to 5000
+ - vista/windows7 uses IANA range
+ - free BSD uses IANA range since release 4.6
+
