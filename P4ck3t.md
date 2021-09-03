@@ -1943,3 +1943,8 @@ CD: collision detection
  - In Network2 each device has a sperate collision domain which means there are 4 collision domains again we can check this by running a ping at same moment from two different devices at same time and we will see that the packets are sent one by one and no collision takes place
 
 # Speed Duplex and Speed Mimatch
+
+ - these mismatches occur when autonegotiation fails or when manual configurations are mismatched 
+ - For example when one side is configured to use full duplex but the other side may be using half duplex
+ - pings might succeed in a duplex mismatch
+
