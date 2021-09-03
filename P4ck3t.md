@@ -1968,4 +1968,5 @@ CD: collision detection
  - end
 
 
+*Note: clear counters x {clears the previuous collision counts etc on interface x..}*
 
