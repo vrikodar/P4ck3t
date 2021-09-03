@@ -2099,3 +2099,10 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **Typically a random port is used as source port and well known port number is used as destination by `default`**
 
  - port numbers basically bind layer4 and layer7
+
+![](https://ipcisco.com/wp-content/uploads/2021/01/network-ports-ipcisco.com_.jpg)
+
+**Below is a list of some well known port numbers**
+
+![](https://i1.wp.com/www.technologygee.com/wp-content/uploads/2020/07/Common-Protocols-Their-Ports-technology-gee-1.png?resize=389%2C438&ssl=1)
+
