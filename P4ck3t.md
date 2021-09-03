@@ -2064,6 +2064,10 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
  - these 16 bits are used when the URG bit has been set, the urgent pointer is used to indicate where the urgent data ends
 
+### Demo of Sequence Numbers etc...
+
+*This is just an example illustration where windows size is assumed to be 1*
+
 ## UDP
 
  - connectionless
