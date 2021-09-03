@@ -2087,3 +2087,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://insights.profitap.com/hs-fs/hubfs/The%207%20Layers%20of%20OSI.png?width=560&name=The%207%20Layers%20of%20OSI.png)
 
+ - At Layer2 in an EthernetII frame there is a Field called Type {**TYPE**} Number which allows the host to differentiate between multiple layer3 protocols {IPv4, IPv6}
+ - At Layer3 a Protocol Number is used to differentiate the different protocols running at Layer4, in an IP header the Protocol field {**PRO**} will tell wether TCP or UDP will be used at Layer4
+ - At Layer4 a port number is used differentiate multiple applications being used at Layer7
+
