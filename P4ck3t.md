@@ -2094,6 +2094,10 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ## Port Number
 
+`Complete Range`: 0-65535
+
+`IANA List`: [Here](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/port.png)
 
 **Typically a random port is used as source port and well known port number is used as destination by `default`**
