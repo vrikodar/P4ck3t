@@ -1953,3 +1953,19 @@ CD: collision detection
 ![](https://www.ictshore.com/wp-content/uploads/2017/01/1027-03-show_interfaces.png)
 
 **when there is a duplex mismatch the side set to half duplex will see a late collision error**
+
+## Fixing Duplex mismatch errors
+
+**The best way is to set some things to auto**
+
+**On Both Sides**
+
+ - en
+ - conf t
+ - int x {x is the interface where we saw the duplex mismatch error}
+ - speed auto
+ - duplex auto {see if we can set this or end here}
+ - end
+
+
+
