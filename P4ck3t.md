@@ -2104,6 +2104,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **Below is a list of some well known port numbers**
 
-![](https://i1.wp.com/www.technologygee.com/wp-content/uploads/2020/07/Common-Protocols-Their-Ports-technology-gee-1.png?resize=389%2C438&ssl=1)
+![](https://i.pinimg.com/564x/13/83/25/1383253f7cb1255135bfcc9593c50d97--network-infrastructure-cloud-computing.jpg)
 
 **DNS**: uses UDP to serve requests , TCP is used when the response data exceeds 512bytes or also for `Zone Transferes` ![this??](https://github.com/SxNade/DnsBlade)
