@@ -2083,3 +2083,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *minimum header length therefore is 8bytes {in Theory max size is 655535 bytes, this is also a max limit that IPv4 will set}, UDP checksum is an optional feature for IPv4 to check for errors whereas in IPv6 it is not optional.*
 
+# How Layers Connect Together
+
+![](https://insights.profitap.com/hs-fs/hubfs/The%207%20Layers%20of%20OSI.png?width=560&name=The%207%20Layers%20of%20OSI.png)
+
