@@ -2148,3 +2148,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ## Configuring a Cisco IOS Network Device as DHCP server
 
+**Below is a simple Network between two Routers, we will configure DHCP on Router on the right side to allocate IP address to the Router automatically**
+
