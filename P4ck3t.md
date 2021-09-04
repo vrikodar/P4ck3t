@@ -2133,7 +2133,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - free BSD uses IANA range since release 4.6
 
 
-## DHCP
+# DHCP
 
 **DHCP**: *Dynamic Host control protocol*
 
@@ -2145,3 +2145,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **Packet Flow in DHCP**
 
 ![](https://www.tutorialandexample.com/wp-content/uploads/2019/07/dhcp.png)
+
+## Configuring a Cisco IOS Network Device as DHCP server
+
