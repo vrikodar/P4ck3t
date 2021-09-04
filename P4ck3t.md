@@ -2132,3 +2132,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - vista/windows7 uses IANA range
  - free BSD uses IANA range since release 4.6
 
+
+## DHCP
+
+**DHCP**: *Dynamic Host control protocol*
