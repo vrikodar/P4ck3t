@@ -2142,3 +2142,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 *The Dynamic Host Configuration Protocol is a network management protocol used on Internet Protocol networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture*
 
 
+**Packet Flow in DHCP**
+
+![](https://netvel.sk/wp-content/uploads/2017/07/Untitled-Diagram.png)
