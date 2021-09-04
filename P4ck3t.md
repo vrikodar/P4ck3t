@@ -2144,4 +2144,4 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **Packet Flow in DHCP**
 
-![](https://netvel.sk/wp-content/uploads/2017/07/Untitled-Diagram.png)
+![](https://www.tutorialandexample.com/wp-content/uploads/2019/07/dhcp.png)
