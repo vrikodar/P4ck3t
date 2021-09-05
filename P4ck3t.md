@@ -2150,3 +2150,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **Below is a simple Network between two Routers, we will configure DHCP on Router on the right side to allocate IP address to the Router automatically**
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/nwrk.png)
+
+*we have configured IP address on Gig interface of Router2 only, we will now configure DHCP on the same to automatically IP address to R1 which will act as a DHCP client here*
+
