@@ -2154,3 +2154,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *we have configured IP address on Gig interface of Router2 only, we will now configure DHCP on the same to automatically assign IP address to R1 which will act as a DHCP client here*
 
+**we will configure DHCP server on R2 and also we will no shut the interface on R1**
+
