@@ -2168,3 +2168,11 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *Basic DHCP Server Lab*
 
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab6/dhcp-conf.png)
+
+*we can also confirm that the PC was successfully allocated an IP address and we can now try to ping the loopback interface of router1*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab6/ip-alloc.png)
+
+**And now we can try pinging the loopback address**
+
