@@ -2166,6 +2166,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 # Lab6
 
+**The Lab file can be Downloaded** [here](https://github.com/SxNade/P4ck3t/raw/main/Labs/Lab6/Lab6.pkt)
+
 *Basic DHCP Server Lab*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab6/dhcp-conf.png)
