@@ -2156,3 +2156,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **we will configure DHCP server on R2 and also we will no shut the interface on R1**
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/dhcp-nwrk.png)
+
