@@ -2174,5 +2174,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab6/ip-alloc.png)
 
-**And now we can try pinging the loopback address**
+**And now we can try pinging the loopback address, which on router1 is `1.1.1.1`**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab6/ping-loop.png)
 
