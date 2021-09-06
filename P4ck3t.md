@@ -2207,3 +2207,16 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **we also need to enable inter-vlan Routing on the switch with this one single command**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/switch-ip-rt.png)
+
+*we will choose DHCP in config of PC's and then we will configure DHCP on the PC's*
+
+**DHCP pools for both vlans are configured as shown below**
+
+![Pool1](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/pool1.png)
+
+![Pool2](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/pool2.png)
+
+*After this if we check the PC's they will have the IP addresses allocated*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/ip-alloc-pcs.png)
+
