@@ -2204,3 +2204,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/switch-rt.png)
 
+**we also need to enable inter-vlan Routing on the switch with this one single command**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/switch-ip-rt.png)
