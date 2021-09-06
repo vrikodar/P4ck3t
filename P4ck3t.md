@@ -69,7 +69,7 @@ Networking ???   **updated everyday!!**
 
 - [Lab6 DHCP configuration 1](#lab6)
 
-- [Lab7 DHCP configuration 1](#lab7)
+- [Lab7 DHCP configuration 2](#lab7)
 
 ___
 
