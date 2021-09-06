@@ -2200,4 +2200,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/stat-rt.png)
 
 
+**For PC's to ping router1's loopback we need to add a static Route on switch also to reach to the loopback of router1**
 
