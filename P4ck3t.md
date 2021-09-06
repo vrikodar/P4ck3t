@@ -2189,3 +2189,15 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/lab7.png)
 
+*Before we can configure the DHCP server on Router1 we will have to configure an IP Helper address on Switch1 to forward DHCP requests*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/swch-ip-help.png)
+
+*Even after this when Router gets a DHCP request from PC's in Other networks {vlan10 and 20} it needs to be aware of those networks, we can make the configuration as follows*
+
+**we will create two static routes to the vlan's via switch**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/stat-rt.png)
+
+
+
