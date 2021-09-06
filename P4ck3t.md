@@ -2220,3 +2220,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/ip-alloc-pcs.png)
 
+*we can now ping the loopback of router1 from the PC's and also check the Route etc..*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/ping-trc.png)
+
