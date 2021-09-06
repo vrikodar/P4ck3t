@@ -67,6 +67,9 @@ Networking ???   **updated everyday!!**
 
 - [Lab5 Broadcast and Collision Domains {Hub vs Switch}](#lab5)
 
+- [Lab6 DHCP configuration 1](#lab6)
+
+- [Lab7 DHCP configuration 1](#lab7)
 
 ___
 
@@ -2179,4 +2182,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **And now we can try pinging the loopback address, which on router1 is `1.1.1.1`**
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab6/ping-loop.png)
+
+# Lab7
 
