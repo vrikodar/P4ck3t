@@ -2248,4 +2248,4 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_03-22.png)
 
-**Unless inter-vlan routing is enabled** *when A sent a Broadcast it would only be received by D similarly when C sends a broadcast it will only be received by B*
+**Unless inter-vlan routing is enabled** *when A sends a Broadcast it would only be received by D similarly when C sends a broadcast it will only be received by B*
