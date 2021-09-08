@@ -2227,3 +2227,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 # VLAN
 
 *Virtual LANs (VLANs) are a solution to allow you to separate users into individual network segments for security and other reasons*
+
+*we can also think of VLAN as a `broadcast domain / a logical network {subnet}`*
