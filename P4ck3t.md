@@ -2280,3 +2280,9 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - PRI or priority is 3bit used to priortize certain traffic types over other , heavly used in Quality of service
  - CFI or Canonical Format Indicator was used in old days for compatibility between ethernet and token ring networks
 
+## Native VLAN
+
+*Native vlans are untagged, when a port on a switch is set as Trunk that interface can transmit and receive tagged frames and frames belonging to the Native VLANS do not carry VLAN tags when sent over this trunk so if an untagged frame is received at this trunk port that frame would automatically be associated with the Native VLAN*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_05-26.png)
+
