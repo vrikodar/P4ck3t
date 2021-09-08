@@ -2224,3 +2224,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/Labs/Lab7/ping-trc.png)
 
+# VLAN
+
