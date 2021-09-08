@@ -2249,3 +2249,22 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_03-22.png)
 
 **Unless inter-vlan routing is enabled** *when A sends a Broadcast it would only be received by D similarly when C sends a broadcast it will only be received by B*
+
+## Trunking
+
+*we have a similar topology below but here we have the two switches connected to each other with a Trunk link and such type of link is used by switches to communicate vlan information with each other*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_03-50.png)
+
+*The trunk ports would run a Trunking protocol*
+
+**Now the same Physical topology would physically look like this**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_03-52.png)
+
+**Trunking**
+
+ - Allows multiple VLANs to traverse a link
+ - 802.1Q {Trunking protocol}
+ - ISL  {deprecated Trunking protocol}
+
