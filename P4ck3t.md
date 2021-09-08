@@ -2236,3 +2236,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - Flexibility
  - Security
 
+## Physical topology and Logical Topology
+
+**As soon as vlans are implemented in a network the logical topology will be a lot different than the physical topology**
+
