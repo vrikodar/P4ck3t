@@ -2274,3 +2274,9 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_03-56.png)
 
+**The frame has a 4byte TAG header, FCS or the checksum is recalculated**
+
+ - TPID or the Tag protocol identifier indentifies this as IEEE 802.1q frame, the TPID is 2bytes in length
+ - PRI or priority is 3bit used to priortize certain traffic types over other , heavly used in Quality of service
+ - CFI or Canonical Format Indicator was used in old days for compatibility between ethernet and token ring networks
+
