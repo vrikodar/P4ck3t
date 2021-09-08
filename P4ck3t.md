@@ -2286,3 +2286,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_05-26.png)
 
+## Port assignment in VLANs
+
+ - Statically assigned by an administrator 
+ - Dynamic Vlan: using something like VMPS {VLAN membership policy server} {based on MAC address new devices attached are alloted VLANs}
+
