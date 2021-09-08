@@ -2268,3 +2268,9 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - 802.1Q {Trunking protocol}
  - ISL  {deprecated Trunking protocol}
 
+## 802.1Q
+
+*An 802.1q frame looks as follows, it is different than a standard ethernet frame {the image below first has the standard Eth frame and then the 802.1q frame on its bottom}*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_03-56.png)
+
