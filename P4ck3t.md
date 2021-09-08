@@ -2240,3 +2240,12 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **As soon as vlans are implemented in a network the logical topology will be a lot different than the physical topology**
 
+*Below is a simple physical topology with two seprate vlans of `Red and Green`*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/phys.png)
+
+*In real the Logical topology of the Network looks like as follows*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-08_03-22.png)
+
+**Unless inte-vlan routing is enabled** *when A sent a Broadcast it would only be received by D similarly when C sends a broadcast it will only be received by B*
