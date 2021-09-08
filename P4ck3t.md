@@ -2292,3 +2292,19 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - `Dynamic VLANs`: using something like VMPS {VLAN membership policy server} {based on MAC address new devices attached are alloted VLANs}
  - `Voice VLANs`: Specifically used by IP phones
 
+## VTP
+
+ - cisco proprietary
+ - Layer2 protocol
+ - Allows for propogation of VLAN information
+     - Addition,deletion and renaming of VLANs
+ - Propogated across trunk links
+
+ - VTP uses MAC address `01-00-0C-CC-CC-CC`
+ - Messages
+     - Summary Advertisements
+     - Subset Advertisements
+     - Advertisement requests
+
+ - By default Devices  would belong to a NUll Domain
+ - 
