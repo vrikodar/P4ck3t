@@ -2307,3 +2307,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
      - Advertisement requests
 
  - By default Devices would belong to a NUll Domain
+
+**Concept of the Revision Number**
+
