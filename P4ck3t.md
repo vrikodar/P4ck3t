@@ -2310,3 +2310,15 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **Concept of the Revision Number**
 
+**For example:** 
+
+ *we have a VTP domain named cisco and the initial Revision number on the devices is 1*
+ 
+ ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-09_04-28.png)
+ 
+ *and we add a new VLAN3 to the main switch{**the one in which change was made,`added VLAN`**}, the revision number of the switch will increment from Revision1 to Revision2*
+ 
+ ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-09_04-30.png)
+ 
+ *After this the information about the new VLAN will be advertised to all other switches in the VTP domain so that they can sync their databases to the latest revision number, the switch on the top will send a `VTP Summary Advertisement` {**Multicast**} to inform them that a change has been made. Then all the devices will send back a `Advertisement Request` to ask for the latest information and then the switch at the top will send detailed information about the change using a `subset advertisement` the net result is that the revision number of all these switches will increment to the same revision number as the switch where the change was made , revision2 in this case*
+ 
