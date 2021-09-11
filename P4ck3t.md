@@ -2324,3 +2324,49 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-09_04-38.png)
 
+
+## VTP Messages
+
+**Summary Advertisement**
+ - Every 5 minutes
+ - or whenever there is a change
+ - inform other switches of the current VTP domain and configuration number
+
+
+**Summary Request**
+ - when switch has been reset
+ - VTP domain name has been changed
+ - Switch has received a VTP summary advertisement with a higher configuration revision than its own
+
+
+**Subset Advertisement**
+ - Contains a list of VLAN information
+ - if there are several VLANs, more than one subset advertisement may be required
+
+## VTP Modes
+
+**Server**
+ - Create VLANs
+ - Modify VLANs
+ - Delete VLANs
+ - Sends and forwards advertisements
+ - Synchronizes database
+ - Saves VLAN configuration
+
+**Client**
+ - cannot create,change or delete VLANs
+ - sends and forwards advertisements
+ - Synchronizes database
+
+## Serious Issue with VTP
+
+*Below is a Simple Network Topology with two different VLANs {Green and Red}*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-11_01-24.png)
+
+*Now suppose that someone plugs another switch to the topology which has only one VLAN blue and revision number of 50*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-11_01-26.png)
+
+*Also note that the port attached with this switch is configured as Trunk including all other links, now what will happen is that this switch will start starting requests for syncing the database and this will cause all other switches to change their Revision number to 50 and this will also cause VLANs Green and Red to be removed , only VLAN present will be Blue on all switches. All the ports present in the Green and Red VLANs will be error disbaled since the VLANs are deleted, this  took down the whole network Nice! :)*
+
