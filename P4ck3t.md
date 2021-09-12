@@ -2459,3 +2459,9 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ### Extended Bridge ID and Portfast
 
+ - STP requires that every switch have a unique Bridge ID
+
+**Now days Bridge ID is as Follows**
+
+![](https://slideplayer.com/slide/12988442/79/images/17/PVST%2B+Extended+Bridge+ID.jpg)
+
