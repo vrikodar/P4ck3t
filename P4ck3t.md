@@ -2407,3 +2407,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-12_06-37.png)
 
 *Now in our example we can assume that the frame from port3 came later so s2 will update the CAM table to reflect A on port3*
+
+*Also on the other end while this is going on S2 has flooded the frame to Host B twice for now and this can really get confusing for Device B*
+
