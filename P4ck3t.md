@@ -2378,3 +2378,16 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://www.ziaul.co.uk/wp-content/uploads/2016/10/Switchport_Modes.jpg)
 
+# Spanning Tree
+
+**Different Types of Spanning Tree**
+
+ - `IEEE 802.11D`: The legacy standard of Spanning tree {when bridges were used!}
+ - `CST`: assume that there is one spanning tree instance for the entire network
+ 
+ - `PVST`: Only supported ISL
+ - `PVST+` {Also known as PVST now days}: Suports ISL and 802.1Q
+      - `Cisco Enhancement of spanning Tree that provides a specrate 802.1D Spanning Tree instance`
+
+ - `MSTP, 802.1S` {Multiple Spanning Tree}: optimizes PVST by mapping Multiple VLANs to the same Spanning Tree instance
+
