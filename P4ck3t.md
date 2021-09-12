@@ -2376,3 +2376,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
  - Cisco Proprietary protocol
 
+![](https://www.ziaul.co.uk/wp-content/uploads/2016/10/Switchport_Modes.jpg)
+
