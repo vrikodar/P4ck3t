@@ -2451,3 +2451,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-12_08-03.png)
 
+**Designated Port**
+
+`A designated port is the best port to use on a per segment basis to get to the root bridge`
