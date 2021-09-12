@@ -2411,3 +2411,33 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 *Also on the other end while this is going on S2 has flooded the frame to Host B twice for now and this can really get confusing for Device B*
 
 **This also causes constant changing of CAM table in the switches which causes  MAC addresses instability in the CAM table**
+
+## BPDUs
+
+ - contain information about spanning tree
+ - unique MAC addresses
+
+*How switches Learn about each other?*
+
+**BPDUs are sent every 2 seconds by the switch**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-12_06-55.png)
+
+**Important info Contained in BPDUs**
+
+ - Bridge ID: 8 byte value unique to switch
+     - 2byte priority Feild
+     - 6byte system ID {based on Burnt in MAC address of switch}
+ 
+ - Consists of the priority 32768 {in decimal or 8000 in HexaDecimal} by default  
+ 
+ *Sent to Target Multicast address of `01:80:C2:00:00:00 or 01:00:0C:CC:CC:CD for VLAN spanning tree`
+ 
+ **Types of BPDUs**
+ 
+ **1.)** `Configuration BPDU`: used by spanning tree to provide information to switches
+ 
+ **2.)** `Topology Change BPDU`: TO tell switches of a change
+ 
+ **3.)** `Acknowledgement BPDU`: used to confirm the receipt of a topology change in a notification
+ 
