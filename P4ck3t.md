@@ -2396,3 +2396,14 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - `Rapid PVST+` {Default in Cisco Switches}
       - one Spanning Tree instance per VLAN and also have Rapid Convergence along
    
+**Why spanning Tree?**
+
+*Below is a Sample topology in which we have two switches connected to each other via two links {to provide redundancy}, one PC is also attached to each one of them*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-12_06-30.png)
+
+*when this network is Full functional and we try to ping device B from device A {After ARP and stuff} S1 will update its MAC address table for A and then flush the frame out of all ports except from the ingress port {To look for B}, now when switch2 receives the frame from port1 it will update its MAC address table but then it will also recv the same frame from port3 since S1 flooded it out from all ports and then S2 will be in confusion about what is the location of A*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-12_06-37.png)
+
+*Now in our example we can assume that the frame from port3 came later so s2 will update the CAM table to reflect A on port3*
