@@ -2370,3 +2370,9 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *Also note that the port attached with this switch is configured as Trunk including all other links, now what will happen is that this switch will start starting requests for syncing the database and this will cause all other switches to change their Revision number to 50 and this will also cause VLANs Green and Red to be removed , only VLAN present will be Blue on all switches. All the ports present in the Green and Red VLANs will be error disbaled since the VLANs are deleted, this  took down the whole network Nice! :)*
 
+# DTP
+
+*Dynamic Trunking Protocol*
+
+ - Cisco Proprietary protocol
+
