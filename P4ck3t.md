@@ -2446,3 +2446,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 ### Root ports and Designated Ports
 
 `as we know very well`: **The lowest MAC address switch becomes the STP root by Default**
+
+**Root Port**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-12_08-03.png)
+
