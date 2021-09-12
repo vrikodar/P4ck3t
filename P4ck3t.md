@@ -2410,5 +2410,4 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *Also on the other end while this is going on S2 has flooded the frame to Host B twice for now and this can really get confusing for Device B*
 
-**This also causes constant changing of CAM table in the switches which causes instability in the MAC addresses table**
-
+**This also causes constant changing of CAM table in the switches which causes  MAC addresses instability in the CAM table**
