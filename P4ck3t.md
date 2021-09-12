@@ -2454,3 +2454,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **Designated Port**
 
 `A designated port is the best port to use on a per segment basis to get to the root bridge`
+
+*Any other ports {Altn} are put in BLK or Blocking Mode*
+
