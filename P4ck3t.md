@@ -2457,3 +2457,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *Any other ports {Altn} are put in BLK or Blocking Mode*
 
+### Extended Bridge ID and Portfast
+
