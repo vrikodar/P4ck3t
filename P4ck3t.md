@@ -2391,4 +2391,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
  - `MSTP, 802.1S` {Multiple Spanning Tree}: optimizes PVST by mapping Multiple VLANs to the same Spanning Tree instance
  - `RSTP, 802.1W` {Rapid Spanning Tree}: Improves convergence over the 1998 version of Spanning Tree by Adding Roles to ports and also by Enhancing BPDUs exchanges
+               - only supports a single instance of Spanning Tree
+
+
 
