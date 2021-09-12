@@ -2393,5 +2393,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - `RSTP, 802.1W` {Rapid Spanning Tree}: Improves convergence over the 1998 version of Spanning Tree by Adding Roles to ports and also by Enhancing BPDUs exchanges
      - only supports a single instance of Spanning Tree
 
-
-
+ - `Rapid PVST+` {Default in Cisco Switches}
+      - one Spanning Tree instance per VLAN and also have Rapid Convergence along
+   
