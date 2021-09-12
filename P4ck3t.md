@@ -2442,3 +2442,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  **3.)** `Acknowledgement BPDU`: used to confirm the receipt of a topology change in a notification
  
 **The lowest MAC address switch becomes the STP root by Default**
+
+### Root ports and Designated Ports
+
+`as we know very well`: **The lowest MAC address switch becomes the STP root by Default**
