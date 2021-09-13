@@ -2487,9 +2487,9 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ## Path Cost
 
- - are incremented
+ - is incremented on per link basis
  - Is calculated from the sum total of port costs
- - Port Costs  have Default values 
+ - Port Costs have Default values 
 
 ![](https://i.ytimg.com/vi/QABhcoLUmf8/maxresdefault.jpg)
 
