@@ -2459,6 +2459,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ### Extended Bridge ID and Portfast
 
+## Extended Bridge ID
+
  - STP requires that every switch have a unique Bridge ID
 
 **The priority as split into two parts as Follows**
@@ -2468,4 +2470,12 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 *The priority can be only be set as multiple of 4096*
 
 ![](https://dl.boxcloud.com/api/2.0/internal_files/250559250437/versions/264222263621/representations/jpg_paged_2048x2048/content/1.jpg?access_token=1!tCU_DaQvrFdM4EUiDb6ebTMCCE8IB-iSrxUO3K_jxaWBNxwxbM_VDLiW0ZOPb1uHJzGgAG0xdzATesKmxek1oxJzlnJ7Rn3dK6IPIKANlwTndRoOWlmJybhUOBIQdZhhQvmQ2R4zQjM3UzijJ0YA-VwGtSl_OU8t5o69Krexy0BMREXE3_39AXN-P2XfWiDPLNaV47GbhBufqskMRVz7olBCCOaHLGcJ6TkNL49oZzAzmJQRmTLLIDqi4IeDYx3rdoKy6BS0cLi24ZhoaxMG9sW7mnNNuifmPKDntc5QN1X40u3PkUwWOKAWswBbWUF1crDvVGR7LRVFlJ0ATjJ8TyUYrxl19dxxycI6Cj1DR0rp6JtCFhB6Pmdu8bvehWgjgEk5KGc5V78_Oq-faSdVprJWV3uIKXybJ5ZKFKrT5Ihjg4zSoNGbwxCMEx0OvN2hkcv35WT67jpsVAscosdeDbSGyXlh6jqtD7yEo3OBp3XiMgyS_0ZlHu8Kh5qk-HVpo-PLydxaenqKTy6FWWB8ZOZz9GRAr3Uc4mHP33SviL8ntTnNqM8unrOx5Ky_AKxadMLnEt1s3bS_AJsj5unz8UQT4yhq2JUD5jRkQtwWYZeOAsZFb0l7S60ecMG6ucxjz0Vn9tzr8oVhI7Te7MN32isi-MqboBgfzRUwNiZFHnoilxU_vx8leZca1zBOgWhO9N_nZ0mzGwoahRuFBWOeeWn0AH5IoI10w5uK3Cm1fJ7vB9RkBZdhYME.&box_client_name=box-content-preview&box_client_version=2.78.1)
+
+## Edge Ports, Port Fast Ports
+
+*In the Network given below when the PC's boot up they might start in less than 30seconds and request an IP address from the DHCP server but since the STP will be in convergence the ports might be in Blocking state hence the PC might not receive an IP address as the DHCP request from the PC would be dropped*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-13_00-16.png)
+
+**For the same reason the Ports connected directly to these Devices {PC's etc} will be configured as Port Fast Ports {Cisco} / Edge Ports {other vendors}**
 
