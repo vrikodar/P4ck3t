@@ -2501,4 +2501,4 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-13_01-20.png)
 
-**A Quick note is that we should always Run RPVST+ over PVST since it offers faster covergence which means more network performance**
+**A Quick note is that we should always use RPVST+ over PVST since it offers faster covergence which means more network performance**
