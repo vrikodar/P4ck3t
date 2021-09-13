@@ -2504,3 +2504,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **A Quick note is that we should always use RPVST+ over PVST since it offers faster covergence which means more network performance**
 
 *`RPVST and PVST are backward compatible`*
+
+[**`Reference`**](https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/24062-146.html)
