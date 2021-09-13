@@ -2506,3 +2506,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 *`RPVST and PVST are backward compatible`*
 
 [**`Reference`**](https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/24062-146.html)
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-13_01-38.png)
+
