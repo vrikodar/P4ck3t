@@ -2485,4 +2485,11 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - Port Fast ports / Edge Ports immediately transition to the forwarding state
  - **For some reason if a BPDU is recevied on port it immediately goes to Blocking State, this will help to prevent introducing loops in the network {For example someone accidentally plugs in a switch on Port Fast Port}**
 
+## Path Cost
+
+ - are incremented
+ - Is calculated from the sum total of port costs
+ - Port Costs  have Default values 
+
+![](https://i.ytimg.com/vi/QABhcoLUmf8/maxresdefault.jpg)
 
