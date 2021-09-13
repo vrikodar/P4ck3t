@@ -2493,3 +2493,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://i.ytimg.com/vi/QABhcoLUmf8/maxresdefault.jpg)
 
+**Chart in accordance with dates**
+
+![](https://2.bp.blogspot.com/-OJpipQtcl08/WdtF8GDlF5I/AAAAAAAABaY/KT9oRwL1VqsCuzvfQOB98iL8VklFy_bcgCLcBGAs/s1600/STP_default_port_costs.JPG)
