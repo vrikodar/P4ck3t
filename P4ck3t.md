@@ -2479,3 +2479,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **For the same reason the Ports connected directly to these Devices {PC's etc} will be configured as Port Fast Ports {Cisco} / Edge Ports {other vendors}**
 
+
+ - You should not enable Port Fast on link between switches Because this can introduce loops in your topology
+ - Port Fast Ports should only be enabled on Access Ports {not on Trunk Ports}
+ - Port Fast ports / Edge Ports immediately transition to the forwarding state
+
