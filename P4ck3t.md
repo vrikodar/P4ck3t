@@ -2483,4 +2483,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - You should not enable Port Fast on link between switches Because this can introduce loops in your topology
  - Port Fast Ports should only be enabled on Access Ports {not on Trunk Ports}
  - Port Fast ports / Edge Ports immediately transition to the forwarding state
+ - **For some reason if a BPDU is recevied on port it immediately goes to Blocking State, this will help to prevent introducing loops in the network {For example someone accidentally plugs in a switch on Port Fast Port}**
+
 
