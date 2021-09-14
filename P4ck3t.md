@@ -2526,3 +2526,5 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 *Also Noted that CDP would only show Directly connected Devices by Default*
 
 **command**: `show cdp neighbour details` {to see more details about the connected devices}
+
+*Note that CDP will still work if no IP address is configured on a directly connected neighbouring device because CDP does not rely on IP*
