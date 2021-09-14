@@ -2521,3 +2521,4 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **Both of these Run at Layer2 in the OSI model to see how devices are connected together**
 
+**command**: `show cdp neighbours` {to see connected devices}
