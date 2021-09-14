@@ -2564,3 +2564,19 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 `end`
 
 *A lot of companies usually disable CDP on internet connected Interfaces*
+
+
+## LLDP
+
+*Link local discovery protocol*
+
+**LLDP can be enabled on a device globally {on all interfaces} as Follows**
+
+`en`
+
+`conf t`
+
+`lldp run`
+
+`end`
+
