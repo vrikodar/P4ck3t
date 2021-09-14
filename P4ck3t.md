@@ -2540,3 +2540,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 *Again for more details we can run the Following*
 
 **command**: `sh lldp neighbors detail`
+
+## Disabling CDP
+
+*as CDP spits out a wealth of juicy information about the devices we might need to disable it entirely or on specific interface for better security of the network*
+
