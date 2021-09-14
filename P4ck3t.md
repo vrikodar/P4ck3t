@@ -2521,11 +2521,11 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **Both of these Run at Layer2 in the OSI model to see how devices are connected together**
 
-**command**: `show cdp neighbours` {to see connected devices}
+**command**: `show cdp neighbors` {to see connected devices}
 
 *Also Noted that CDP would only show Directly connected Devices by Default*
 
-**command**: `show cdp neighbour details` {to see more details about the connected devices}
+**command**: `show cdp neighbor details` {to see more details about the connected devices}
 
 *Note that CDP will still work if no IP address is configured on a directly connected neighbouring device because CDP does not rely on IP*
 
@@ -2533,3 +2533,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **command**: `sh cdp entry Device-ID`
 
+*we can also use a Mix of Protocols to MAP out the Devices in the Network, we can ssh to a Device which we discover First using CDP and then use LLDP on that Device to look for other devices connected to it!*
+
+**command**: `sh lldp neighbors`
