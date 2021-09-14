@@ -2536,3 +2536,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 *we can also use a Mix of Protocols to MAP out the Devices in the Network, we can ssh to a Device which we discover First using CDP and then use LLDP on that Device to look for other devices connected to it!*
 
 **command**: `sh lldp neighbors`
+
+*Again for more details we can run the Following*
+
+**command**: `sh lldp neighbors details`
