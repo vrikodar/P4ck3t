@@ -2587,3 +2587,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 `sh lldp neigbhor detail` {for more details}
 
 **We can uncover more option / commands with the built in help system in IOS using ?**
+
+# Port Security
+
