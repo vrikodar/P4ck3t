@@ -2528,3 +2528,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 **command**: `show cdp neighbour details` {to see more details about the connected devices}
 
 *Note that CDP will still work if no IP address is configured on a directly connected neighbouring device because CDP does not rely on IP*
+
+**we can Get Details about a specific device by specifying its Device-ID**
+
+**command**: `sh cdp entry Device-ID`
+
