@@ -2509,3 +2509,6 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-13_01-38.png)
 
+**STP Comparison**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-14_00-11.png)
