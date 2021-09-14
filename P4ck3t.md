@@ -2580,3 +2580,10 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 `end`
 
+*commands to check for neighboring devices etc.. still remain similar to those used in cdp*
+
+`sh lldp neigbhors` {to looks for devices near by}
+
+`sh lldp neigbhor detail` {for more details}
+
+**We can uncover more option / commands with the built in help system in IOS using ?**
