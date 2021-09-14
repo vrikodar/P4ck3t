@@ -2563,4 +2563,4 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 `end`
 
-*A lot of companies usually disable CDP on internet connected Devices*
+*A lot of companies usually disable CDP on internet connected Interfaces*
