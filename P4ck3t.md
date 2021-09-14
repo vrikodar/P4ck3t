@@ -2545,3 +2545,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *as CDP spits out a wealth of juicy information about the devices we might need to disable it entirely or on specific interface for better security of the network*
 
+**Disabling CDP entirely**
+
+`no cdp run` {disables CDP entirely on a device}
+
+*Also note that by Default CDP sends packet every 60 seconds to look for devices so it might take a delay of 60 seconds for a Device to show up in CDP neighbors*
