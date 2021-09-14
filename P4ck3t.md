@@ -2539,4 +2539,4 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 *Again for more details we can run the Following*
 
-**command**: `sh lldp neighbors details`
+**command**: `sh lldp neighbors detail`
