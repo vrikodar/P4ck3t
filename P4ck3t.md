@@ -2605,6 +2605,12 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - we can specify the number of MAC addresses to be permitted on a port
  - for example if we specify 2 MAC addresses, After the switch has learned 2 MAC addresses it will not permit any other MAC addresses
 
+ - A thing with Dynamic learning is that when the port Goes down or when the switch is rebooted the MAC addresses learned are removed and new MAC addresses are learnt when the port comes up again
+
+ - **Aging Interval**
+     - By setting a Aging interval we can make the switch forget the Dynamic MAC addresses after a period of time and learn again
+
 ## CAM Table Overflow Attack
 
 *A user may try sending thounsands of frames into the network with a different bogus MAC address for each frame , as the user tries to exhaust the limits of the dynamic MAC address table on the switch it might cause the switch to forward all frames to all ports within a VLAN so that the attacker can begin to sniff all the packets, this is reffered to as CAM table overflow attack. `Content-addressable memory (**CAM**)` is a fancy way to refer to the MAC address table on the switch*
+
