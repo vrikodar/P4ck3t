@@ -2610,6 +2610,10 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
  - **Aging Interval**
      - By setting a Aging interval we can make the switch forget the Dynamic MAC addresses after a period of time and learn again
 
+**Sticky Learning**
+ - Allows us to automatically add a MAC address to the running configuration of the switch
+ - Then we can save the running configuration to the start-up configuration
+
 ## CAM Table Overflow Attack
 
 *A user may try sending thounsands of frames into the network with a different bogus MAC address for each frame , as the user tries to exhaust the limits of the dynamic MAC address table on the switch it might cause the switch to forward all frames to all ports within a VLAN so that the attacker can begin to sniff all the packets, this is reffered to as CAM table overflow attack. `Content-addressable memory (**CAM**)` is a fancy way to refer to the MAC address table on the switch*
