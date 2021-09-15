@@ -2594,6 +2594,17 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 **with port security we can also implement minimal level of authentication on the basis of MAC addresses for example we can allow access on a port from only specific MAC addresses and also Deny specific MAC address so basically we can setup white,Black lists for MAC addresses**
 
+## Learning MAC addresses
+
+**Static**
+ - Statically configure MAC addresses that are allowed
+ - Pros: A lot of control
+ - Con: manually work out MAC of devices
+
+**Dynamic Learning**
+ - we can specify the number of MAC addresses to be permitted on a port
+ - for example if we specify 2 MAC addresses, After the switch has learned 2 MAC addresses it will not permit any other MAC addresses
+
 ## CAM Table Overflow Attack
 
 *A user may try sending thounsands of frames into the network with a different bogus MAC address for each frame , as the user tries to exhaust the limits of the dynamic MAC address table on the switch it might cause the switch to forward all frames to all ports within a VLAN so that the attacker can begin to sniff all the packets, this is reffered to as CAM table overflow attack. `Content-addressable memory (**CAM**)` is a fancy way to refer to the MAC address table on the switch*
