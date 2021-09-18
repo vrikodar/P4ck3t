@@ -2732,6 +2732,11 @@ S1#
 
 **However it is important that we control the initial state of the network that is initially we see that what devices are going to be connected etc..**
 
+*Here we configured the Max MAC addresses to be 2 and also we configured `Sticky` :)*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/port-security-sticky.png)
+
+
 ## CAM Table Overflow Attack
 
 *A user may try sending thounsands of frames into the network with a different bogus MAC address for each frame , as the user tries to exhaust the limits of the dynamic MAC address table on the switch it might cause the switch to forward all frames to all ports within a VLAN so that the attacker can begin to sniff all the packets, this is reffered to as CAM table overflow attack. `Content-addressable memory (**CAM**)` is a fancy way to refer to the MAC address table on the switch*
