@@ -2624,6 +2624,14 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/ps-sw.png)
 
+*Now we will try adding port Security to the Gig/1 interface of Switch {The port needs to be a access port}*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/enable-ports.png)
+
+*By Default port security is limiting MAC adddresses on a port to 1 , we can run show port-security address for more info*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/portS-mac.png)
+
 ## CAM Table Overflow Attack
 
 *A user may try sending thounsands of frames into the network with a different bogus MAC address for each frame , as the user tries to exhaust the limits of the dynamic MAC address table on the switch it might cause the switch to forward all frames to all ports within a VLAN so that the attacker can begin to sniff all the packets, this is reffered to as CAM table overflow attack. `Content-addressable memory (**CAM**)` is a fancy way to refer to the MAC address table on the switch*
