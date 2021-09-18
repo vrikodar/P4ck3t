@@ -2676,6 +2676,57 @@ S1#
 ```
 **Gives a Fking limit error for no reason but we can instead set a limit of 2 may be and then specify a MAC** 
 
+*TO fix this we first shut down the interface since switch automaticall was learning a MAC from that interface of R2 and full filling the limit of 1 before we could even specify a MAC manually :)*
+
+```
+S1>en
+S1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+S1(config)#int GI
+S1(config)#int GIgabitEthernet 0/2
+S1(config-if)#switch
+S1(config-if)#switchport po
+S1(config-if)#switchport port-security mac
+S1(config-if)#switchport port-security mac-address 0023.3300.0003
+S1(config-if)#no shut
+
+S1(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+
+%LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to administratively down
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+
+S1(config-if)#end
+S1#
+%SYS-5-CONFIG_I: Configured from console by console
+
+S1#show port
+S1#show port-security int Gi
+S1#show port-security int GigabitEthernet 0/2
+Port Security              : Enabled
+Port Status                : Secure-shutdown
+Violation Mode             : Shutdown
+Aging Time                 : 0 mins
+Aging Type                 : Absolute
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 1
+Total MAC Addresses        : 1
+Configured MAC Addresses   : 1
+Sticky MAC Addresses       : 0
+Last Source Address:Vlan   : 000A.4129.8A01:1
+Security Violation Count   : 1
+
+S1#
+```
+
+**Now the interface went Down because the MAC of R2 is different than the one we have specified as allowed manually :)**
+
+*After this we can rechange the MAC of R2 and shut-noshut the interface again to make R2 access the switch port again*
+
+
 ## CAM Table Overflow Attack
 
 *A user may try sending thounsands of frames into the network with a different bogus MAC address for each frame , as the user tries to exhaust the limits of the dynamic MAC address table on the switch it might cause the switch to forward all frames to all ports within a VLAN so that the attacker can begin to sniff all the packets, this is reffered to as CAM table overflow attack. `Content-addressable memory (**CAM**)` is a fancy way to refer to the MAC address table on the switch*
