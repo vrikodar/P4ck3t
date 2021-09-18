@@ -2636,6 +2636,11 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/portS-down.png)
 
+*Since we changed the MAC address that was permitted the port went down and we can also see the Count of Security Violation is set to 1, A last seen MAC is also mentioned and this is the MAC that caused the Security Violation {Port went down!}*
+
+**we can reachange the MAC address back to the normal one and see if the port Goes up again**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/portS-up.png)
 
 ## CAM Table Overflow Attack
 
