@@ -2736,6 +2736,8 @@ S1#
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/port-security-sticky.png)
 
+*Also if we see the running config, we will spot that one command was automatically run after the Sticky command to add the MAC address to the configuration*
+
 
 ## CAM Table Overflow Attack
 
