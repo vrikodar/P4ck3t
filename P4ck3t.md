@@ -2644,7 +2644,37 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ## Port Security with Specific MAC address Manually 
 
+*Now we will configure port security on the second interface of the switch , we will specify the MAC address manually as well as some of other settings*
 
+*we specify a single MAC address on second interface, the Action we specify is shutdown {is Default}*
+
+```
+S1(config)#int Gi
+S1(config)#int GigabitEthernet 0/2
+S1(config-if)#switc
+S1(config-if)#switchport mo
+S1(config-if)#switchport mode acc
+S1(config-if)#switchport mode access 
+S1(config-if)#switc
+S1(config-if)#switchport po
+S1(config-if)#switchport port-security m
+S1(config-if)#switchport port-security max
+S1(config-if)#switchport port-security maximum 1
+S1(config-if)#switc
+S1(config-if)#switchport po
+S1(config-if)#switchport port-security ma
+S1(config-if)#switchport port-security mac
+S1(config-if)#switchport port-security mac-address 0023.3300.0003
+Total secure mac-addresses on interface GigabitEthernet0/2 has reached maximum limit.
+S1(config-if)#switchport port-security vio
+S1(config-if)#switchport port-security violation shutdo
+S1(config-if)#switchport port-security violation shutdown 
+S1(config-if)#switchport port-security
+S1(config-if)#end
+S1#
+%SYS-5-CONFIG_I: Configured from 
+```
+**Gives a Fking limit error for no reason but we can instead set a limit of 2 may be and then specify a MAC** 
 
 ## CAM Table Overflow Attack
 
