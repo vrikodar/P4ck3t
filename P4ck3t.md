@@ -2616,6 +2616,13 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 ## Testing Basic Port Security
 
+*Below is a simple network of two connected routers with a switch in between them, we can ping both routers from each end and the switch has dynamically learned the MAC address of the Routers on each port but we don't have any port-security mechanism enabled yet*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/topology.png)
+
+*we can check the CAM table etc..*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/ps-sw.png)
 
 ## CAM Table Overflow Attack
 
