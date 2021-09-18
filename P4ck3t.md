@@ -2726,6 +2726,11 @@ S1#
 
 *After this we can rechange the MAC of R2 and shut-noshut the interface again to make R2 access the switch port again*
 
+## Port Security Sticky
+
+*Suppose we have a 52 port switch and we need to configure 2 MAC addresses on each port, it can be tiring and here we can use the sticky option which will allow the switch to learn the MAC addresses initially and then save them to the config automatically then we can use `wr` to save everything*
+
+**However it is important that we control the initial state of the network that is initially we see that what devices are going to be connected etc..**
 
 ## CAM Table Overflow Attack
 
