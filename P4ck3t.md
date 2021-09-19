@@ -2743,3 +2743,9 @@ S1#
 
 *A user may try sending thounsands of frames into the network with a different bogus MAC address for each frame , as the user tries to exhaust the limits of the dynamic MAC address table on the switch it might cause the switch to forward all frames to all ports within a VLAN so that the attacker can begin to sniff all the packets, this is reffered to as CAM table overflow attack. `Content-addressable memory (**CAM**)` is a fancy way to refer to the MAC address table on the switch*
 
+
+# Switchports Versus Routed Ports
+
+*on a switch switch ports can-not be directly allocated IP addresses since they are Layer2 interfaces  but we can have something called the SVI {Switched virtual interface such as VLAN1}*
+
+*Routed Ports or ports on a Router can Directly be allocated an IP address*
