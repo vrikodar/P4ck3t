@@ -2746,6 +2746,25 @@ S1#
 
 # Switchports Versus Routed Ports
 
-*on a switch switch ports can-not be directly allocated IP addresses since they are Layer2 interfaces  but we can have something called the SVI {Switched virtual interface such as VLAN1}*
+*on a `switch` // switch ports can-not be directly allocated IP addresses since they are Layer2 interfaces  but we can have something called the SVI {Switched virtual interface such as VLAN1}*
 
 *Routed Ports or ports on a Router can Directly be allocated an IP address*
+
+## Inter-VLAN Routing
+
+we can run the Following commands to enable Inter-VLAN Routing on a Switch
+
+ - `en`
+ - `conf t`
+ - `ip routing`
+ - `end`
+
+
+*On The Routers in Different VLANs we need to disable IP Routing and set the VLAN Interfaces as Default Gateways on Routers*
+
+ - `en`
+ - `conf t`
+ - `no ip routing`
+ - `ip default-gateway <VLAN-IP> <SUBNET-MASK>`
+ - `end`
+
