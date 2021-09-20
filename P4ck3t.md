@@ -2916,4 +2916,30 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 ### Advance Distance Vector
 
  - EIGRP {**Enhanced Gateway routing protcol**} `hybrid routing protocol with combined elements of both distance vector and link state into a single routing protocol`
- - 
+ - In theory it {EIGRP} takes best of both combined into a single routing protocol and gives you the power of link state with ease of distance vector
+ - Con of EIGRP is that it works only on Cisco and for backward compatibility we should use OSPF
+
+## Administrative Distance
+
+ - Believability factor of a route
+ - when multiple routing protocols are configured on a router and are trying to put routing information in RIB {Routing information Base}
+ - who will the Router believe????
+
+ - Administrative Distance is used as a tie breaker to determine which routing protocol to believe!
+ - Technically the Routing protocol with lowest is more believable and its information is inserted into RIB `Routing information Base`
+
+### Administrative Distance Values
+
+ - a Directly connected interface has a believability factor of `0` so it holds prefrence over eveything
+ - `Static Route`: **1**
+ - `Internal EIGRP`: **90**
+ - `OSPF`: **110**
+ - `RIP`: **120**
+ - `unknown`: **255**
+
+**AD Values of other protocols**
+
+ - `IBGP`: 200
+ - `EBGP`: 20
+ - `ISIS`: 115
+
