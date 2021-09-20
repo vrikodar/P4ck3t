@@ -2768,3 +2768,5 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
  - `ip default-gateway <VLAN-IP> <SUBNET-MASK>`
  - `end`
 
+# IP Routing
+
