@@ -2971,3 +2971,5 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 **R4 is learning about 10.1.1.0/27 via RIP, 10.1.0.0/16 via BGP, 10.0.0.0/8 via OSPF**
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-20_13-33.png)
+
