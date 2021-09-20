@@ -86,7 +86,7 @@ Networking ???   **updated everyday!!**
           - [TCP Windows Size](#window-size)
           - [TCP Checksum](#tcp-checksum)
           - [TCP Urgent Pointer](#urgent-pointer)
-          - [Sequence Numbers in TCP communication repersentation](#demo-of-sequence-numbers-etc...)
+          - [Sequence Numbers in TCP communication repersentation](#demo-of-sequence-numbers-etc)
 
 
 - [Lab6 DHCP configuration 1](#lab6)
@@ -2089,7 +2089,7 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
  - these 16 bits are used when the URG bit has been set, the urgent pointer is used to indicate where the urgent data ends
 
-### Demo of Sequence Numbers etc...
+### Demo of Sequence Numbers etc
 
 *This is just an example illustration where windows size is assumed to be 1*
 
