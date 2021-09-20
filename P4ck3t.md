@@ -2965,3 +2965,7 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 ## Administrative Distance VS Mask length
 
+**One thing to Note is that**: `High Mask Lenght takes precedence over Administrative Distance`
+
+*For example in the Network below although OSPF has less administrative distance and should be considered the router will forward the traffic through R1 since it  has the longest Mask Length*
+
