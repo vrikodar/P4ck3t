@@ -2943,3 +2943,7 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
  - `EBGP`: 20
  - `ISIS`: 115
 
+#### Example of Conflicting Route Decision
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-20_11-46.png)
+
