@@ -2839,6 +2839,7 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
      - carries user Data 
      - eg:IPv4,IPv6
      - each router making independent decision in determining path
+     - Routed protocols are independent of each other
      
 `Routing Protocols`
      - Examples: EIGRP,OSPF,RIP,ISIS,BGP
