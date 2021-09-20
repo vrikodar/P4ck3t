@@ -2746,7 +2746,7 @@ S1#
 
 # Switchports Versus Routed Ports
 
-*on a `switch` // switch ports can-not be directly allocated IP addresses since they are Layer2 interfaces  but we can have something called the SVI {Switched virtual interface such as VLAN1}*
+*on a `switch` // switch ports can-not be directly allocated IP addresses since they are Layer2 interfaces  but we can have something called the **SVI** {Switched virtual interface such as VLAN1}*
 
 *Routed Ports or ports on a Router can Directly be allocated an IP address*
 
