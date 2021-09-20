@@ -2847,3 +2847,10 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
      - determine the best route between networks
      - These Different Routing Protocols will use different parameters in determining the best path 
      
+## Static VS Dynamic Routing
+
+`Static Routes`
+     - Administrator manually enters route
+     - no over head on network that might unnecessarily consume bandwidth
+     - Manual update is required when there are changes in topology
+     
