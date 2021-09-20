@@ -2947,3 +2947,5 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-20_11-46.png)
 
+*In the image above we can see that the Router will take the EIGRP route over RIP but also note that RIP route is still stored in the rip database and if at any time if EIGRP link went down it will follow the RIP route and when at any point the EIGRP link comes up the router will again follow it*
+
