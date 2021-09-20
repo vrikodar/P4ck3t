@@ -2832,3 +2832,17 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 # IP Routing
 
 `from google` IP Routing is an umbrella term for the set of protocols that determine the path that data follows in order to travel across multiple networks from its source to its destination. 
+
+## Routed Protocol vs Routing Protocol
+
+`Routed Protocol` 
+     - carries user Data 
+     - eg:IPv4,IPv6
+     - each router making independent decision in determining path
+     
+`Routing Protocols`
+     - Examples: EIGRP,OSPF,RIP,ISIS,BGP
+     - used by routers to communicate information about networks
+     - determine the best route between networks
+     - These Different Routing Protocols will use different parameters in determining the best path 
+     
