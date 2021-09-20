@@ -2873,3 +2873,47 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 **Today the protocols most used are OSPF or EIGRP**
 
+## AS IGPs and EGPs
+
+`AS` {**Autonomous System**}:Is a group of networks under a single administrative domain, such as of a big company
+
+`IGPs` {**Interior/Internal Gateway protocol**}: such as RIP,EIGRP,OSPF within an AS
+
+`EGPs` {**Exterior/External Gateway Routing protocols**}: used between AS's such as BGP {Border Gateway protocol}
+
+### **Autonomous System Numbers**
+
+ - within an AS no need to register or apply for an AS number
+ - when communicating onto internet apply for AS number
+ - Public Autonomous System Number
+ - Private Autonomous System Number
+
+## Types of Routing Protocols
+
+### Distance Vector
+
+ - Routing by Rumor
+ - Determine the direction and distance to destination
+ - Easy to configure
+ - very limited visibility
+ - RIP is an example
+ - uses the Bellman-Ford algorithm to calculate the path
+ - Routers advertise routes as a vector if distance and direction
+     - Direction: `next hop address`
+     - Distance: `uses a metric such as hop count`
+
+### Link State Routing Protocol
+
+ - visibility of entire network (or area)
+ - can make a much more informed decision about how to get to the destination network
+ - Example is OSPF and IS-IS
+ - Each router originates information about itself, its directly connected links and the state of those links
+ - uses an algorithm called `shortest path First` (SPF)
+ - Every Router constructs a map of the connectivity to a netwwork in the form of a graph
+ - could be Difficult to configure
+ - Require more memory and processing power
+
+### Advance Distance Vector
+
+ - EIGRP {**Enhanced Gateway routing protcol**} `hybrid routing protocol with combined elements of both distance vector and link state into a single routing protocol`
+ - 
