@@ -2969,3 +2969,5 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 *For example in the Network below although OSPF has less administrative distance and should be considered the router will forward the traffic through R1 since it  has the longest Mask Length*
 
+**R4 is learning about 10.1.1.0/27 via RIP, 10.1.0.0/16 via BGP, 10.0.0.0/8 via OSPF**
+
