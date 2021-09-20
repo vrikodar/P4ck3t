@@ -2831,3 +2831,4 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 # IP Routing
 
+`from google` IP Routing is an umbrella term for the set of protocols that determine the path that data follows in order to travel across multiple networks from its source to its destination. 
