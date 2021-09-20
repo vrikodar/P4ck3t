@@ -48,8 +48,10 @@ Networking ???   **updated everyday!!**
     - [Setting up a Console Password](#task7)
 
 - [Lab2 {Subnetting Lab1}](#lab2)
+     - [Configuring Default Gateway on a Switch](#configuring-the-switch)
    
 - [Lab3 {Subnetting Lab2}](#lab3)
+     - [Setting up DNS Server on a Router](#configuring-the-wan-link-on-site1)
 
 - [Some Questions](#some-questions)
    
@@ -62,10 +64,30 @@ Networking ???   **updated everyday!!**
    - [Types of Communication](#types-of-communication)
    - [Difference Between Broadband and Baseband](#difference-between-baseband-and-broadband)
    - [Mac Addresses](#mac-address)
+   - [Color Coding](#utp)
+   - [Cable Types Ethernet](#cable-categories)
+   - [About Hubs](#hub)
+   - [About Bridge](#bridge)
+   - [About Switches](#switch)
+   - [Speed Duplex Differences](#difference-between-half-duplex-and-full-duplex)
+   - [About Routers](#router)
+   - [Duplex and Speed Mismatch Error](#speed-duplex-and-speed-mismatch)
+     - [Fixing Speed and Duplex mismatch Errors](#fixing-duplex-mismatch-errors) 
 
 - [Lab4 Life of A Packet](#lab4)
-
 - [Lab5 Broadcast and Collision Domains {Hub vs Switch}](#lab5)
+
+- [LoopBack Interface on a Router](#loopback-on-a-router)
+- [TCP vs UDP](#tcp-vs-udp) 
+     - [TCP Brief]
+          - [TCP 3-way Handshake](#tcp-3way-handshake)
+          - [The TCP Header](#tcp-header)
+          - [TCP Flags](#flags)
+          - [TCP Windows Size](#window-size)
+          - [TCP Checksum](#tcp-checksum)
+          - [TCP Urgent Pointer](#urgent-pointer)
+          - [Sequence Numbers in TCP communication repersentation](#demo-of-sequence-numbers-etc...)
+
 
 - [Lab6 DHCP configuration 1](#lab6)
 
