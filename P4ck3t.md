@@ -100,7 +100,7 @@ Networking ???   **updated everyday!!**
 
 - [About VLANs](#vlan)
      - [Physical topology VS Logical Topology](#physical-topology-and-logical-topology)  
-     - [VLAN Trunking][#trunking]
+     - [VLAN Trunking](#trunking)
           - [Native VLAN](#native-vlan)
           - [Port Assignment in VLANs](#port-assignmen-in-vlans)
      - [VTP Vlan Trunking Protocol](#vtp)
@@ -109,7 +109,7 @@ Networking ???   **updated everyday!!**
           - [Problem with VTP](#serious-issue-with-vtp)
      - [DTP Dynamic Trunking Protocol](#dtp)
 
-- [STP Spanning Tree Protocol]
+- [STP Spanning Tree Protocol](#stp)
      - [BPDUs in STP](#bpdus)
      - [Extended Bridge ID and Portfast](#extended-bridge-id-and-portfast)
      - [Path Cost](#path-cost)
