@@ -2973,3 +2973,4 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-20_13-33.png)
 
+**In Summary administrative distance is only used as a tie breaker when multiple routing protocols are trying to put same Route**
