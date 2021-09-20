@@ -87,11 +87,50 @@ Networking ???   **updated everyday!!**
           - [TCP Checksum](#tcp-checksum)
           - [TCP Urgent Pointer](#urgent-pointer)
           - [Sequence Numbers in TCP communication repersentation](#demo-of-sequence-numbers-etc)
+      - [UDP Brief](#udp)
+          - [UDP Header](#udp-header)
+- [How OSI Model Layers Connect Together!!](#how-layers-connect-together)
+- [About Port Numbers](#port-number)
+- [DHCP Dynamic Host Control Protocol](#dhcp)
+     - [Using a Cisco IOS Network Device as DHCP Server](#configuring-a-cisco-ios-network-device-as-dhcp-server)
+
+- [Lab6 DHCP configuration 1 **Basic**](#lab6)
+
+- [Lab7 DHCP configuration 2 **DHCP Relaying Accross Different Networks!**](#lab7)
+
+- [About VLANs](#vlan)
+     - [Physical topology VS Logical Topology](#physical-topology-and-logical-topology)  
+     - [VLAN Trunking][#trunking]
+          - [Native VLAN](#native-vlan)
+          - [Port Assignment in VLANs](#port-assignmen-in-vlans)
+     - [VTP Vlan Trunking Protocol](#vtp)
+          - [VTP Messages](#vtp-messages)
+          - [VTP  Modes](#vtp-modes)
+          - [Problem with VTP](#serious-issue-with-vtp)
+     - [DTP Dynamic Trunking Protocol](#dtp)
+
+- [STP Spanning Tree Protocol]
+     - [BPDUs in STP](#bpdus)
+     - [Extended Bridge ID and Portfast](#extended-bridge-id-and-portfast)
+     - [Path Cost](#path-cost)
+
+- [CDP Cisco Discovery Protocol](#cdp)
+     - [Disabling CDP](#disabling-cdp) 
+
+- [LLDP Link Local Discovery Protocol](#lldp)
 
 
-- [Lab6 DHCP configuration 1](#lab6)
+- [Port Security CCNA-Sec](#port-security)
+     - [How MAC addresses are learnt](#learning-mac-addresses)
+     - [Basic Default Port Security , limit of 1 MAC address](#testing-basic-port-security)
+     - [Port Security Step-by-Step on Basis of MAC addresses](#port-security-with-specific-mac-address-manually)
+     - [**Sticky** Port Security](#port-security-sticky)
+     - [CAM Table overflow attack](#CAM-table-overflow-attack)
 
-- [Lab7 DHCP configuration 2](#lab7)
+- [Difference Between Switched Ports and Routed Ports](#switchports-versus-routed-ports)
+- [Inter-VLAN Routing](#inter-vlan-routing)
+- [IP Routing](#ip-routing)
+
 
 ___
 
