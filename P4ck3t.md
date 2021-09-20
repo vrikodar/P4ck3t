@@ -2871,3 +2871,5 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-20_08-24.png)
 
+**Today the protocols most used are OSPF or EIGRP**
+
