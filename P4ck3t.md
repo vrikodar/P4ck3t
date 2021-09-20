@@ -2949,3 +2949,10 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 *In the image above we can see that the Router will take the EIGRP route over RIP but also note that RIP route is still stored in the rip database and if at any time if EIGRP link went down it will follow the RIP route and when at any point the EIGRP link comes up the router will again follow it*
 
+## Classful routing protocols
+
+ - these protocols donot advertise subnet mask
+ - consistency of subnet mask assumed ie: routers assume that all are using same mask as they are
+ - Example: RIP version1 
+ - Hence not used in networks today
+
