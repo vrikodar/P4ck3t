@@ -2956,3 +2956,12 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
  - Example: RIP version1 
  - Hence not used in networks today
 
+## Classless routing protocols
+
+ - Do advertise subnet mask
+ - Support `VLSM` {**Variable lenght subnet mask**}
+ - Summary Routes can also be manually configured
+ - Examples: OSPF,EIGRP,RIP-version2,ISIS
+
+## Administrative Distance VS Mask length
+
