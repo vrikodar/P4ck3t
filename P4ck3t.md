@@ -2854,3 +2854,19 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
      - no over head on network that might unnecessarily consume bandwidth
      - Manual update is required when there are changes in topology
      
+`Dynamic Routes`
+     - uses a Routing protocol
+     - Automatically adjust Routes based on topology or traffic changes
+     - Routers exchange network information with each other 
+     
+## How Routers Determine the Best Route
+
+`Static` - Decided by administrator
+
+`RIP` - Hop Count
+
+`OSPF` - Bandwidth 
+
+`EIGRP` - Bandwidth + Delay
+
+
