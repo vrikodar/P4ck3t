@@ -3045,8 +3045,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 *we can check for Routes in the Running config using `sh run | i ip route`*
 
-
-
+**Note that when we have lets say two routes set to a single network the Router might do load balancing when sending traffic to that network**
 
 
      
