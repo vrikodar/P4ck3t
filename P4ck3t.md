@@ -2999,3 +2999,6 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 in OSPF we can divide a given network into multiple areas this allows us to prevent from flooding the whole network.
 
 
+## Static Routing
+
+**`Routing Table`**: *a routing table, or routing information base, is a data table stored in a router or a network host that lists the routes to particular network destinations*
