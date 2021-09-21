@@ -2927,6 +2927,8 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
  - more memory and CPU due to `Adjacency topology and forwarding table`
  - Algorithms can be very process intensive
+ - requires strict design
+ - configuration and design can be complex
 
 ### Advance Distance Vector
 
