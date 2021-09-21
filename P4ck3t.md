@@ -3035,5 +3035,10 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      
 ### Deleting Static Routes
      
+ - en
+ - conf t
+ - no ip route <The complete Static Route>
+     `no ip route <to-network> <mask-of-to-network> <via-ip>`
 
+     
      
