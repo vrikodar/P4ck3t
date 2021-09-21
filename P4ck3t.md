@@ -3031,3 +3031,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - ip route 0.0.0.0 0.0.0.0 <Gateway-IP>
      {Now to reach internet that Gateway IP will be used!}
      
+*This might also show up a candidate Default Route in Routers routing table*
+     
