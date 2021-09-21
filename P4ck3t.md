@@ -3024,3 +3024,10 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - en
  - show ip cef      {**will show us the cef table**}
 
+**Setting a Default Static Route**
+
+ - en
+ - conf t
+ - ip route 0.0.0.0 0.0.0.0 <Gateway-IP>
+     {Now to reach internet that Gateway IP will be used!}
+     
