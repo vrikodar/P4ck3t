@@ -3002,3 +3002,20 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 ## Static Routing
 
 **`Routing Table`**: *a routing table, or routing information base, is a data table stored in a router or a network host that lists the routes to particular network destinations*
+
+**Types**
+
+ - Directly connected networks
+     - Added to the routing table automatically
+     - Directly connected to one of the interfaces on the local router
+     - when interface goes down the route is removed from the routing table
+
+ - Static Routes
+     - Manually added to the configuration of the Router
+     - very good for small simple networks
+     - Do not Dynamically adjust to the changes in the network topology
+
+ - Default Routes
+     - optional route that is used when no explicit path to a destination is found in the routing table
+
+ 
