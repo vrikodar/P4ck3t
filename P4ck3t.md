@@ -3026,6 +3026,8 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 ### Setting a Default Static Route
 
+*Following needs to be done when IP routing is enabled and we need to Route traffic VIA Default gateway if we set the Default gateway using a command we need to disable IP Routing*
+
  - en
  - conf t
  - ip route 0.0.0.0 0.0.0.0 <Gateway-IP>
