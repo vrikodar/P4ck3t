@@ -3047,5 +3047,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 **Note that when we have lets say two routes set to a single network the Router might do load balancing when sending traffic to that network**
 
+## RIP Routing information protocol
 
      
+
