@@ -2912,6 +2912,11 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
  - Every Router constructs a map of the connectivity to a netwwork in the form of a graph
  - could be Difficult to configure
  - Require more memory and processing power
+ 
+ - Flood network with LSAs {link state advertisements} 
+ - All routers in network will populate a topological database 
+ - in SPF algorithm routers put themselves at the root of an SPF tree and then the best route found gets put into routing table 
+ - Example: OSPF {`open shortest path first`}, ISIS {`Intermediate System - Intermediate System`}
 
 ### Advance Distance Vector
 
@@ -2974,3 +2979,6 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-20_13-33.png)
 
 **In Summary administrative distance is only used as a tie breaker when multiple routing protocols are trying to put same Route**
+
+## Link State Routing Protocols
+
