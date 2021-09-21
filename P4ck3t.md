@@ -2917,6 +2917,16 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
  - All routers in network will populate a topological database 
  - in SPF algorithm routers put themselves at the root of an SPF tree and then the best route found gets put into routing table 
  - Example: OSPF {`open shortest path first`}, ISIS {`Intermediate System - Intermediate System`}
+ - these protocols have Fast Convergence, changes reported immediately
+ - Robustness against routing loops since routers know topology
+ - Link State Packets are sequenced and acknowledged
+ - Hierarchial design enables optimization of resources
+ - thus can scale to much larger environments than distance vector protocols
+
+**Cons**
+
+ - more memory and CPU due to `Adjacency topology and forwarding table`
+ - Algorithms can be very process intensive
 
 ### Advance Distance Vector
 
