@@ -3019,3 +3019,8 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      - optional route that is used when no explicit path to a destination is found in the routing table
 
  
+*we can see Routes present in a Router `Cisco Express Forwarding`*
+
+ - en
+ - show ip cef      {**will show us the cef table**}
+
