@@ -2980,5 +2980,10 @@ we can run the Following commands to enable Inter-VLAN Routing on a Switch
 
 **In Summary administrative distance is only used as a tie breaker when multiple routing protocols are trying to put same Route**
 
-## Link State Routing Protocols
+## OSPF Hierarchy
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-21_03-07.png)
+
+in OSPF we can divide a given network into multiple areas this allows us to prevent from flooding the whole network.
+
 
