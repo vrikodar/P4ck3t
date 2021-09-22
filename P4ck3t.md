@@ -3075,3 +3075,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/enable-rip-r3.png)
 
+**and now we can also view the Routes on R1 and also try pinging R3 as a Final test**
+
