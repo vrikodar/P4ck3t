@@ -3061,5 +3061,9 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-22_11-07.png)
 
-     
+
+*For enabling RIP we will start with R1*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/enable-rip-r1.png)
+
 
