@@ -3077,3 +3077,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 **and now we can also view the Routes on R1 and also try pinging R3 as a Final test**
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/final-test-rip.png)
+     
+**we see that the Routes have appeared in the Routing Table because of RIP and we are easily able to ping R3 in a Different subnet from R2**
+
