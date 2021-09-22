@@ -3055,6 +3055,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - Allows for load balancing across equal paths (4 is default)
  - Does not take bandwidth load or other metrics into account when determining the best path
      
+*Below is a sample network in which we will configure RIP*
 
-     
+
 
