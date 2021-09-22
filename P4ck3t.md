@@ -3071,4 +3071,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/enable-rip-r2.png)
 
-
+*and now we will enable RIP on Router3*
+     
