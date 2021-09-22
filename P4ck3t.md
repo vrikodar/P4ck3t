@@ -2051,6 +2051,8 @@ we can advertise the loopback interface using a routing protocol such as **OSPF*
 
 # TCP vs UDP
 
+![](https://img-9gag-fun.9cache.com/photo/aD42eyG_460s.jpg)
+
  - Both TCP and UDP allow for something known as session multiplexing which means that single host with single IP address is able to communicate with multiple servers
  - Both reside at Layer4
 
