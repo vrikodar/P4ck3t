@@ -3126,3 +3126,17 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 *To actually see everything from starting we can clear the Routing table as we saw earlier and let RIP Find,add routes again but this time with packet debugging which will actually allow us to see what's happening under the hood*
 
  - clear ip route *   {`run in enable mode`}
+
+*we can check what interfaces are passive with*
+
+ - en
+ - sh ip protocols 
+
+**we can remove an interface from passive state with**
+
+ - en
+ - conf t
+ - router rip
+
+ - no passive-interface <Interface name>     {**This should again start the advertisements on that interface**}
+
