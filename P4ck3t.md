@@ -3081,3 +3081,6 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      
 **we see that the Routes have appeared in the Routing Table because of RIP and we are easily able to ping R3 in a Different subnet from R2**
 
+*we can view the RIP database on the Routers using `show rip database` {in enable mode}
+
+
