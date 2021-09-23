@@ -3111,5 +3111,13 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - passive-interface <`Interface-name-here`>    {will disable RIP on that specific Interface!}
 
 
+### Debugging RIP Traffic
+     
+**To see RIP requests , data etc.. we can simply run the following commands**
+
+ - en
+ - debug ip rip
+     
+*To actually see everything from starting we can clear the Routing table as we saw earlier and let RIP Find,add routes again but this time with packet debugging which will actually allow us to see what's happening under the hood*
 
 
