@@ -3101,6 +3101,14 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - end
 
 
+### Disabling RIP on specific interface
+
+**we can disable RIP on a specific interface as follows**
+
+ - en
+ - conf t
+ - router rip
+ - passive-interface <`Interface-name-here`>    {will disable RIP on that specific Interface!}
 
 
 
