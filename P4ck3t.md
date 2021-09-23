@@ -3101,9 +3101,14 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - end
 
 
-### Disabling RIP on specific interface
+###  RIP Passive Interface command
 
-**we can disable RIP on a specific interface as follows**
+**what does passive Interface command do**
+
+- The passive-interface command disables advertisement of Routes on a specific selected interface However Note that it does not Stop the Receiving of Routes so with this command the Interface will be able to learn about other networks connected to it but other networks connected to it would not able to learn about the present Routes or Networks
+
+
+**as follows**
 
  - en
  - conf t
