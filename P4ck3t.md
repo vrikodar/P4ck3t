@@ -3081,6 +3081,27 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      
 **we see that the Routes have appeared in the Routing Table because of RIP and we are easily able to ping R3 in a Different subnet from R2**
 
-*we can view the RIP database on the Routers using `show rip database` {in enable mode}
+*we can view the RIP database on the Routers using `show rip database` {in enable mode}*
+     
+### Clearing all Routes in Routing table
+
+ - en
+ - clear ip route *     {`the wildcard * will clear every Route present in the routing table`}
+
+
+### Fixing Routes By Disabling Auto Summary
+
+**By Default RIP can mess up Routes with auto summary and can eventually Fuck up the whole network so its always a good idea to disable auto summary with following commands**
+     
+
+ - en
+ - conf t
+ - router rip
+ - no auto-summary
+ - end
+
+
+
+
 
 
