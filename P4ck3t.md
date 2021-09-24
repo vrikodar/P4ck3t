@@ -3155,3 +3155,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 ![](https://image.slidesharecdn.com/dynamicrouting-rip-140108231625-phpapp02/95/dynamic-routing-rip-8-638.jpg?cb=1389223014)
 
+*when using RIP it is not a Good Idea to have different timers on Routers in a Network*
+
