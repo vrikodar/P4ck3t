@@ -3157,3 +3157,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 *when using RIP it is not a Good Idea to have different timers on Routers in a Network*
 
+### RIP version mismatch
+     
+*RIP version mismatches can cause a lot of serious issues in the network*
+     
