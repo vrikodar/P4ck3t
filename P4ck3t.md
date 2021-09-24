@@ -3175,3 +3175,11 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - int <interface-name> 
  - no rip send version 1
 
+**configuring RIP on a specific interface to use both RIP version 1 and 2 for send**
+
+ - en
+ - conf t
+ - int <interface-name>
+ - ip rip send version 1 2
+ - end
+
