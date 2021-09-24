@@ -3166,20 +3166,20 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 *First of all we can see if specific version of rip is enabled for sending on a specific interface etc..with first `sh ip protocol` and then in detail with following*     
 
  - en
- - sh run int <interface-name>
+ - sh run int `<interface-name>`
 
      **Then we can remove lets say version 1 with following commands**
      
  - en
  - conf t
- - int <interface-name> 
+ - int `<interface-name>`
  - no rip send version 1
 
 **configuring RIP on a specific interface to use both RIP version 1 and 2 for send**
 
  - en
  - conf t
- - int <interface-name>
+ - int `<interface-name>`
  - ip rip send version 1 2
  - end
 
