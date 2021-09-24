@@ -3140,3 +3140,6 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
  - no passive-interface <Interface name>     {**This should again start the advertisements on that interface**}
 
+### RIP default information originate command
+     
+
