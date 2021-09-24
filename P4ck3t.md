@@ -3151,4 +3151,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 **This will set a gateway of Last resort on each Router Automatically using RIP**
      
+### RIP timers
+
+![](https://image.slidesharecdn.com/dynamicrouting-rip-140108231625-phpapp02/95/dynamic-routing-rip-8-638.jpg?cb=1389223014)
 
