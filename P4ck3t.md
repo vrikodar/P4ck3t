@@ -3142,4 +3142,13 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 ### RIP default information originate command
      
+*This command can be used to set a Default static Route*
+     
+ - en
+ - conf t
+ - router rip
+ - default-information originate 
+
+**This will set a gateway of Last resort on each Router Automatically using RIP**
+     
 
