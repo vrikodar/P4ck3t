@@ -3183,3 +3183,9 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - ip rip send version 1 2
  - end
 
+# Router on a Stick Topology
+     
+*Below is a topology which we need to configure as from the diagram and the switch in between is a Layer2 switch*
+     
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/router-on-stick.png)
+
