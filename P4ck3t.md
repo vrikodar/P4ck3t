@@ -3205,3 +3205,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/no-shut-ronstk.png)
 
+*Now we need to configure interfaces on PC1 and PC2*
+     
