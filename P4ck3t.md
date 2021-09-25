@@ -3189,3 +3189,8 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/router-on-stick.png)
 
+**We can configure VLANs and inter VLAN routing a Router by making subinterface and also adding Trunking encapsulation on the interfaces**
+
+`Note that trunking encapsulation is a must for sub interfaces`
+     
+
