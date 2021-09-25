@@ -3193,4 +3193,15 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 `Note that trunking encapsulation is a must for sub interfaces`
      
+**PC1 and PC2 are actually cisco Routers acting as Routers**
+     
+## Configuring Router1
+     
+*we will start by adding and configuring the sub interfaces*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/conf-ronstk.png)
+
+*After the sub interfaces are added we can just no shut the main interface and it will no shut all sub interfaces*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/no-shut-ronstk.png)
 
