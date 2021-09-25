@@ -3183,27 +3183,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - ip rip send version 1 2
  - end
 
-# Router on a Stick Topology
-     
-*Below is a topology which we need to configure as from the diagram and the switch in between is a Layer2 switch*
-     
-![](https://github.com/SxNade/P4ck3t/blob/main/pimages/router-on-stick.png)
 
-**We can configure VLANs and inter VLAN routing a Router by making subinterface and also adding Trunking encapsulation on the interfaces**
-
-`Note that trunking encapsulation is a must for sub interfaces`
-     
-**PC1 and PC2 are actually cisco Routers acting as Routers**
-     
-## Configuring Router1
-     
-*we will start by adding and configuring the sub interfaces*
-
-![](https://github.com/SxNade/P4ck3t/blob/main/pimages/conf-ronstk.png)
-
-*After the sub interfaces are added we can just no shut the main interface and it will no shut all sub interfaces*
-
-![](https://github.com/SxNade/P4ck3t/blob/main/pimages/no-shut-ronstk.png)
-
-*Now we need to configure interfaces on PC1 and PC2*
      
