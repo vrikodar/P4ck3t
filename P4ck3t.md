@@ -3184,4 +3184,8 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - end
 
 
+# VLSM
      
+*Variable lenght subnet masks*
+     
+
