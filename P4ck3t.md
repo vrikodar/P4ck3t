@@ -3189,16 +3189,16 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 *Variable length subnet masks*
      
  - classful networks
-      - A,B,C
-      - 10.0.0.0/8
-      - 172.16.0.0/16
-      - 192.168.1.0/24
+ - A,B,C
+ - 10.0.0.0/8
+ - 172.16.0.0/16
+ - 192.168.1.0/24
  
 - CIDR
-      - Based on VLSM
-      - allowed for different sized subnets
-      - 10.0.0.0/8 or 10.0.0.0/16 or 10.0.0.0/24 or 10.0.0.0/30
-      - 10.1.1.0/27 or 10.1.2.0/26
-      - Most cool thing ever to subnet the fucking subnet itself furthuer and so on....
+ - Based on VLSM      
+ - allowed for different sized subnets
+ - 10.0.0.0/8 or 10.0.0.0/16 or 10.0.0.0/24 or 10.0.0.0/30
+ - 10.1.1.0/27 or 10.1.2.0/26
+ - Most cool thing ever to subnet the fucking subnet itself furthuer and so on....
 
  
