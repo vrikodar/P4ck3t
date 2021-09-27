@@ -3202,3 +3202,11 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - Most cool thing ever to subnet the fucking subnet itself furthuer and so on....
 
  
+# HSRP
+
+*from google*
+
+*Hot Standby Router Protocol (HSRP) is a Cisco proprietary redundancy protocol for establishing a fault-tolerant default gateway*
+
+**So basically a backup for  default gateway going down**
+
