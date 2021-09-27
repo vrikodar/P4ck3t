@@ -3210,3 +3210,18 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 **So basically a backup for  default gateway going down**
 
+*when we configure HSRP on a Router we basically create a Virtual Router with an IP which we put as Default Gateway on Devices*
+
+**Topology**
+ - Imagine a topology connected in such as way that it has two switches {Layer3} connecting to two Routers {one each} with two VLANs and toplogy is wired in a way that R1 and R2 both can Reach each Layer 3 switch
+     
+
+*How will HSRP work in this case??*
+
+ - HSRP will be configured on both in switches on lets say VLAN2 and this will allow redundancy in network in terms of Default Gateway
+ - Also Note that Both Layer3 switches will be cpnfigured with HSRP on a specific VLAN and that too in same Group of lets say 1
+ - so when one Switch goes down HSRP can automatically shift the Default Gateway to other switch
+     
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-27_06-59.png)
+
+
