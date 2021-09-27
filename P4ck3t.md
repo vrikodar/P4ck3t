@@ -3225,3 +3225,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-27_06-59.png)
 
 
+**Configuring HSRP on a VLAN interface**
+     
