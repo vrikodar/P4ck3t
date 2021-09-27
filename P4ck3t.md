@@ -3204,7 +3204,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  
 # HSRP
 
-*from google*
+*`def from google`*
 
 *Hot Standby Router Protocol (HSRP) is a Cisco proprietary redundancy protocol for establishing a fault-tolerant default gateway*
 
