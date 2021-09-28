@@ -3310,7 +3310,7 @@ loopback because they never go down boi!!
      
 **So basically we can configure the switch to mirror traffic coming on one port to another or even traffic coming on one VLAN to another**
 
-Q. Why would you want to that ??
+Q. Why would you want to do that ??
 
 *For example*
 
