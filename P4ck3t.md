@@ -3328,3 +3328,31 @@ Q. Why would you want to do that ??
  - monitor session 1 source interface `interface//vlan-name` both    {both means we will capture traffic both sent and received, choose wisely a lot of traffic might flow :)}
  - monitor session 1 destination interface `interface-name`
 
+### SPAN Ingress option
+
+**Note**: `when we enable span on a switch , the switch no longer learns mac addresses on the SPAN destination port it also does not allow traffic to be received from that port`
+
+*To enable ingress traffic from the Destination SPAN port to be forwarded we need to configure it as follows*
+
+ - en
+ - conf t
+ - destination interface `interface-name` ingress untagged vlan 1   {vlan 1 the default in which every device is!}
+
+### SPAN Dependencies and Rules
+
+ - A span destination port can be only be used with one span session at a time
+ - A span destination port can also not be a span source port  
+ - Multiple SPAN sources can be used within a single SPAN session
+ - one SPAN session can-not mix interfaces and VLAN sources
+
+*By Default Once we configure SPAN,the destination port is no longer treated by switch as normal port*
+
+### Removing the SPAN port
+
+ - en
+ - conf t
+ - no monitor session 1 source interface `interface//vlan-name` both    {both means we will capture traffic both sent and received, choose wisely a lot of traffic might flow :)}
+ - no monitor session 1 destination interface `interface-name`
+
+*Or we can also change the session*
+
