@@ -3260,6 +3260,10 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
  - used for clock synchronization
  - uses UDP port 123
 
+ *NTP uses a hierarchical, semi-layered system of time sources, Each level of this hierarchy is termed a "startum" and is assigned a number starting with zer0 at the top*  
+
 `In the world of NTP, stratum levels define the distance from the reference clock. A reference clock is a stratum-0 device that is assumed to be accurate and has little or no delay associated with it`
 
+
+*For security reasons it is safe to take time from a local AD server in the network*
 
