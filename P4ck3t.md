@@ -3277,3 +3277,25 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 [Configuring Time Manually](https://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-small-business-300-series-managed-switches/smb5584-configure-system-time-settings-on-a-switch-through-the-comma.html)
 
+##Configuring NTP server on loopback interface
+
+loopback because they never go down boi!!
+
+ - en
+ - conf t
+ - ntp master 2
+ - ntp source loopback 0   {or any interface of your choice}
+
+**Checking for NTP associations / status**
+
+ - en
+ - sh ntp associations  
+ - sh ntp status
+
+## Adding NTP Server to a Router
+
+ - en
+ - conf t
+ - ntp server <IP-NTP-Server>
+ - end
+     
