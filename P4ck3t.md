@@ -3299,3 +3299,22 @@ loopback because they never go down boi!!
  - ntp server <IP-NTP-Server>
  - end
      
+## Port SPAN Mirroring
+
+*To configure a switch to make copies of ethernet frames*     
+    
+`SPAN`: switched port analyzer 
+
+ - port mirroring
+ - port monitoring
+     
+**So basically we can configure the switch to mirror traffic coming on one port to another or even traffic coming on one VLAN to another**
+
+Q. Why would you want to that ??
+
+*For example*
+
+ - we might have a system running IDS/IPS etc.. on a specific port so we might have to configure port SPAN for it
+ - we might have a specific Network Ananlyzer on a specific port 
+     
+
