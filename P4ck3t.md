@@ -3344,6 +3344,7 @@ Q. Why would you want to do that ??
  - A span destination port can also not be a span source port  
  - Multiple SPAN sources can be used within a single SPAN session
  - one SPAN session can-not mix interfaces and VLAN sources
+ - when specifying the Source interfaces from IOS command line for SPAN we can specify multiple interfaces by seprating them with comma
 
 *By Default Once we configure SPAN,the destination port is no longer treated by switch as normal port*
 
@@ -3353,6 +3354,10 @@ Q. Why would you want to do that ??
  - conf t
  - no monitor session 1 source interface `interface//vlan-name` both    {both means we will capture traffic both sent and received, choose wisely a lot of traffic might flow :)}
  - no monitor session 1 destination interface `interface-name`
+ - Etherchannel or Trunks can also be used as source ports 
 
 *Or we can also change the session*
+
+### SPAN multiple sessions
+
 
