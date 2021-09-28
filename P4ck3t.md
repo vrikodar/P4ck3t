@@ -3257,3 +3257,9 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
      
 *Network Time Protocol*
 
+ - used for clock synchronization
+ - uses UDP port 123
+
+`In the world of NTP, stratum levels define the distance from the reference clock. A reference clock is a stratum-0 device that is assumed to be accurate and has little or no delay associated with it`
+
+
