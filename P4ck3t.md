@@ -3275,5 +3275,5 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-28_04-08.png)
 
-![Configuring Time Manually](https://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-small-business-300-series-managed-switches/smb5584-configure-system-time-settings-on-a-switch-through-the-comma.html)
+[Configuring Time Manually](https://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-small-business-300-series-managed-switches/smb5584-configure-system-time-settings-on-a-switch-through-the-comma.html)
 
