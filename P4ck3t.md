@@ -3317,7 +3317,7 @@ Q. Why would you want to do that ??
  - we might have a system running IDS/IPS etc.. on a specific port so we might have to configure port SPAN for it
  - we might have a specific Network Ananlyzer on a specific port 
      
-## Remote SPAN
+## What is Remote SPAN ?
 
 *This can allow us to copy frames from a local switch to a remote switch*
 
