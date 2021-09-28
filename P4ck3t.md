@@ -3225,5 +3225,31 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-27_06-59.png)
 
 
-**Configuring HSRP on a VLAN interface**
+**Configuring HSRP on a VLAN interface of switch1**
+
+ - en     
+ - conf t
+ - int vlan 1
+ - standby 1 ip <ip-virtual>
+ - standby 1 priority 200   {default is 100 but we set it to 100 so that this becomes the active Forwarder for VLAN1}
+
+ - standby 1 preempt {ensure S1 is always the active Router till its alive}
+
+**we can also view the HSRP information with following command**
+
+ - en
+ - sh standby
+
+**Configuring HSRP on a VLAN interface of switch2**
+
+ - en
+ - conf t
+ - int vlan 1
+ - standby 1 ip <ip-virtual>   {same group number of 1 as on switch1, virtual ip is also same as its VLAN1 on both switches!}
+ - standby 1 priority 100  {also the default}
+ - end
+
+*This will configure Basic HSRP*
+
+**Similarly we can also configure other VLANs if any**
      
