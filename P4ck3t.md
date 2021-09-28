@@ -3321,3 +3321,10 @@ Q. Why would you want to do that ??
 
 *This can allow us to copy frames from a local switch to a remote switch*
 
+## Configuring Baic Port SPAN for a VLAN
+
+ - en
+ - conf t
+ - monitor session 1 source <interface//vlan> both    {both means we will capture traffic both sent and received, choose wisely a lot of traffic might flow :)}
+ - monitor session 1 destination interface <interface>
+
