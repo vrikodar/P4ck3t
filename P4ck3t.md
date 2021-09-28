@@ -3267,3 +3267,11 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 *For security reasons it is safe to take time from a local AD server in the network*
 
+## Startum Number on a Router
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/ntp.png)
+
+*Startum 0 will provide time to Startum 1 and so on..*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-28_04-08.png)
+
