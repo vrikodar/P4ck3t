@@ -3253,3 +3253,7 @@ in OSPF we can divide a given network into multiple areas this allows us to prev
 
 **Similarly we can also configure other VLANs if any**
      
+# NTP
+     
+*Network Time Protocol*
+
