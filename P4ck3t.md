@@ -3325,6 +3325,6 @@ Q. Why would you want to do that ??
 
  - en
  - conf t
- - monitor session 1 source <interface//vlan> both    {both means we will capture traffic both sent and received, choose wisely a lot of traffic might flow :)}
- - monitor session 1 destination interface <interface>
+ - monitor session 1 source interface `interface//vlan-name` both    {both means we will capture traffic both sent and received, choose wisely a lot of traffic might flow :)}
+ - monitor session 1 destination interface `interface-name`
 
