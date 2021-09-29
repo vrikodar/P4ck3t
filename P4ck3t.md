@@ -3370,3 +3370,17 @@ Q. Why would you want to do that ??
 
 # Network Management Fundamentals
 
+## Types of Network Management Protocols
+
+**Query Based**
+ - which means that the NMS {Network Management Station} asks a question from a device and then waits for response
+ - are more reliable
+ - when NMS does not get a response indicates that there is a problem in a network
+ - can be scheduled to send Query after specific amount of time
+ - For example in Orion Network Performance Monitor {Solarwinds NPM} the default setting is 2min Query for Status anf 9min Query for Statistics
+ - Orion NPM uses both Query and Even Based protocols    
+
+**Event Based**
+ - The NMS simply listens for possible announcements or events from the network
+ - Network Management protocols that leverage such type of events are either `Syslog Based` or `SNMP trap based`
+
