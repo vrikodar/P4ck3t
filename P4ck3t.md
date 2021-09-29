@@ -3383,4 +3383,10 @@ Q. Why would you want to do that ??
 **Event Based**
  - The NMS simply listens for possible announcements or events from the network
  - Network Management protocols that leverage such type of events are either `Syslog Based` or `SNMP trap based`
+ - Even based systems can react very Quickly , as soon as the event occurs
+ - However the Even needs to reach to NMS , so we can get unreliable results if like an interface went down etc.. which prevents the even from reaching the NMS
+
+**So what should we use??**
+
+*Best Practices state that we should both in our network `Query Based {Polling Based} and Event Based`*
 
