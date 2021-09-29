@@ -3360,4 +3360,11 @@ Q. Why would you want to do that ??
 
 ### SPAN multiple sessions
 
+ - we can run multiple sessions on a switch and it also depends on how many sessions does a single switch support , some might suppport 2 only while others might support up to 70
+ - Another thing to Note is that the Destination port configured for one SPAN session can not be configured as Destination port again for another SPAN session
+ - But as we know we can have more than one sources though
+
+# Real word Network Management NPM from Solarwinds
+
+[NPM, Network Performance Monitor From Solarwinds](https://www.solarwinds.com/network-performance-monitor)
 
