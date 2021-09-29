@@ -3394,3 +3394,16 @@ Q. Why would you want to do that ??
 💡️ Its always good to have a Distributed Network Management Architecture than a Single centralized NMS
 
 
+## Understading Network Management Protocols
+
+**SolarWinds NPM // orion**
+ - Fault management
+ - uses ICMP/ping for detecting if device is up or not
+ - monitoring for faults on volumes or interfaces is done using `SNMP`
+
+ - with ping the device might be up but the device in path might be down
+ - with SNMP NMS can confirm that the interface is down
+ - SNMP also contains wealth of other information such as CPU,memory,interface traffic etc..
+
+ - with windows systems the NMS might also use WMI [`Windows Management Instrumentation`](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
+
