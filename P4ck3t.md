@@ -3368,3 +3368,5 @@ Q. Why would you want to do that ??
 
 [NPM, Network Performance Monitor From Solarwinds](https://www.solarwinds.com/network-performance-monitor)
 
+# Network Management Fundamentals
+
