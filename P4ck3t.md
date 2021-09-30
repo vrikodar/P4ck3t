@@ -3464,3 +3464,5 @@ Q. Why would you want to do that ??
 
 **we can configure logging Synchronus as Follows, so when the logs appear we are automatically taken to the prompt again without pressing enter and so are current commands that are being typed**
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-30_04-55.png)
+
