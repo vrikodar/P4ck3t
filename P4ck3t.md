@@ -3457,10 +3457,7 @@ Q. Why would you want to do that ??
      
 *we can check the logging status on a cisco Router with `show logging`*
 
-### Syslog Numerical Codes
 
-![](https://github.com/SxNade/P4ck3t/blob/main/pimages/syslog-codes.png)
-     
 ### Logging Synchronous
 
 *`logging synchronous` is a simple command that will not break the command we are currently typing by dsiplaying logs at the screen*
@@ -3485,7 +3482,21 @@ Q. Why would you want to do that ??
  - en
  - terminal monitor
 
-**Note that packet tracer has this by Default**
+**Note that packet tracer will still display messages even when this is not enabled but its not the same in real world**
 
 
 
+### Stop console Logging
+
+*we can stop logging to the console with following commands*
+
+ - en
+ - conf t
+ - no logging console
+ - end
+
+### Enabling Debug Level 
+
+*we can see what {console,monitor,buffer} is configured with what {error,disabled,debug etc..}*
+
+ 
