@@ -3469,3 +3469,4 @@ Q. Why would you want to do that ??
 
 ### Telnet and Logging
 
+*we will configure logging or telent on a Router*
