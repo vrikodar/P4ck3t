@@ -3458,3 +3458,9 @@ Q. Why would you want to do that ??
 *we can check the logging status on a cisco Router with `show logging`*
 
 
+### Logging Synchronous
+
+*`logging synchronous` is a simple command that will not break the command we are currently typing by dsiplaying logs at the screen*
+
+**we can configure logging Synchronus as Follows, so when the logs appear we are automatically taken to the prompt again without pressing enter and so are current commands that are being typed**
+
