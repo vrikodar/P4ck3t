@@ -3466,3 +3466,6 @@ Q. Why would you want to do that ??
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/2021-09-30_04-55.png)
 
+
+### Telnet and Logging
+
