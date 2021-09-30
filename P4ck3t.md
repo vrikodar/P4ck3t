@@ -3407,3 +3407,21 @@ Q. Why would you want to do that ??
 
  - with windows systems the NMS might also use WMI [`Windows Management Instrumentation`](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
 
+### NMS using PING
+
+ - when the NMS pings a device and does not get a response the NMS does not really know if the device is up or down since there could be a Routing a problem or the interface in the path could be down or even there could be some ACL or firewall rule blocking pings from the NMS
+ - availability calculations 
+ - latency response timers
+
+### NMS using SNMP
+
+ - with SNMP NMS is querying a device and the device is telling the device via SNMP the state of an interface, NMS knows 100% that the information is accurate
+ - In the event that the actual device is down rather than some interface we will get unknown state 
+ - used for statistics such as CPU,memory,interface traffic,errors
+
+### NMS using WMI
+
+ - [`Windows Management Instrumentation`](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
+ - used in case of windows
+ - Check for performance counter type values
+
