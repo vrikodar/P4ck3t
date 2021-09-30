@@ -3438,3 +3438,11 @@ Q. Why would you want to do that ??
  - The database is of a tree structure
  - [RFC for MIB](https://datatracker.ietf.org/doc/html/rfc1213)
 
+ - Each Entry in a MIB is addresses through an OID
+
+*For example if a network manufacturer wanted to create a MIB for polling environmental statistics on a router , the router Manufacturer will include a MIB with many different variables/statistics, an OID for example will be used for polling a specific interface*
+
+#### MIB Browser from Solarwinds
+
+[`MIB Browser from Solarwinds`](https://www.solarwinds.com/engineers-toolset/use-cases/snmp-mib-browser)
+
