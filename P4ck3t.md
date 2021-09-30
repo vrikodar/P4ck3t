@@ -3523,3 +3523,8 @@ Q. Why would you want to do that ??
 
  - en
  - show log  {and this will show us the buffer, we can also filter for specific keywords with  { show log | include <keyword>} }
+
+### Kiwi Syslog Server From Solarwinds
+
+[`Kiwi Syslog Server`](https://www.solarwinds.com/kiwi-syslog-server)
+
