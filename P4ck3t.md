@@ -3446,9 +3446,15 @@ Q. Why would you want to do that ??
 
 [`MIB Browser from Solarwinds`](https://www.solarwinds.com/engineers-toolset/use-cases/snmp-mib-browser)
 
+
 ## Syslog
 
  - logging is ciritical when troubleshooting networks
  - with cisco we can log directly to the console of Router,buffer and also to a syslog server
  - [`About Syslog Protocol`](https://datatracker.ietf.org/doc/html/rfc5424)
+ - when we configure loggin on a router we can configure the severity either by a number or by a name
+     
+     
+*we can check the logging status on a cisco Router with `show logging`*
+
 
