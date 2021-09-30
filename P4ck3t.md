@@ -3457,6 +3457,9 @@ Q. Why would you want to do that ??
      
 *we can check the logging status on a cisco Router with `show logging`*
 
+### Syslog codes
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/syslog-codes.png)
 
 ### Logging Synchronous
 
@@ -3499,4 +3502,3 @@ Q. Why would you want to do that ??
 
 *we can see what {console,monitor,buffer} is configured with what {error,disabled,debug etc..}*
 
- 
