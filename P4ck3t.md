@@ -3477,5 +3477,12 @@ Q. Why would you want to do that ??
 
 ![](https://github.com/SxNade/P4ck3t/blob/main/pimages/logs-noshut.png)
 
-*we see that the logs appear on the terminal but if we do the same with a telent session to R2 from R1 so basially we will have R2 on both sides {but with R2 on telnet on left side}*
+*we see that the logs appear on the terminal but if we do the same with a telent session to R2 from R1 so basially we will have R2 on both sides {but with R2 on telnet on left side} , we will not see any logs on telnet session and for that we need to run following commands on R2*
+
+ - en
+ - terminal monitor
+
+**Note that packet tracer has this by Default**
+
+
 
