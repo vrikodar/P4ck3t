@@ -3425,3 +3425,16 @@ Q. Why would you want to do that ??
  - used in case of windows
  - Check for performance counter type values
 
+
+
+## MIBs OIDs and Performance Counters
+
+### MIBs
+
+ - Management Information Bases
+ - Large Entity   {OIDs or Object Indetifiers are included within a MIB}
+ - MIB is a Database used for managing entities in a network using protocol such as SNMP
+ - Objects in the MIB are defined using ASN {Abstract Syntax notation} 
+ - The database is of a tree structure
+ - [RFC for MIB](https://datatracker.ietf.org/doc/html/rfc1213)
+
