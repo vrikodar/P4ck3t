@@ -3457,7 +3457,10 @@ Q. Why would you want to do that ??
      
 *we can check the logging status on a cisco Router with `show logging`*
 
+### Syslog Numerical Codes
 
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/syslog-codes.png)
+     
 ### Logging Synchronous
 
 *`logging synchronous` is a simple command that will not break the command we are currently typing by dsiplaying logs at the screen*
