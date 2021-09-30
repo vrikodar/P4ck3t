@@ -3528,3 +3528,11 @@ Q. Why would you want to do that ??
 
 [`Kiwi Syslog Server`](https://www.solarwinds.com/kiwi-syslog-server)
 
+*Once we have the Syslog server connected to our network, we can configure the Cisco Routers to use it as follows*
+
+ - en
+ - logging <ip-of-syslog-server>   {we will add the kiwi syslog server ip address}
+ - logging trap 7
+ - end
+
+*and now we should be able to see some logs on the *Kiwi Syslog server window*
