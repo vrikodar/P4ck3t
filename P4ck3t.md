@@ -3502,5 +3502,8 @@ Q. Why would you want to do that ??
 
 *we can see what {console,monitor,buffer} is configured with what {error,disabled,debug etc..}*
 
-[`Check For Debug Level numeric code`](https://github.com/SxNade/P4ck3t/blob/main/P4ck3t.md#syslog) <yeah fkk i am not adding the image again !!>
+[`Check For Debug Level numeric code`](https://github.com/SxNade/P4ck3t/blob/main/P4ck3t.md#syslog)
+
+
+
 
