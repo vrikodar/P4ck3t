@@ -3511,4 +3511,15 @@ Q. Why would you want to do that ??
  - logging monitor 7
 
 
+### Enabling Buffer Logging
 
+*we can enable logging in buffer with following commands*
+
+ - en
+ - conf t
+ - logging buffered 50000  <50000 is a just a random number , you can use ? to check what is the max and min value you can add>
+
+**we can view the logs in buffer as follows**
+
+ - en
+ - show log  {and this will show us the buffer, we can also filter for specific keywords with  { show log | include <keyword>} }
