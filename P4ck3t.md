@@ -3471,4 +3471,11 @@ Q. Why would you want to do that ??
 
 *we will configure logging or telent on a Router*
 
+**we have two Routers R1 and R2 connected to each other and we can login to R2 from R1 using telnet**
+
+**First we will shut and no shut a interface on R2 normally**
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/logs-noshut.png)
+
+*we see that the logs appear on the terminal but if we do the same with a telent session to R2 from R1 so basially we will have R2 on both sides {but with R2 on telnet on left side}*
 
