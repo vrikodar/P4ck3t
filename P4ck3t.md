@@ -3504,6 +3504,11 @@ Q. Why would you want to do that ??
 
 [`Check For Debug Level numeric code`](https://github.com/SxNade/P4ck3t/blob/main/P4ck3t.md#syslog)
 
+*so we can enable debug level logging on monitor with following*
+
+ - en
+ - conf t
+ - logging monitor 7
 
 
 
