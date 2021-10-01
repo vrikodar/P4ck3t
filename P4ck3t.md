@@ -3536,3 +3536,17 @@ Q. Why would you want to do that ??
  - end
 
 *and now we should be able to see some logs on the *Kiwi Syslog server window*
+
+### Managing Cisco Devices
+
+#### Cisco Router
+
+ - CPU
+ - Physical Interfaces
+ - RAM
+ - Flash Memory  {Non-volatile computer memory, is a permanent storage for operating system similar to hard drives etc..}
+ - NVRAM
+
+
+*When a Cisco Router boots up it copies te IOS software from flash into RAM*
+
