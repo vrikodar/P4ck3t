@@ -3555,13 +3555,15 @@ Q. Why would you want to do that ??
 1. Flash Memory
 
 ```
-Is a nonvolatile computer memory which is also a permanent storage for the operating system, it is similar to a Hard drive or a flash drive connected to a PC for example
+Is a nonvolatile computer memory which is also a permanent storage for the operating system,
+ it is similar to a Hard drive or a flash drive connected to a PC for example
 ```
 
 2. ROM
 
 ```
-Another Form of permanent storage, this memory contains micro code for basic functions to start and maintain the router also includes the bootstrap code and power on self test or post.
+Another Form of permanent storage, this memory contains micro code for basic functions to start and 
+maintain the router also includes the bootstrap code and power on self test or post.
 ROM also contains ROM monitor or ROM mon which is used for password recovery and for router disaster recovery functions.
 ROM is non-volatile which means that the contents are maintained even when the router is turned off or rebooted
 ```
@@ -3569,13 +3571,16 @@ ROM is non-volatile which means that the contents are maintained even when the r
 3. Packet buffers
 
 ```
-when packets are received on interfaces they are stored in buffers before they exit an interface, for example The buffer of the outgoing interface will fill-up with packets in the queue to be processed out of that interface
+when packets are received on interfaces they are stored in buffers before they exit an interface, 
+for example The buffer of the outgoing interface will fill-up with packets in the queue 
+to be processed out of that interface
 ```
 
 4. Configuration Register
 
 ```
-Stored in NVRAM, used to control how router boots basically get a router to boot in ROM monitor mode or bypass Startup recovery for password recovery
+Stored in NVRAM, used to control how router boots basically get a router to boot in ROM monitor mode 
+or bypass Startup recovery for password recovery
 ```
 
 5. Interfaces and some extra components
