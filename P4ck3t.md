@@ -3603,4 +3603,31 @@ or bypass Startup recovery for password recovery
 **Nowdays a Router can have a lot of extra modules installed , Infact a router can have [`UCS Server`](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-e-series-servers/index.html) installed in it**
 
 
+#### Playing with Configuration Register
+
+*we can check the current value set in configuration Register with Following command*
+
+ - en
+ - sh version    {scrolling to the end we will see the config reg value}
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/config-reg.png)
+
+*we can see the config reg value `0x2102` which is also the Default*
      
+*Changing this value to change the boot type*
+
+**we will change the value in config reg to boot in rommon {rom monitor mode}**
+
+ - en
+ - conf t
+ - config-register 0x2100
+ - end
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/config-value-add.png)
+
+*After this we can just poweroff and poweron the router again*
+
+![](https://github.com/SxNade/P4ck3t/blob/main/pimages/config-rommon.png)
+
+*we use `?` to see commands present in rommon, we also reset the value present in confg register at last we use the reset command to boot up the router again*
+
