@@ -3558,8 +3558,8 @@ Q. Why would you want to do that ??
 Is a nonvolatile computer memory which is also a permanent storage for the operating system,
  it is similar to a Hard drive or a flash drive connected to a PC for example
 
-we can view Files present in Flash with **sh flash**
-we can copy running config to a specific file in flash with **sh run | redirect flash:/showruntest.cfg
+we can view Files present in Flash wit `sh flash`
+we can copy running config to a specific file in flash with `sh run | redirect flash:/showruntest.cfg`
 ```
 
 2. ROM
