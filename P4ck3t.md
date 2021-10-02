@@ -3631,3 +3631,13 @@ or bypass Startup recovery for password recovery
 
 *we use `?` to see commands present in rommon, we also reset the value present in confg register at last we use the reset command to boot up the router again*
 
+**The main values we need to know for CCNA course as of now are**
+
+`0x2102` - *Default value*
+
+`0x2100` - *ROMMON mode*
+
+`0x2142` - *means bypass startup config*
+
+`0x2101` - *Rxboot mode for older router, Mordern Router will boot with first operating system present in flash
+
