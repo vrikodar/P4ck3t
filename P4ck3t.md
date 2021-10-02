@@ -3643,5 +3643,9 @@ or bypass Startup recovery for password recovery
 
 ### Password Recovery
 
+**Requirements**
+
+ - we require Physical access for power cycling the device and also accessing the console
+
 [`Step-by-Step Password Recovery on 2900 Integrated Services Router`](https://www.cisco.com/c/en/us/support/docs/routers/2800-series-integrated-services-routers/112033-c2900-password-recovery-00.html)
      
