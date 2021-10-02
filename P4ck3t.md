@@ -3649,3 +3649,41 @@ or bypass Startup recovery for password recovery
 
 [`Step-by-Step Password Recovery on 2900 Integrated Services Router`](https://www.cisco.com/c/en/us/support/docs/routers/2800-series-integrated-services-routers/112033-c2900-password-recovery-00.html)
      
+# Infrastructure Security
+
+## Enable and Secret Passwords
+
+**Enable Password**
+ - when enable password is configured a user will be askes to enter a password when they wisth to switch to privileged mode
+ - This can be configured in two ways
+
+**Option1**
+ - en
+ - conf t
+ - enable password <`password`>
+ - end
+
+*with this the password will stored unencrypted in the running config , hence if anybody can view the running config they can see the password in clear text*
+
+**Option2**
+ - en
+ - conf t
+ - enable secret <`password`>
+ - end
+
+*The only difference here is that the password stored in running config now is MD5 encrypted and hence anybody who has the running config will have to crack the hashed password which makes their life a bit difficult*
+
+*we can also encrypt the password in option one by starting the password-encryption service*
+
+ - en
+ - conf t
+ - service password-encryption
+
+*But this is type 7 by default and can easily be decrypted*
+
+```
+Cisco type 7 password
+This password type uses Vigenère cipher which is essentially a simple alphabetical substitution encryption.
+The algorithm is reversible and thus it can be deciphered instantly into a plain text without any need for cracking
+```
+
