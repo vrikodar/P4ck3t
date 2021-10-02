@@ -3687,3 +3687,9 @@ This password type uses Vigenère cipher which is essentially a simple alphabeti
 The algorithm is reversible and thus it can be deciphered instantly into a plain text without any need for cracking
 ```
 
+## Password Attempts
+
+*By Default the router will prompt for password max three times ,when we type them incorrectly at every attempt*
+
+[`Lock out After Failed Attempts`](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_aaa/configuration/xe-3s/sec-usr-aaa-xe-3s-book/sec-login-pw-retry.html)
+
