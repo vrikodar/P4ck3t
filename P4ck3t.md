@@ -3641,3 +3641,7 @@ or bypass Startup recovery for password recovery
 
 `0x2101` - *Rxboot mode for older router, Mordern Router will boot with first operating system present in flash
 
+### Password Recovery
+
+[`Step-by-Step Password Recovery on 2900 Integrated Services Router`](https://www.cisco.com/c/en/us/support/docs/routers/2800-series-integrated-services-routers/112033-c2900-password-recovery-00.html)
+     
