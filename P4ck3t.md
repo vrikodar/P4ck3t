@@ -3673,7 +3673,7 @@ or bypass Startup recovery for password recovery
 
 *The only difference here is that the password stored in running config now is MD5 encrypted and hence anybody who has the running config will have to crack the hashed password which makes their life a bit difficult*
 
-*we can also encrypt the password in option one by starting the password-encryption service*
+*we can also encrypt the password in `option 1` by starting the password-encryption service {Easily reversible}*
 
  - en
  - conf t
