@@ -3702,3 +3702,25 @@ The algorithm is reversible and thus it can be deciphered instantly into a plain
 *we can actually see what ports are listening locally on our router and also what connections are established*
  - en
  - show control-plane host open-ports
+
+**`HTTP/HTTPS`**
+ - we can enable http server with `ip http server` {in global configuration mode}
+ - we can enable https server with `ip http secure-server` {in global configuration mode}
+ - we can just add `no` in front of these commands to stop the server
+*we should not enable http servers for no reason*
+
+**`DNS`**
+ - we can disable the DNS with following command in global configuration mode
+ - `no ip dns server`
+
+**`telnet`**
+ - as telnet is unencrypted ..... not a good idea 
+ - we should instead use `SSH` and we can do so as follows {when configuring vty line}
+
+```
+config)#line vty 0 4
+
+(config-line)#transport input telnet ssh
+<other basic stuff such as password etc.>
+```
+
