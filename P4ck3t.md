@@ -3699,6 +3699,6 @@ The algorithm is reversible and thus it can be deciphered instantly into a plain
  - CDP can give out a wealth of juicy information to a attacker and it should be disabled, specially on internet facing interfaces
  - This can help us reduce attack surface
 
-*we can actually see what ports are listening locally on our router with*
+*we can actually see what ports are listening locally on our router and also what connections are established*
  - en
  - show control-plane host open-ports
